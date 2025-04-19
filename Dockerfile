@@ -14,21 +14,18 @@ RUN npm install
 COPY . .
 
 # Build the Angular application for production
-RUN npm run build --prod
+RUN npm run build
 
 # Use a lightweight Nginx image as the base image
 FROM nginx:alpine
 
-# Set the working directory in the container
-WORKDIR /usr/share/nginx/html
-
 # Remove the default Nginx static assets
-RUN rm -rf ./*
+RUN rm -rf /usr/share/nginx/html/*
 
-# Copy the built Angular app from the dist folder
-COPY dist/susca-watts/ .
+# Copy the contents of the browser folder to the Nginx static assets directory
+COPY --from=build /usr/src/app/dist/susca-watts/browser/ /usr/share/nginx/html/
 
-# Expose port 80
+# Expose port 8080
 EXPOSE 8080
 
 # Start Nginx server
