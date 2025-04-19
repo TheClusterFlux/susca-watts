@@ -14,19 +14,22 @@ RUN npm install
 COPY . .
 
 # Build the Angular application for production
-RUN npm run build 
+RUN npm run build --prod
 
-# Use an NGINX image to serve the Angular app
+# Use a lightweight Nginx image as the base image
 FROM nginx:alpine
 
-# Copy custom NGINX configuration
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+# Set the working directory in the container
+WORKDIR /usr/share/nginx/html
 
-# Copy the built Angular app to the NGINX web root
-COPY --from=build /usr/src/app/dist/susca-watts /usr/share/nginx/html
+# Remove the default Nginx static assets
+RUN rm -rf ./*
 
-# Expose port 8080
+# Copy the built Angular app from the dist folder
+COPY dist/susca-watts/ .
+
+# Expose port 80
 EXPOSE 8080
 
-# Start NGINX
+# Start Nginx server
 CMD ["nginx", "-g", "daemon off;"]
