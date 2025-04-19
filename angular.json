@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "game-clips-hub": {
+    "susca-watts": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:class": {
@@ -38,7 +38,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/game-clips-hub",
+            "outputPath": "dist/susca-watts",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -85,10 +85,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "game-clips-hub:build:production"
+              "buildTarget": "susca-watts:build:production"
             },
             "development": {
-              "buildTarget": "game-clips-hub:build:development"
+              "buildTarget": "susca-watts:build:development"
             }
           },
           "defaultConfiguration": "development"
