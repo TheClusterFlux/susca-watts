@@ -23,7 +23,7 @@ FROM nginx:alpine
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Copy the built Angular app to the NGINX web root
-COPY --from=build /usr/src/app/dist/<your-angular-app-name> /usr/share/nginx/html
+COPY --from=build /usr/src/app/dist/susca-watts /usr/share/nginx/html
 
 # Expose port 8080
 EXPOSE 8080
