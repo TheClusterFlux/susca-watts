@@ -25,6 +25,8 @@ RUN rm -rf /usr/share/nginx/html/*
 # Copy the contents of the browser folder to the Nginx static assets directory
 COPY --from=build /usr/src/app/dist/susca-watts/browser/ /usr/share/nginx/html/
 
+# Copy the custom Nginx configuration file
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 # Expose port 8080
 EXPOSE 8080
 
