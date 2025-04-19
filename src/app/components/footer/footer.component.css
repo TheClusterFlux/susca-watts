@@ -1,0 +1,19 @@
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-icons a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+.social-icons a:hover {
+    color: var(--primary-colour-1); /* Change to your desired hover color */
+}
+
+.footer-text {
+    font-family: var(--primary-font);
+}

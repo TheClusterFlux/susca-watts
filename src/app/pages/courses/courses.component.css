@@ -1,0 +1,55 @@
+.navbar {
+    display: flex;
+    padding: 0.5rem 1rem;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 2rem;
+}
+
+.navbar li {
+    margin: 0.5rem 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--primary-colour-1);
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: var(--button-hover-colour);
+    cursor: pointer;
+}
+
+.courses {
+    display: flex;
+    gap: 1rem;
+}
+
+.container {
+    flex: 2;
+    padding-left: 1rem;
+}
+
+.additional-content {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid var(--subcategory-border);
+    border-radius: 8px;
+    margin-right: 1rem;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 964px) {
+    .additional-content {
+        display: none; /* Hide the sidebar */
+    }
+}

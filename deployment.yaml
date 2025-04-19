@@ -1,0 +1,57 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: susca-watts
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: susca-watts
+  template:
+    metadata:
+      labels:
+        app: susca-watts
+    spec:
+      containers:
+        - name: susca-watts
+          image: docker.io/keanuwatts/theclusterflux:susca-watts
+          imagePullPolicy: Always
+      imagePullSecrets:
+        - name: dockerhub-secret
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: susca-watts
+spec:
+  selector:
+    app: susca-watts
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: susca-watts
+  namespace: default
+  annotations:
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+spec:
+  ingressClassName: nginx
+  tls:
+  - hosts:
+    - susca-watts.theclusterflux.com
+    secretName: theclusterflux
+  rules:
+  - host: susca-watts.theclusterflux.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: susca-watts
+            port:
+              number: 8080

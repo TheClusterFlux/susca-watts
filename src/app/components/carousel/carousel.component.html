@@ -1,0 +1,15 @@
+<div class="carousel">
+    <button class="carousel-btn prev" (click)="prev()" [disabled]="currentIndex === 0">
+        &#10094; <!-- Left arrow -->
+    </button>
+
+    <div class="carousel-track">
+        <div class="carousel-item" *ngFor="let image of images.slice(currentIndex, currentIndex + visibleImages)">
+            <img [src]="image" alt="Carousel Image" />
+        </div>
+    </div>
+
+    <button class="carousel-btn next" (click)="next()" [disabled]="currentIndex + visibleImages >= images.length">
+        &#10095; <!-- Right arrow -->
+    </button>
+</div>

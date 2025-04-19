@@ -1,0 +1,58 @@
+/* create global style variables */
+:root {
+    --text-color: white;
+    --primary-font: 'system-ui';
+    --secondary-colour-1: #A3D9A5;
+    --secondary-colour-2: #e7dec6;
+    --primary-colour-1: #ecad4d;
+    --title-font-secondary: 1.4rem;
+    --list-item-colour: #fff8e7;
+    --list-item-border: #d3d3d3;
+    --button-hover-colour: #585856;
+    --subcategory-border: #ddd;
+    --subcategory-background: #f9f9f9;
+}
+
+.title-secondary {
+    font-family: var(--primary-font);
+    font-size: var(--title-font-secondary) ;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: var(--primary-colour-1);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: var(--primary-font);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--button-hover-colour);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    border: 1px solid var(--secondary-colour-1);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: var(--primary-font);
+    font-size: smaller;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding-bottom: 70px;
+    font-family: Arial, sans-serif;
+}
+

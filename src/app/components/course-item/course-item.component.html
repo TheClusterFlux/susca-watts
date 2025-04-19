@@ -1,0 +1,25 @@
+<div class="course-item">
+    <div class="course-header">
+        <h2 class="course-title">{{ courseItem.title }}</h2>
+    </div>
+    <div class="course-header">
+        <p class="course-description">{{ courseItem.description }}</p>
+        <img src="{{courseItem.imageUrl}}" alt="{{ courseItem.title }}" class="course-image" />
+    </div>
+    <div class="read-more-button">
+        <button class="btn-primary" (click)="toggleSubCategories()">read more</button>
+    </div>
+    <div>
+        <div *ngIf="courseItem?.subCategories && displaySubCategories" class="course-subcategories">
+            <ul>
+            <li *ngFor="let subCategory of courseItem.subCategories" class="subcategory-item">
+                <p style="margin: 0 0 0.5rem; font-size: 1rem; color: #555;">{{ subCategory.name }}</p>
+                <p *ngIf="subCategory.duration"><strong>Duration:</strong> {{ subCategory.duration }}</p>
+                <p *ngIf="subCategory.qualification"><strong>Qualification:</strong> {{ subCategory.qualification }}</p>
+                <p *ngIf="subCategory.certification"><strong>Certification:</strong> {{ subCategory.certification }}</p>
+                <p *ngIf="subCategory.venue"><strong>Venue:</strong> {{ subCategory.venue }}</p>
+            </li>
+            </ul>
+        </div>
+    </div>
+</div>
