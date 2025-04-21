@@ -3,16 +3,18 @@ import { Component } from '@angular/core';
 import { ListItemComponent } from '../../components/list-item/list-item.component';
 import { ListItem } from '../../models/list-item';
 import { CarouselComponent } from '../../components/carousel/carousel.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, ListItemComponent, CarouselComponent],
+  imports: [CommonModule, ListItemComponent, CarouselComponent, TranslateModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
 
 export class HomeComponent {
+  welcomeMessage: string = 'Welcome to Our Website';
   listItems: ListItem[] = [
     { id: 1, heading: 'ACADEMICS', description: 'Explore academic programs, resources, and support for students.', icon: 'fas fa-graduation-cap', link: '/academics' },
     { id: 2, heading: 'BUSINESS', description: 'Discover business opportunities, partnerships, and resources.', icon: 'fas fa-briefcase', link: '/business' },
