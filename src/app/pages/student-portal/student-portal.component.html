@@ -1,0 +1,57 @@
+<section class="student-portal">
+    <div class="page-header">
+        <h1>Student Portal</h1>
+        <p class="subtitle">Access your courses and learning materials</p>
+    </div>
+    
+    <div class="content-container">
+        <div class="login-container">
+            <h2>Login to Your Account</h2>
+            <form (ngSubmit)="login()" class="login-form">
+                <div class="form-group">
+                    <label for="username">Student ID / Username</label>
+                    <input 
+                        type="text" 
+                        id="username" 
+                        name="username" 
+                        [(ngModel)]="username" 
+                        required 
+                        placeholder="Enter your student ID">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input 
+                        type="password" 
+                        id="password" 
+                        name="password" 
+                        [(ngModel)]="password" 
+                        required 
+                        placeholder="Enter your password">
+                </div>
+                
+                <div class="form-actions">
+                    <button type="submit" class="btn-login">Login</button>
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                </div>
+            </form>
+        </div>
+        
+        <div class="portal-info">
+            <h3>Student Portal Features</h3>
+            <ul class="features-list">
+                <li>Access your course materials and assignments</li>
+                <li>Submit assignments and check your grades</li>
+                <li>Communicate with instructors and classmates</li>
+                <li>Track your academic progress</li>
+                <li>Access additional learning resources</li>
+            </ul>
+            
+            <div class="help-section">
+                <h3>Need Help?</h3>
+                <p>If you're having trouble accessing your account, please contact our support team:</p>
+                <p><a href="mailto:support@suscawatts.co.za">support&#64;suscawatts.co.za</a> or call +27 83 276 5557</p>
+            </div>
+        </div>
+    </div>
+</section>
