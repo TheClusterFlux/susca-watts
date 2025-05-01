@@ -1,39 +1,43 @@
-<footer class="footer">
+<footer class="footer" role="contentinfo" aria-label="Site footer">
     <div class="footer-contact">
         <div class="address">
-            <h3>Address</h3>
-            <p>8A Vos Street</p>
-            <p>Middelburg, MP, 1055</p>
-            <p>South Africa</p>
+            <h3 id="address-heading">{{ 'footer.address' | translate }}</h3>
+            <address aria-labelledby="address-heading">
+                <p>8A Vos Street</p>
+                <p>Middelburg, MP, 1055</p>
+                <p>South Africa</p>
+            </address>
         </div>
         <div class="contact">
-            <h3>Contact</h3>
+            <h3 id="contact-heading">{{ 'footer.contact' | translate }}</h3>
             <p>+27 83 276 5557</p>
-            <p><a href="mailto:middelburg@suscawatts.co.za">middelburg&#64;suscawatts.co.za</a></p>
+            <p><a href="mailto:middelburg&#64;suscawatts.co.za" aria-label="Email us at middelburg at suscawatts.co.za">middelburg&#64;suscawatts.co.za</a></p>
         </div>
         <div class="hours">
-            <h3>Hours</h3>
-            <p>Mon 8am-4pm</p>
-            <p>Tue 8am-4pm</p>
-            <p>Wed 8am-4pm</p>
-            <p>Thu 8am-4pm</p>
-            <p>Fri 8am-3pm</p>
+            <h3 id="hours-heading">{{ 'footer.hours' | translate }}</h3>
+            <ul aria-labelledby="hours-heading">
+                <li>{{ 'footer.monday' | translate }}</li>
+                <li>{{ 'footer.tuesday' | translate }}</li>
+                <li>{{ 'footer.wednesday' | translate }}</li>
+                <li>{{ 'footer.thursday' | translate }}</li>
+                <li>{{ 'footer.friday' | translate }}</li>
+            </ul>
         </div>
     </div>
 
-    <div class="social-icons">
-        <a href="https://facebook.com" target="_blank" aria-label="Facebook">
-            <i class="fab fa-facebook"></i>
+    <div class="social-icons" aria-label="Social media links">
+        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page">
+            <i class="fab fa-facebook" aria-hidden="true"></i>
         </a>
-        <a href="https://twitter.com" target="_blank" aria-label="Twitter">
-            <i class="fab fa-twitter"></i>
+        <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page">
+            <i class="fab fa-twitter" aria-hidden="true"></i>
         </a>
-        <a href="https://instagram.com" target="_blank" aria-label="Instagram">
-            <i class="fab fa-instagram"></i>
+        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
         </a>
     </div>
     
     <div class="footer-copyright">
-        <p>&copy; 2025 Susca Watts Academy. All rights reserved.</p>
+        <p>{{ 'footer.copyright' | translate }}</p>
     </div>
 </footer>

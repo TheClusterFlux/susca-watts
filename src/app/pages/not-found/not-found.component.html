@@ -1,11 +1,11 @@
 <section class="not-found">
     <div class="not-found-content">
-        <h1>404</h1>
-        <h2>Page Not Found</h2>
-        <p>The page you are looking for doesn't exist or has been moved.</p>
+        <h1>{{ 'notFound.code' | translate }}</h1>
+        <h2>{{ 'notFound.title' | translate }}</h2>
+        <p>{{ 'notFound.message' | translate }}</p>
         <div class="actions">
-            <a routerLink="/" class="home-link">Return to Homepage</a>
-            <a routerLink="/courses" class="courses-link">Browse Courses</a>
+            <a routerLink="/" class="home-link">{{ 'notFound.home' | translate }}</a>
+            <a routerLink="/courses" class="courses-link">{{ 'notFound.courses' | translate }}</a>
         </div>
     </div>
 </section>

@@ -1,24 +1,51 @@
-<section class="navbar">
-    <div class="navbar-logo">
-        <a routerLink="/">
-            <img src="//images.squarespace-cdn.com/content/v1/5c594957b2cf7927a3143d13/1590401175786-FOW04OPCKJN9LK548U4D/WhatsApp+Image+2020-05-18+at+15.38.20.jpeg?format=1500w" alt="Susca Watts Academy">
+<nav class="navbar" aria-label="Main Navigation">
+    <div class="logo">
+        <a [routerLink]="['/']" aria-label="SuscaWatts Home">
+            <span class="logo-text">SuscaWatts Academy</span>
         </a>
     </div>
     
-    <div class="lang-switcher">
-        <button (click)="useLanguage('en')">EN</button>
-        <button (click)="useLanguage('af')">AF</button>
-    </div>
-
-    <nav class="navbar-menu">
-        <ul>
-            <li><a routerLink="/">Home</a></li>
-            <li><a routerLink="/academics">Academics</a></li>
-            <li><a routerLink="/business">Business</a></li>
-            <li><a routerLink="/courses">Courses</a></li>
-            <li><a routerLink="/info">Info</a></li>
-            <li><a routerLink="/student-portal">Student Portal</a></li>
-        </ul>
-     </nav>
-</section>
+    <button #menuToggle 
+            class="menu-toggle" 
+            aria-expanded="false" 
+            aria-controls="primary-navigation" 
+            aria-label="Toggle navigation menu"
+            (click)="toggleMenu()">
+        <span class="menu-icon">☰</span>
+    </button>
+    
+    <ul #navLinks class="nav-links" id="primary-navigation" role="menu">
+        <li role="none"><a role="menuitem" [routerLink]="['/']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">{{ 'navbar.home' | translate }}</a></li>
+        <li role="none"><a role="menuitem" [routerLink]="['/courses']" routerLinkActive="active">{{ 'navbar.courses' | translate }}</a></li>
+        
+        <li class="dropdown" role="none">
+            <a role="menuitem" class="dropdown-toggle" (click)="toggleDropdown($event, 'education-dropdown')" aria-haspopup="true" aria-expanded="false">
+                {{ 'navbar.education' | translate }} <span class="dropdown-icon">▼</span>
+            </a>
+            <ul class="dropdown-menu" id="education-dropdown">
+                <li role="none"><a role="menuitem" [routerLink]="['/accreditation']" routerLinkActive="active">{{ 'navbar.accreditation' | translate }}</a></li>
+                <li role="none"><a role="menuitem" [routerLink]="['/rpl']" routerLinkActive="active">{{ 'navbar.rpl' | translate }}</a></li>
+                <li role="none"><a role="menuitem" [routerLink]="['/finance']" routerLinkActive="active">{{ 'navbar.finance' | translate }}</a></li>
+            </ul>
+        </li>
+        
+        <li class="dropdown" role="none">
+            <a role="menuitem" class="dropdown-toggle" (click)="toggleDropdown($event, 'services-dropdown')" aria-haspopup="true" aria-expanded="false">
+                {{ 'navbar.services' | translate }} <span class="dropdown-icon">▼</span>
+            </a>
+            <ul class="dropdown-menu" id="services-dropdown">
+                <li role="none"><a role="menuitem" [routerLink]="['/consulting']" routerLinkActive="active">{{ 'navbar.consulting' | translate }}</a></li>
+                <li role="none"><a role="menuitem" [routerLink]="['/freelance']" routerLinkActive="active">{{ 'navbar.freelance' | translate }}</a></li>
+            </ul>
+        </li>
+        
+        <li role="none"><a role="menuitem" [routerLink]="['/info']" routerLinkActive="active">{{ 'navbar.info' | translate }}</a></li>
+        <li role="none"><a role="menuitem" [routerLink]="['/student-portal']" routerLinkActive="active">{{ 'navbar.studentPortal' | translate }}</a></li>
+        
+        <li role="none" class="language-selector">
+            <button role="menuitem" (click)="useLanguage('en')" aria-label="Switch to English">EN</button> |
+            <button role="menuitem" (click)="useLanguage('af')" aria-label="Switch to Afrikaans">AF</button>
+        </li>
+    </ul>
+</nav>
 

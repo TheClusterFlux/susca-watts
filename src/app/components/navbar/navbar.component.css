@@ -1,36 +1,203 @@
 .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--background-light);
+  box-shadow: var(--box-shadow);
+  position: relative;
+  z-index: 1000; /* Ensure navbar is above other content */
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-left: 0.5rem;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--text-dark);
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.nav-links li {
+  margin-left: 1.5rem;
+  position: relative; /* Added for dropdown positioning */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: 500;
+  transition: color 0.3s ease;
+  padding: 0.5rem 0;
+}
+
+.nav-links a:hover, 
+.nav-links a.active {
+  color: var(--primary-color);
+}
+
+.language-selector button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-dark);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.language-selector button:hover {
+  color: var(--primary-color);
+}
+
+/* Dropdown styles */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-icon {
+  margin-left: 5px;
+  font-size: 0.7rem;
+  transition: transform 0.3s ease;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--background-light);
+  min-width: 180px;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  padding: 0.5rem 0;
+  margin-top: 0.5rem;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+  z-index: 1001;
+}
+
+/* Show dropdown when parent has activeDropdown matching its ID */
+.dropdown:has(+ #academics-dropdown) #academics-dropdown.active,
+.dropdown:has(+ #business-dropdown) #business-dropdown.active,
+li.dropdown:has(.dropdown-toggle[aria-expanded="true"]) + .dropdown-menu,
+li.dropdown:has(.dropdown-toggle[aria-expanded="true"]) > .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Direct selector for dropdown menus that have the active class */
+.dropdown-menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-menu li {
+  margin: 0;
+}
+
+.dropdown-menu a {
+  padding: 0.5rem 1rem;
+  display: block;
+  white-space: nowrap;
+  color: var(--text-dark);
+}
+
+.dropdown-menu a:hover {
+  background-color: var(--background-off-white);
+}
+
+/* Focus styles for accessibility */
+a:focus, button:focus {
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .menu-toggle {
+    display: block;
+    order: 3;
+  }
+
+  .nav-links {
+    flex-basis: 100%;
+    display: none;
+    order: 4;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 0;
+  }
+
+  .nav-links.show {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--secondary-colour-2);
-    padding: 10px 20px;
-    height: 5rem;
-}
+  }
 
-.navbar-logo img {
-    height: 80px;
-    width: auto;
-}
+  .nav-links li {
+    margin: 0.5rem 0;
+    width: 100%;
+  }
 
-.navbar-menu ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
+  .dropdown-menu {
+    position: static;
+    box-shadow: none;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    transform: none;
+    margin-left: 1rem;
+    min-width: 100%;
+    transition: max-height 0.3s ease, opacity 0.3s ease, visibility 0s linear 0.3s;
+  }
 
-.navbar-menu ul li {
-    margin: 0 15px;
-}
+  .dropdown-menu.active {
+    opacity: 1;
+    max-height: 500px;
+    visibility: visible;
+    transition: max-height 0.5s ease, opacity 0.3s ease, visibility 0s linear 0s;
+  }
 
-.navbar-menu ul li a {
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-    font-size: larger;
-    color: black;
-}
-
-.navbar-menu ul li a:hover {
-    color: var(--primary-colour-1);
+  .language-selector {
+    margin-top: 1rem;
+    align-self: center;
+  }
 }
