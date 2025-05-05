@@ -1,25 +1,41 @@
-<div class="course-item">
-    <div class="course-header">
-        <h2 class="course-title">{{ courseItem.title }}</h2>
+<div class="course-item" [id]="'course-' + courseItem.id" tabindex="0">
+    <h3>{{ courseItem.title }}</h3>
+    <p>{{ courseItem.description }}</p>
+    
+    <div class="course-actions">
+        <button 
+            class="toggle-subcategories" 
+            *ngIf="courseItem.subCategories && courseItem.subCategories.length" 
+            (click)="toggleSubCategories()"
+            [attr.aria-expanded]="displaySubCategories"
+            [attr.aria-controls]="'subcategories-' + courseItem.id"
+            [attr.aria-label]="displaySubCategories ? ('courses.hideDetails' | translate) : ('courses.showDetails' | translate)">
+            {{ displaySubCategories ? ('courses.hideDetails' | translate) : ('courses.showDetails' | translate) }}
+        </button>
     </div>
-    <div class="course-header">
-        <p class="course-description">{{ courseItem.description }}</p>
-        <img src="{{courseItem.imageUrl}}" alt="{{ courseItem.title }}" class="course-image" />
-    </div>
-    <div class="read-more-button">
-        <button class="btn-primary" (click)="toggleSubCategories()">read more</button>
-    </div>
-    <div>
-        <div *ngIf="courseItem?.subCategories && displaySubCategories" class="course-subcategories">
-            <ul>
-            <li *ngFor="let subCategory of courseItem.subCategories" class="subcategory-item">
-                <p style="margin: 0 0 0.5rem; font-size: 1rem; color: #555;">{{ subCategory.name }}</p>
-                <p *ngIf="subCategory.duration"><strong>Duration:</strong> {{ subCategory.duration }}</p>
-                <p *ngIf="subCategory.qualification"><strong>Qualification:</strong> {{ subCategory.qualification }}</p>
-                <p *ngIf="subCategory.certification"><strong>Certification:</strong> {{ subCategory.certification }}</p>
-                <p *ngIf="subCategory.venue"><strong>Venue:</strong> {{ subCategory.venue }}</p>
+    
+    <div class="subcategories" 
+         *ngIf="displaySubCategories && courseItem.subCategories && courseItem.subCategories.length"
+         [id]="'subcategories-' + courseItem.id">
+        <h4>{{ 'courses.subcategories' | translate }}</h4>
+        <ul class="subcategory-list" role="list">
+            <li *ngFor="let subCategory of courseItem.subCategories" 
+                role="listitem"
+                class="subcategory-item">
+                <div class="subcategory-details">
+                    <h5>{{ subCategory.name }}</h5>
+                    <p *ngIf="subCategory.duration"><strong>{{ 'courses.duration' | translate }}:</strong> {{ subCategory.duration }}</p>
+                    <p *ngIf="subCategory.qualification"><strong>{{ 'courses.qualification' | translate }}:</strong> {{ subCategory.qualification }}</p>
+                    <p *ngIf="subCategory.certification"><strong>{{ 'courses.certification' | translate }}:</strong> {{ subCategory.certification }}</p>
+                    <p *ngIf="subCategory.venue"><strong>{{ 'courses.venue' | translate }}:</strong> {{ subCategory.venue }}</p>
+                    <a *ngIf="subCategory.link" 
+                          [href]="subCategory.link"
+                       class="subcategory-link"
+                       [attr.aria-label]="'Learn more about ' + subCategory.name">
+                        {{ 'courses.learnMore' | translate }}
+                    </a>
+                </div>
             </li>
-            </ul>
-        </div>
+        </ul>
     </div>
 </div>

@@ -1,26 +1,113 @@
-/* create global style variables */
+/* Global Variables for color scheme and consistent styling */
 :root {
-    --text-color: white;
-    --primary-font: 'system-ui';
-    --secondary-colour-1: #A3D9A5;
-    --secondary-colour-2: #e7dec6;
-    --primary-colour-1: #ecad4d;
-    --title-font-secondary: 1.4rem;
-    --list-item-colour: #fff8e7;
-    --list-item-border: #d3d3d3;
-    --button-hover-colour: #585856;
-    --subcategory-border: #ddd;
-    --subcategory-background: #f9f9f9;
+  /* Primary colors */
+  --primary-color: #5a89b0; /* Professional blue */
+  --primary-dark: #45708f; /* Deeper blue for hover states */
+  --primary-light: #d0e2f2; /* Light blue for backgrounds */
+  --secondary-color: #a9c6d9; /* Lighter blue for accents */
+  --accent-color: #f2f7fb; /* Ice blue for highlighting */
+  
+  /* Original variables preserved for backward compatibility */
+  --primary-colour-1: #5a89b0; /* Updated to match our blue theme */
+  --secondary-colour-1: #a9c6d9; /* Updated to lighter blue */
+  --secondary-colour-2: #f2f7fb; /* Updated to ice blue */
+  --button-hover-colour: #45708f; /* Updated to match primary-dark for consistency */
+  
+  /* Text colors */
+  --text-dark: #2d3e50; /* Rich navy for main text */
+  --text-medium: #5d7185;
+  --text-light: #8e9bab;
+  --text-color: #2d3e50; /* Default text color for better contrast */
+  
+  /* Background colors */
+  --background-light: #ffffff;
+  --background-off-white: #f8fbfe; /* Cooler off-white */
+  --background-gray: #edf2f7; /* Cooler light gray */
+  
+  /* UI element colors */
+  --border-color: #d0e2f2; /* Subtle border color */
+  --list-item-colour: #f8fbfe;
+  --list-item-border: #d0e2f2;
+  --subcategory-border: #d0e2f2;
+  --subcategory-background: #f8fbfe;
+  
+  /* Status colors */
+  --success-color: #5eb992; /* Blue-tinted green */
+  --error-color: #e26d7a; /* Softer red */
+  --warning-color: #e9c46a; /* Softer gold */
+  --info-color: #73b5de; /* Bright blue */
+  
+  /* Effects */
+  --box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  --border-radius: 4px;
+  --transition-speed: 0.3s;
+  
+  /* Typography */
+  --primary-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --secondary-font: 'Georgia', 'Times New Roman', serif;
+  --title-font-secondary: 1.4rem;
 }
 
-.title-secondary {
-    font-family: var(--primary-font);
-    font-size: var(--title-font-secondary) ;
-    font-weight: bold;
+/* Global Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--text-dark);
+  line-height: 1.6;
+  background-color: var(--background-light);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--text-dark);
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: color var(--transition-speed) ease;
+}
+
+a:hover {
+  color: var(--primary-dark);
+}
+
+/* Button styles */
+button, .btn {
+  cursor: pointer;
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color var(--transition-speed) ease;
+}
+
+button:hover, .btn:hover {
+  background-color: var(--primary-dark);
 }
 
 .btn-primary {
-    background-color: var(--primary-colour-1);
+    background-color: var(--primary-color);
     color: white;
     border: none;
     padding: 0.75rem 1.5rem;
@@ -38,21 +125,117 @@
 }
 
 .btn-secondary {
-    border: 1px solid var(--secondary-colour-1);
+    background-color: var(--secondary-color);
+    color: white;
+    border: 1px solid var(--secondary-color);
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     cursor: pointer;
     font-family: var(--primary-font);
     font-size: smaller;
+    transition: all 0.3s ease;
 }
 
-body {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    margin: 0;
-    padding-bottom: 70px;
-    font-family: Arial, sans-serif;
+.btn-secondary:hover {
+    background-color: #138496;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  transition: border-color var(--transition-speed) ease;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(224, 191, 184, 0.1);
+}
+
+/* Common layout styles */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.section-subtitle {
+  color: var(--text-medium);
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+/* Common component styles */
+.page-header {
+  background-color: var(--background-gray);
+  padding: 3rem 0;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+}
+
+.card {
+  background-color: var(--background-light);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 1.5rem;
+  transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.mt-1 { margin-top: 1rem; }
+.mt-2 { margin-top: 2rem; }
+.mt-3 { margin-top: 3rem; }
+.mb-1 { margin-bottom: 1rem; }
+.mb-2 { margin-bottom: 2rem; }
+.mb-3 { margin-bottom: 3rem; }
+
+.text-primary { color: var(--primary-color); }
+.text-secondary { color: var(--secondary-color); }
+.text-accent { color: var(--accent-color); }
+.text-error { color: var(--error-color); }
+.text-success { color: var(--success-color); }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  
+  .section {
+    padding: 2rem 0;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+  }
 }
 

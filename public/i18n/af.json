@@ -1,5 +1,258 @@
 {
+    "common": {
+        "contactUs": "Kontak Ons",
+        "learnMore": "Meer Inligting",
+        "login": "Teken In",
+        "backToHome": "Terug na Tuisblad",
+        "hours": "Ure",
+        "address": "Adres",
+        "contact": "Kontak"
+    },
     "homepage": {
-        "welcome": "Welkom by die Tuisblad"
+        "welcome": "Welkom by die Tuisblad",
+        "title": "Susca Watts Akademie",
+        "subtitle": "Jou eenstopoplossing vir al jou opvoedkundige behoeftes.",
+        "quote": "Maak die meeste van wat jy het en hou jou standaarde hoog. Moenie vir enigiets minder as wat jy verdien of in staat is om te bereik nie."
+    },
+    "navbar": {
+        "home": "Tuis",
+        "academics": "Akademies",
+        "academic": "Akademies",
+        "business": "Besigheid",
+        "courses": "Kursusse",
+        "education": "Opleiding",
+        "services": "Dienste",
+        "accreditation": "Akkreditasie",
+        "rpl": "RPL",
+        "finance": "Finansies",
+        "consulting": "Konsultasie",
+        "freelance": "Vryskut",
+        "info": "Inligting",
+        "studentPortal": "Studenteportaal"
+    },
+    "footer": {
+        "address": "Adres",
+        "contact": "Kontak",
+        "hours": "Ure",
+        "copyright": "© 2025 Susca Watts Akademie. Alle regte voorbehou.",
+        "monday": "Maan 8vm-4nm",
+        "tuesday": "Dins 8vm-4nm",
+        "wednesday": "Woens 8vm-4nm",
+        "thursday": "Don 8vm-4nm",
+        "friday": "Vry 8vm-3nm"
+    },
+    "academics": {
+        "title": "Akademies",
+        "subtitle": "Bemagtiging deur onderwys",
+        "notice": "Ons is besig om ons kursusinligting by te werk. Kontak asseblief ons hoofkantoor vir die opgedateerde pryse en beskikbare kursusse.",
+        "programsTitle": "Ons Akademiese Programme",
+        "programsDescription": "Susca Watts Akademie bied kwaliteit onderwys deur verskeie akademiese programme wat ontwerp is om studente te help om in hul studies en loopbane uit te blink.",
+        "academicSupport": {
+            "title": "Akademiese Ondersteuning",
+            "description": "Addisionele tutoriaal en ondersteuning vir studente wat met spesifieke vakke sukkel"
+        },
+        "examPrep": {
+            "title": "Eksamenvoorbereiding",
+            "description": "Gefokusde kursusse om studente te help om voor te berei vir belangrike eksamens"
+        },
+        "skillsDev": {
+            "title": "Vaardigheidsontwikkeling",
+            "description": "Kursusse wat daarop gemik is om spesifieke vaardighede te ontwikkel wat nodig is vir akademiese sukses"
+        },
+        "whyChoose": "Waarom Kies Ons Akademiese Programme",
+        "benefits": {
+            "teachers": "Ervare en gekwalifiseerde onderwysers",
+            "classSize": "Klein klasgroottes vir persoonlike aandag",
+            "trackRecord": "Bewese rekord van studentesukses",
+            "methods": "Moderne onderrigmetodologieë",
+            "scheduling": "Buigsame skedule-opsies"
+        },
+        "getInfo": "Kry Meer Inligting",
+        "contactMsg": "Kontak ons kantoor vir meer inligting oor ons akademiese programme en huidige pryse."
+    },
+    "business": {
+        "title": "Besigheidsdienste",
+        "subtitle": "Professionele ontwikkeling en ondersteuning vir besighede",
+        "notice": "Ons is besig om ons besigheidsdienste-inligting by te werk. Kontak asseblief ons hoofkantoor vir die opgedateerde pryse en beskikbare dienste.",
+        "servicesTitle": "Ons Besigheidsdienste",
+        "servicesDescription": "Susca Watts Akademie bied omvattende besigheidsondersteuningsdienste wat ontwerp is om besighede te help groei en te slaag in vandag se mededingende mark.",
+        "consulting": {
+            "title": "Besigheidskonsultasie",
+            "description": "Deskundige leiding om jou besigheid te help om uitdagings te oorkom en groei te bereik"
+        },
+        "training": {
+            "title": "Korporatiewe Opleiding",
+            "description": "Aangepaste opleidingsprogramme vir personeel-ontwikkeling en vaardighede-verbetering"
+        },
+        "optimization": {
+            "title": "Besigheidsproses Optimalisering",
+            "description": "Optimaliseer jou bedrywighede en verbeter doeltreffendheid met ons kundige analise"
+        },
+        "whyPartner": "Waarom Vennootskap Met Ons",
+        "benefits": {
+            "consultants": "Ervare besigheidskonsultante met industrie-kennis",
+            "solutions": "Aangepaste oplossings wat op jou besigheidsbehoeftes toegespits is",
+            "trackRecord": "Bewese rekord van besigheidsgroei en verbetering",
+            "costEffective": "Koste-effektiewe dienste met meetbare resultate",
+            "support": "Deurlopende ondersteuning tydens implementering"
+        },
+        "getInfo": "Kry Meer Inligting",
+        "contactMsg": "Kontak ons kantoor vir meer inligting oor ons besigheidsdienste en hoe ons jou organisasie kan help."
+    },
+    "info": {
+        "title": "Oor Susca Watts Akademie",
+        "subtitle": "Leer meer oor wie ons is en wat ons doen",
+        "mission": {
+            "title": "Ons Missie",
+            "description": "By Susca Watts Akademie is ons toegewyd om kwaliteit-onderwys en professionele ontwikkelingsdienste te bied wat individue en organisasies bemagtig om hul volle potensiaal te bereik. Ons glo daaraan om onderwys toeganklik, prakties en relevant tot vandag se uitdagings te maak."
+        },
+        "history": {
+            "title": "Ons Geskiedenis",
+            "description": "Gestig in Middelburg, Suid-Afrika, het Susca Watts Akademie gegroei van 'n klein tutordiens tot 'n omvattende opvoedkundige instelling wat 'n wye verskeidenheid akademiese kursusse en besigheidsdienste aanbied. Ons groei is gebou op ons verbintenis tot uitnemendheid en ons fokus op studentesukses."
+        },
+        "facilities": {
+            "title": "Ons Fasiliteite",
+            "description": "Ons kampus in Middelburg beskik oor moderne klaskamers, rekenaarlaboratoriums, en studieruimtes wat ontwerp is om 'n optimale leeromgewing te skep. Ons belê in tegnologie en hulpbronne om te verseker dat ons studente toegang het tot die gereedskap wat hulle nodig het om te slaag.",
+            "classrooms": {
+                "title": "Moderne Klaskamers",
+                "description": "Toegerus met die nuutste onderrigtegnologie"
+            },
+            "labs": {
+                "title": "Rekenaarlaboratoriums",
+                "description": "Moderne rekenaars met industrie-standaard sagteware"
+            },
+            "studyAreas": {
+                "title": "Studiegebiede",
+                "description": "Gemaklike ruimtes vir individuele en groepstudie"
+            }
+        },
+        "contact": {
+            "title": "Kontakinligting",
+            "hours": {
+                "monday": "Maandag: 8vm-4nm",
+                "tuesday": "Dinsdag: 8vm-4nm",
+                "wednesday": "Woensdag: 8vm-4nm",
+                "thursday": "Donderdag: 8vm-4nm",
+                "friday": "Vrydag: 8vm-3nm",
+                "weekend": "Saterdag & Sondag: Gesluit"
+            }
+        }
+    },
+    "studentPortal": {
+        "title": "Studente Portaal",
+        "subtitle": "Toegang tot jou kursusse en leermateriaal",
+        "login": {
+            "title": "Meld aan by jou rekening",
+            "username": "Studente ID / Gebruikersnaam",
+            "password": "Wagwoord",
+            "button": "Meld Aan",
+            "forgot": "Wagwoord vergeet?"
+        },
+        "features": {
+            "title": "Studente Portaal Funksies",
+            "access": "Toegang tot jou kursusmateriaal en opdragte",
+            "submit": "Dien opdragte in en gaan jou punte na",
+            "communicate": "Kommunikeer met instrukteurs en klasmaats",
+            "track": "Volg jou akademiese vordering",
+            "resources": "Toegang tot addisionele leerhulpbronne"
+        },
+        "help": {
+            "title": "Hulp Nodig?",
+            "message": "As jy probleme ondervind om toegang tot jou rekening te verkry, kontak asseblief ons ondersteuningspan:"
+        }
+    },
+    "notFound": {
+        "code": "404",
+        "title": "Bladsy Nie Gevind",
+        "message": "Die bladsy waarna jy soek bestaan nie of is verskuif.",
+        "home": "Terug na Tuisblad",
+        "courses": "Blaai deur Kursusse"
+    },
+    "courses": {
+        "title": "Ons Kursusse",
+        "subtitle": "Bemagtig jou met kennis en vaardighede vir 'n blinker toekoms",
+        "quote": "Onderwys is die kragtigste wapen wat jy kan gebruik om die wêreld te verander.",
+        "quoteAuthor": "Nelson Mandela",
+        "categories": "Kursuskategorieë",
+        "allCourses": "Alle Kursusse",
+        "notice": "Ons is besig om ons kursusinligting by te werk. Kontak asseblief ons hoofkantoor vir die opgedateerde pryse en beskikbare kursusse.",
+        "additionalInfo": "Vir meer inligting oor ons kursusse, skedules en pryse, kontak asseblief ons kantoor.",
+        "duration": "Tydsduur",
+        "qualification": "Kwalifikasie",
+        "certification": "Sertifisering",
+        "venue": "Lokaal",
+        "learnMore": "Meer Inligting",
+        "showDetails": "Wys Besonderhede",
+        "hideDetails": "Versteek Besonderhede",
+        "subcategories": "Subkategorieë"
+    },
+    "accreditation": {
+        "title": "Akkreditasie",
+        "subtitle": "Ons instelling word erken deur verskeie nasionale en internasionale akkreditasieliggame",
+        "international": "Internasionaal Erkende Toekenningsliggame",
+        "national": "Nasionaal Erkende Toekenningsliggame",
+        "accreditations": "Akkreditasies",
+        "whatIs": "Wat Beteken Akkreditasie?",
+        "whatIsText": "Akkreditasie verseker dat ons kursusse aan streng standaarde van gehalte voldoen en deur werkgewers en opvoedkundige instellings erken word. Wanneer jy 'n kursus by ons voltooi, kan jy seker wees dat jou kwalifikasie in die bedryf gerespekteer en gewaardeer sal word.",
+        "whyChoose": "Waarom 'n Geakkrediteerde Instelling Kies?",
+        "whyChooseText": "Studie by 'n geakkrediteerde instelling soos Susca Watts Academy gee jou die versekering dat jou onderrig aan vasgestelde standaarde voldoen en dat jou kwalifikasie deur werkgewers erken sal word. Ons akkreditasies met verskeie nasionale en internasionale liggame stel ons in staat om sertifikate en kwalifikasies aan te bied wat jou loopbaanvooruitsigte verbeter."
+    },
+    "rpl": {
+        "title": "Erkenning van Voorafgaande Leer (RPL)",
+        "subtitle": "Kry formele erkenning vir jou vaardighede en ervaring",
+        "whatIs": "Wat is RPL?",
+        "whatIsText": "Die Erkenning van Voorafgaande Leer (RPL) is 'n proses wat 'n persoon met formele, nie-formele en informele leer toelaat om gemeet en bemiddel te word vir erkenning in verskillende kontekste en gesertifiseer te word teen die vereistes vir krediet, toegang, insluiting of vordering in die formele onderwys- en opleidingstelsel of werkplek.",
+        "aim": "Wat is die Doel van RPL?",
+        "benefits": "Voordele van RPL vir Kandidate en Maatskappye",
+        "process": "RPL Proses",
+        "procedures": "RPL Prosedures",
+        "needMore": "Benodig Meer Inligting oor RPL?",
+        "contactUs": "Kontak Ons"
+    },
+    "finance": {
+        "title": "Betalingsopsies",
+        "subtitle": "Buigsame betalingsoplossings om onderwys toeganklik te maak",
+        "notice": "Vir inligting oor die koste van enige spesifieke kursus, raadpleeg asseblief die kursusbesonderhede onder \"Kursusse\".",
+        "option1": "Opsie 1: Normale Vereffening",
+        "option1Text": "Betaal die volle jaarlikse klasgeld en ander fooie met registrasie vereis.",
+        "option2": "Opsie 2: Afbetalings",
+        "option2Text": "Fooie sal bereken word met 'n 10% administrasiefooi en 'n fooi vir jou faktuur. Afbetalings kan tydens jou onderhoud bespreek word en 'n borgvorm moet jou registrasievorm vergesel - geteken deur 'n kredietwaardige werkende persoon.",
+        "option3": "Opsie 3: Studentelening - Studeer Nou, Betaal Later",
+        "option3Text": "Privaat finansiering maak onderwys bekostigbaar vir almal. Geld behoort nie te wees wat jou terughou om jou drome te verwesenlik nie.",
+        "option4": "Opsie 4: Bank Studielening",
+        "option4Text": "Doen aansoek vir 'n bank studielening in jou privaat naam by die volgende banke:",
+        "benefits": "Voordele:",
+        "applyHere": "Doen Hier Aansoek",
+        "importantNote": "NB: Geen student sal toegelaat word om te registreer tensy skriftelike bewys van die finansiële/relevante instelling dat die studielening goedgekeur is, voor die dag van registrasie aangebied word nie.",
+        "needHelp": "Benodig Hulp met Finansiële Opsies?",
+        "contactFinance": "Kontak Ons Finansiële Span"
+    },
+    "consulting": {
+        "title": "Konsultasiedienste",
+        "subtitle": "Deskundige leiding vir die begin en groei van jou opleidingsentrum",
+        "intro": "As Jy Jou Eie Opleidingsentrum Wil Begin",
+        "introText": "Susca Watts Academy het 30 jaar uitgebreide ervaring in die opleiding- en onderwysbedryf met kursusse wat vanaf 1996 tot vandag geakkrediteer is, van plaaslike akkreditasies soos Services Seta tot internasionale akkreditasies soos Cidesco.",
+        "readyNext": "Gereed om die volgende stap te neem?",
+        "requestAppointment": "Versoek 'n Afspraak",
+        "faq": "Algemene Vrae Wat Ons Kliënte Ons Vra",
+        "services": "Ons Konsultasiedienste",
+        "appointmentTitle": "Versoek 'n Afspraak",
+        "appointmentText": "Vul die vorm hieronder in om 'n konsultasie te skeduleer met ons kundiges wat jou deur die proses kan lei om jou eie opleidingsentrum te begin."
+    },
+    "freelance": {
+        "title": "Word 'n Vryskut Bemarker",
+        "subtitle": "Werk jou eie ure en besluit jou eie inkomste met Susca Watts Academy",
+        "beYourBoss": "Wees Jou Eie Baas",
+        "introText": "Werk jou eie ure en besluit jou eie inkomste. As 'n vryskutwerker vir Susca Watts Academy is jy jou eie baas. Ons sal jou die geleentheid gee om ons kursusse te bemark wat reeds jare lank mense help, en in ruil daarvoor ontvang jy jou deel vir elke student wat jy ons kant toe stuur wat inskryf.",
+        "readyStart": "Gereed om op jou terme te begin verdien?",
+        "applyNow": "Doen Nou Aansoek",
+        "howWorks": "Hoe Werk Dit?",
+        "step1": "Skryf In",
+        "step2": "Aanvaarding",
+        "step3": "Laat Dinge Gebeur",
+        "benefits": "Voordele van 'n Vryskut Bemarker Wees",
+        "apply": "Doen Aansoek om 'n Vryskut Bemarker te Word",
+        "applyText": "Vul die vorm hieronder in om aansoek te doen vir ons vryskut bemarkingsgeleentheid. Ons span sal jou aansoek nagaan en binne 7 dae kontak.",
+        "submit": "Dien Aansoek In"
     }
 }

@@ -1,24 +1,86 @@
-<section class="home">
-    <div class="home-header">
-        <p>{{ 'homepage.welcome' | translate }}</p>
-        <p class="title-secondary">Your one-stop solution for all your needs.</p>
-        <p>“Make the most of what you have and keep your standards high. Never settle for anything less than you deserve
-            or are capable of achieving.” - Roy T. Bennett</p>
-    </div>
-    <div class="home-content">
-        <div *ngFor="let item of listItems" class="home-item">
-            <app-list-item [item]="item"></app-list-item>
+<section class="home-page">
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1>{{ 'homepage.title' | translate }}</h1>
+            <p class="subtitle">{{ 'homepage.subtitle' | translate }}</p>
+            <div class="hero-cta">
+                <a [routerLink]="['/courses']" class="btn-primary">{{ 'courses.title' | translate }}</a>
+                <a [routerLink]="['/info']" class="btn-secondary">{{ 'common.learnMore' | translate }}</a>
+            </div>
+        </div>
+        <div class="hero-quote">
+            <blockquote>
+                "{{ 'homepage.quote' | translate }}"
+                <footer>- Roy T. Bennett</footer>
+            </blockquote>
         </div>
     </div>
-    <div class="carousel-container">
+
+    <!-- Main Categories Section -->
+    <div class="categories-section section">
+        <h2 class="section-title">Main Categories</h2>
+        <div class="categories-grid">
+            <div *ngFor="let item of featuredCategories" class="category-card">
+                <app-list-item [item]="item"></app-list-item>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <div class="testimonials-section section">
+        <h2 class="section-title">What Our Students Say</h2>
+        <div class="testimonials-container">
+            <div *ngFor="let testimonial of testimonials" class="testimonial-card">
+                <div class="testimonial-image">
+                    <img [src]="testimonial.image" [alt]="testimonial.name">
+                </div>
+                <div class="testimonial-content">
+                    <p class="testimonial-quote">"{{ testimonial.quote }}"</p>
+                    <div class="testimonial-author">
+                        <strong>{{ testimonial.name }}</strong>
+                        <span>{{ testimonial.role }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Links Section -->
+    <div class="quick-links-section section">
+        <h2 class="section-title">Quick Links</h2>
+        <div class="quick-links-grid">
+            <div *ngFor="let link of quickLinks" class="quick-link-card">
+                <a [routerLink]="[link.link]" class="quick-link-content">
+                    <div class="icon-container">
+                        <i [class]="link.icon"></i>
+                    </div>
+                    <h3>{{ link.heading }}</h3>
+                    <p>{{ link.description }}</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Images Section -->
+    <div class="featured-images section">
+        <h2 class="section-title">Campus Gallery</h2>
         <app-carousel [images]="[
-        'assets/images/example-image-1.png',
-        'assets/images/example-image-2.png',
-        'assets/images/example-image-3.png',
-        'assets/images/example-image-4.png',
-        'assets/images/example-image-2.png',
-        'assets/images/example-image-1.png',]"
-        [visibleImages]="3">
+            'assets/images/example-image-1.png',
+            'assets/images/example-image-2.png',
+            'assets/images/example-image-3.png',
+            'assets/images/example-image-4.png',
+            'assets/images/example-image-5.png']"
+            [visibleImages]="3">
         </app-carousel>
+    </div>
+
+    <!-- Call to Action Section -->
+    <div class="cta-section section">
+        <div class="cta-content">
+            <h2>Ready to Begin Your Journey?</h2>
+            <p>Start your education with Susca Watts Academy today and set yourself up for a successful future.</p>
+            <a [routerLink]="['/courses']" class="btn-primary">Explore Our Courses</a>
+        </div>
     </div>
 </section>

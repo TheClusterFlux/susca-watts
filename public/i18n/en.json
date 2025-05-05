@@ -1,5 +1,304 @@
 {
+    "common": {
+        "contactUs": "Contact Us",
+        "learnMore": "Learn More",
+        "login": "Login",
+        "backToHome": "Return to Homepage",
+        "hours": "Hours",
+        "address": "Address",
+        "contact": "Contact"
+    },
     "homepage": {
-        "welcome": "Welcome to the Home Page"
+        "welcome": "Welcome to the Home Page",
+        "title": "Susca Watts Academy",
+        "subtitle": "Your one-stop solution for all your educational needs.",
+        "quote": "Make the most of what you have and keep your standards high. Never settle for anything less than you deserve or are capable of achieving."
+    },
+    "navbar": {
+        "home": "Home",
+        "academics": "Academics",
+        "academic": "Academic",
+        "business": "Business",
+        "courses": "Courses",
+        "education": "Education",
+        "services": "Services",
+        "accreditation": "Accreditation",
+        "rpl": "RPL",
+        "finance": "Finance",
+        "consulting": "Consulting",
+        "freelance": "Freelance",
+        "info": "Info",
+        "studentPortal": "Student Portal"
+    },
+    "footer": {
+        "address": "Address",
+        "contact": "Contact",
+        "hours": "Hours",
+        "copyright": "© 2025 Susca Watts Academy. All rights reserved.",
+        "monday": "Mon 8am-4pm",
+        "tuesday": "Tue 8am-4pm",
+        "wednesday": "Wed 8am-4pm",
+        "thursday": "Thu 8am-4pm",
+        "friday": "Fri 8am-3pm"
+    },
+    "academics": {
+        "title": "Academics",
+        "subtitle": "Empowering through education",
+        "notice": "We are busy updating our course information. Please contact our main office for the updated prices and courses available.",
+        "programsTitle": "Our Academic Programs",
+        "programsDescription": "Susca Watts Academy provides quality education through various academic programs designed to help students excel in their studies and careers.",
+        "academicSupport": {
+            "title": "Academic Support",
+            "description": "Additional tutoring and support for students struggling with specific subjects"
+        },
+        "examPrep": {
+            "title": "Exam Preparation",
+            "description": "Focused courses to help students prepare for important exams"
+        },
+        "skillsDev": {
+            "title": "Skills Development",
+            "description": "Courses aimed at developing specific skills needed for academic success"
+        },
+        "whyChoose": "Why Choose Our Academic Programs",
+        "benefits": {
+            "teachers": "Experienced and qualified teachers",
+            "classSize": "Small class sizes for personalized attention",
+            "trackRecord": "Proven track record of student success",
+            "methods": "Modern teaching methodologies",
+            "scheduling": "Flexible scheduling options"
+        },
+        "getInfo": "Get More Information",
+        "contactMsg": "Contact our office to learn more about our academic programs and current pricing."
+    },
+    "business": {
+        "title": "Business Services",
+        "subtitle": "Professional development and support for businesses",
+        "notice": "We are busy updating our business services information. Please contact our main office for the updated prices and services available.",
+        "servicesTitle": "Our Business Services",
+        "servicesDescription": "Susca Watts Academy provides comprehensive business support services designed to help businesses grow and succeed in today's competitive market.",
+        "consulting": {
+            "title": "Business Consulting",
+            "description": "Expert guidance to help your business overcome challenges and achieve growth"
+        },
+        "training": {
+            "title": "Corporate Training",
+            "description": "Customized training programs for staff development and skills enhancement"
+        },
+        "optimization": {
+            "title": "Business Process Optimization",
+            "description": "Streamline your operations and improve efficiency with our expert analysis"
+        },
+        "whyPartner": "Why Partner With Us",
+        "benefits": {
+            "consultants": "Experienced business consultants with industry knowledge",
+            "solutions": "Customized solutions tailored to your business needs",
+            "trackRecord": "Proven track record of business growth and improvement",
+            "costEffective": "Cost-effective services with measurable results",
+            "support": "Ongoing support throughout implementation"
+        },
+        "getInfo": "Get More Information",
+        "contactMsg": "Contact our office to learn more about our business services and how we can help your organization."
+    },
+    "info": {
+        "title": "About Susca Watts Academy",
+        "subtitle": "Learn more about who we are and what we do",
+        "mission": {
+            "title": "Our Mission",
+            "description": "At Susca Watts Academy, we strive to accommodate students according to their needs and go the extra mile to assist. We have been in the industry since 1996, and it is our passion to create meaningful futures for our students. We motivate our students to always strive for success!"
+        },
+        "values": {
+            "item1": {
+                "title": "Student-Centered",
+                "description": "We put our students' needs first, providing personalized support and guidance."
+            },
+            "item2": {
+                "title": "Excellence",
+                "description": "We maintain world-class standards in our teaching methods and course offerings."
+            },
+            "item3": {
+                "title": "Empowerment",
+                "description": "We focus on providing skills that lead to meaningful employment and entrepreneurial opportunities."
+            }
+        },
+        "history": {
+            "title": "Our History",
+            "description": "In 1994, SUSCA WATTS ACADEMY opened its doors as a national training institute with 7 learners. The company literally doubled its amount of learners every year and within 3 years we became Internationally accredited.",
+            "timeline": {
+                "1994": "SUSCA WATTS ACADEMY opened its doors as a national training institute with 7 learners.",
+                "1996": "We became established in the industry with growing enrollment.",
+                "2000": "Mrs. Susca Le Roux received the Award for South Africa 2000 extraordinary women in business as published by Nedbank."
+            }
+        },
+        "divisions": {
+            "title": "Our 6 Divisions",
+            "description": "The Academy focuses holistically on providing students with stimulating and comprehensive qualifications as well as short skills courses recognized nationally and internationally ensuring dynamic careers in all sectors of the industry.",
+            "healthSkincare": {
+                "title": "Susca Watts Health and Skincare Academy",
+                "description": "Offering comprehensive training in health and skincare services."
+            },
+            "business": {
+                "title": "Susca Watts School of Business Management",
+                "description": "Providing qualifications in business management and entrepreneurship."
+            },
+            "hair": {
+                "title": "Susca Watts Hair Academy",
+                "description": "Professional hair styling and management training."
+            },
+            "it": {
+                "title": "IT",
+                "description": "Information Technology training and certification."
+            },
+            "etdp": {
+                "title": "ETDP",
+                "description": "Education, Training and Development Practices courses."
+            },
+            "agriculture": {
+                "title": "Agriculture",
+                "description": "Plant & Animal Production training."
+            }
+        },
+        "whyStudy": {
+            "title": "Why Study With Us?",
+            "reasons": {
+                "accreditation": "We are accredited with a variety of regulatory bodies such as QCTO, SERVICES SETA, ETDP SETA, SAAHSP, ITEC etc.",
+                "standards": "You can rest assured that we have world-class standards when it comes to our methods.",
+                "courses": "You can choose any course amongst a variety of accredited on-site or distance learning courses.",
+                "advisers": "Our student advisers will assist you in choosing courses that will help shape the future you desire.",
+                "noMatric": "You don't necessarily need a Matric Certificate to enroll.",
+                "workStudy": "We give our students the opportunity to work and earn an income while they study. Depending on the course, you will only need to attend class one day a week.",
+                "correspondence": "We offer correspondence courses with which you can study from anywhere in South Africa.",
+                "materials": "Our course fees already include all of your study material.",
+                "payment": "We have down payment options available for our courses.",
+                "kits": "No kits need to be purchased for your classes as we have everything available for use in class."
+            }
+        },
+        "contact": {
+            "title": "Contact Information",
+            "hours": {
+                "monday": "Monday: 8am-4pm",
+                "tuesday": "Tuesday: 8am-4pm",
+                "wednesday": "Wednesday: 8am-4pm",
+                "thursday": "Thursday: 8am-4pm",
+                "friday": "Friday: 8am-3pm",
+                "weekend": "Saturday & Sunday: Closed"
+            }
+        }
+    },
+    "studentPortal": {
+        "title": "Student Portal",
+        "subtitle": "Access your courses and learning materials",
+        "login": {
+            "title": "Login to Your Account",
+            "username": "Student ID / Username",
+            "password": "Password",
+            "button": "Login",
+            "forgot": "Forgot Password?"
+        },
+        "features": {
+            "title": "Student Portal Features",
+            "access": "Access your course materials and assignments",
+            "submit": "Submit assignments and check your grades",
+            "communicate": "Communicate with instructors and classmates",
+            "track": "Track your academic progress",
+            "resources": "Access additional learning resources"
+        },
+        "help": {
+            "title": "Need Help?",
+            "message": "If you're having trouble accessing your account, please contact our support team:"
+        }
+    },
+    "notFound": {
+        "code": "404",
+        "title": "Page Not Found",
+        "message": "The page you are looking for doesn't exist or has been moved.",
+        "home": "Return to Homepage",
+        "courses": "Browse Courses"
+    },
+    "courses": {
+        "title": "Our Courses",
+        "subtitle": "Empowering you with knowledge and skills for a brighter future",
+        "quote": "Education is the most powerful weapon which you can use to change the world.",
+        "quoteAuthor": "Nelson Mandela",
+        "categories": "Course Categories",
+        "allCourses": "All Courses",
+        "notice": "We are busy updating our course information. Please contact our main office for the updated prices and courses available.",
+        "additionalInfo": "For more information about our courses, scheduling, and pricing, please contact our office.",
+        "duration": "Duration",
+        "qualification": "Qualification",
+        "certification": "Certification",
+        "venue": "Venue",
+        "learnMore": "Learn More",
+        "showDetails": "Show Details",
+        "hideDetails": "Hide Details",
+        "subcategories": "Subcategories"
+    },
+    "accreditation": {
+        "title": "Accreditation",
+        "subtitle": "Our institution is recognized by various national and international accrediting bodies",
+        "international": "Internationally Recognized Awarding Bodies",
+        "national": "Nationally Recognized Awarding Bodies",
+        "accreditations": "Accreditations",
+        "whatIs": "What Does Accreditation Mean?",
+        "whatIsText": "Accreditation ensures that our courses meet rigorous standards of quality and are recognized by employers and educational institutions. When you complete a course with us, you can be confident that your qualification will be respected and valued in the industry.",
+        "whyChoose": "Why Choose an Accredited Institution?",
+        "whyChooseText": "Studying at an accredited institution like Susca Watts Academy gives you the assurance that your education meets established standards and that your qualification will be recognized by employers. Our accreditations with various national and international bodies allow us to offer certifications and qualifications that enhance your career prospects."
+    },
+    "rpl": {
+        "title": "Recognition of Prior Learning (RPL)",
+        "subtitle": "Get formal recognition for your skills and experience",
+        "whatIs": "What is RPL?",
+        "whatIsText": "The Recognition of Prior Learning (RPL) is a process which allows a person who has formal, non-formal and informal learning to be measured, mediated for recognition across different contexts and certified against the requirements for credit, access, inclusion or advancement in the formal education and training system or workplace.",
+        "aim": "What is the Aim of RPL?",
+        "benefits": "Benefits of RPL to Candidates and Companies",
+        "process": "RPL Process",
+        "procedures": "RPL Procedures",
+        "needMore": "Need More Information About RPL?",
+        "contactUs": "Contact Us"
+    },
+    "finance": {
+        "title": "Payment Options",
+        "subtitle": "Flexible payment solutions to make education accessible",
+        "notice": "For information regarding the costs of any specific course, please refer to the course details found under \"Courses\".",
+        "option1": "Option 1: Normal Settlement",
+        "option1Text": "Pay the full annual tuition fee and other fees with registration required.",
+        "option2": "Option 2: Down Payments",
+        "option2Text": "Fees will be calculated with a 10% administration fee and a fee for your invoice. Down payments can be discussed during your interview and a surety form will have to accompany your registration form - signed by a credit worthy working person.",
+        "option3": "Option 3: Student Loan - Study Now, Pay Later",
+        "option3Text": "Private financing allows education to become affordable to anyone. Money shouldn't be what's holding you back from making your dreams come true.",
+        "option4": "Option 4: Bank Study Loan",
+        "option4Text": "Apply for a bank study loan in your private name with the following banks:",
+        "benefits": "Benefits:",
+        "applyHere": "Apply Here",
+        "importantNote": "NB: No student will be allowed to register unless written proof from the financial/relevant institution that the study loan has been approved is presented before the day of registration.",
+        "needHelp": "Need Help with Financial Options?",
+        "contactFinance": "Contact Our Finance Team"
+    },
+    "consulting": {
+        "title": "Consulting Services",
+        "subtitle": "Expert guidance for starting and growing your training center",
+        "intro": "If You Want to Start Your Own Training Center",
+        "introText": "Susca Watts Academy has 30 years of extensive experience in the training and education industry with courses accredited from 1996 till today, from local accreditations like Services Seta to international accreditations like Cidesco.",
+        "readyNext": "Ready to take the next step?",
+        "requestAppointment": "Request an Appointment",
+        "faq": "General Questions Our Clients Ask Us",
+        "services": "Our Consulting Services",
+        "appointmentTitle": "Request an Appointment",
+        "appointmentText": "Fill out the form below to schedule a consultation with our experts who can guide you through the process of starting your own training center."
+    },
+    "freelance": {
+        "title": "Become a Freelance Marketer",
+        "subtitle": "Work your own hours and decide your own income with Susca Watts Academy",
+        "beYourBoss": "Be Your Own Boss",
+        "introText": "Work your own hours and decide your own income. As a freelancer for Susca Watts Academy, you are your own boss. We will give you the opportunity to market our courses that have been helping people for years already, and in exchange, you will receive your share for every student you send our way that signs up.",
+        "readyStart": "Ready to start earning on your terms?",
+        "applyNow": "Apply Now",
+        "howWorks": "How Does It Work?",
+        "step1": "Sign Up",
+        "step2": "Acceptance",
+        "step3": "Make Things Happen",
+        "benefits": "Benefits of Being a Freelance Marketer",
+        "apply": "Apply to Become a Freelance Marketer",
+        "applyText": "Fill out the form below to apply for our freelance marketing opportunity. Our team will review your application and contact you within 7 days.",
+        "submit": "Submit Application"
     }
 }

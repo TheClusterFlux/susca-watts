@@ -1,0 +1,61 @@
+<section class="student-portal">
+    <div class="page-header">
+        <h1>{{ 'studentPortal.title' | translate }}</h1>
+        <p class="subtitle">{{ 'studentPortal.subtitle' | translate }}</p>
+    </div>
+    
+    <div class="content-container">
+        <div class="login-container">
+            <h2 id="login-heading">{{ 'studentPortal.login.title' | translate }}</h2>
+            <form (ngSubmit)="login()" class="login-form" aria-labelledby="login-heading">
+                <div class="form-group">
+                    <label for="username" id="username-label">{{ 'studentPortal.login.username' | translate }}</label>
+                    <input 
+                        type="text" 
+                        id="username" 
+                        name="username" 
+                        [(ngModel)]="username" 
+                        required 
+                        aria-required="true"
+                        aria-labelledby="username-label"
+                        placeholder="{{ 'studentPortal.login.username' | translate }}">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password" id="password-label">{{ 'studentPortal.login.password' | translate }}</label>
+                    <input 
+                        type="password" 
+                        id="password" 
+                        name="password" 
+                        [(ngModel)]="password" 
+                        required
+                        aria-required="true"
+                        aria-labelledby="password-label"
+                        placeholder="{{ 'studentPortal.login.password' | translate }}">
+                </div>
+                
+                <div class="form-actions">
+                    <button type="submit" class="btn-login" aria-label="Log in to your account">{{ 'studentPortal.login.button' | translate }}</button>
+                    <a href="#" class="forgot-password" aria-label="Reset your forgotten password">{{ 'studentPortal.login.forgot' | translate }}</a>
+                </div>
+            </form>
+        </div>
+        
+        <div class="portal-info">
+            <h3>{{ 'studentPortal.features.title' | translate }}</h3>
+            <ul class="features-list">
+                <li>{{ 'studentPortal.features.access' | translate }}</li>
+                <li>{{ 'studentPortal.features.submit' | translate }}</li>
+                <li>{{ 'studentPortal.features.communicate' | translate }}</li>
+                <li>{{ 'studentPortal.features.track' | translate }}</li>
+                <li>{{ 'studentPortal.features.resources' | translate }}</li>
+            </ul>
+            
+            <div class="help-section">
+                <h3>{{ 'studentPortal.help.title' | translate }}</h3>
+                <p>{{ 'studentPortal.help.message' | translate }}</p>
+                <p><a href="mailto:support&#64;suscawatts.co.za">support&#64;suscawatts.co.za</a> or call +27 83 276 5557</p>
+            </div>
+        </div>
+    </div>
+</section>

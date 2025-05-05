@@ -1,0 +1,121 @@
+.academics-page {
+    padding: 2rem 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.page-header h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: var(--text-medium);
+    font-style: italic;
+}
+
+.notice-banner {
+    background-color: var(--background-off-white);
+    border-left: 4px solid var(--primary-color);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: var(--border-radius);
+}
+
+.section {
+    margin-bottom: 3rem;
+}
+
+.section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+.programs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.program-card {
+    background-color: var(--background-light);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 1.5rem;
+    transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+}
+
+.program-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.program-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+    color: var(--text-dark);
+}
+
+.benefits-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.benefits-list li {
+    padding: 0.7rem 0;
+    border-bottom: 1px solid var(--border-color);
+    position: relative;
+    padding-left: 2rem;
+}
+
+.benefits-list li:before {
+    content: "✓";
+    color: var(--success-color);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.contact-section {
+    background-color: var(--background-off-white);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+}
+
+.contact-button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    margin-top: 1rem;
+    font-weight: bold;
+    transition: background-color var(--transition-speed) ease;
+}
+
+.contact-button:hover {
+    background-color: var(--primary-dark);
+}
+
+@media (max-width: 768px) {
+    .programs-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .page-header h1 {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,99 @@
+.accreditation-page {
+    padding: 2rem 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.page-header h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: var(--text-medium);
+}
+
+.content-container {
+    padding: 0 1rem;
+}
+
+.accreditation-section {
+    margin-bottom: 3rem;
+}
+
+.accreditation-section h2 {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.accreditation-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.accreditation-item {
+    background-color: var(--background-light);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+    border-left: 4px solid var(--primary-color);
+}
+
+.accreditation-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.accreditation-item h3 {
+    font-size: 1.4rem;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+}
+
+.accreditation-details {
+    margin-top: 1rem;
+}
+
+.accreditation-details p {
+    margin-bottom: 0.5rem;
+}
+
+.accreditation-info {
+    background-color: var(--background-off-white);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    margin-top: 2rem;
+}
+
+.accreditation-info h3 {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.accreditation-info p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .accreditation-items {
+        grid-template-columns: 1fr;
+    }
+    
+    .page-header h1 {
+        font-size: 2rem;
+    }
+}

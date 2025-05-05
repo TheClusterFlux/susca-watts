@@ -4,12 +4,12 @@ import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
-  selector: 'app-footer',
+  selector: 'app-business',
   standalone: true,
   imports: [CommonModule, TranslateModule],
-  templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.css']
+  templateUrl: './business.component.html',
+  styleUrls: ['./business.component.css']
 })
-export class FooterComponent {
+export class BusinessComponent {
   constructor(private translate: TranslateService) {}
 }

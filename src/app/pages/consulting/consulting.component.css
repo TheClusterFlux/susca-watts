@@ -1,0 +1,194 @@
+.consulting-page {
+    padding: 2rem 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.page-header h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: var(--text-medium);
+}
+
+.content-container {
+    padding: 0 1rem;
+}
+
+.consulting-intro, .consulting-section {
+    margin-bottom: 3rem;
+}
+
+.consulting-intro h2, .consulting-section h2 {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.consulting-intro p {
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.cta-box {
+    background-color: var(--background-off-white);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+    margin-top: 2rem;
+    border-left: 4px solid var(--primary-color);
+}
+
+.cta-box h3 {
+    font-size: 1.4rem;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+}
+
+.faq-list {
+    margin-top: 2rem;
+}
+
+.faq-item {
+    margin-bottom: 1.5rem;
+    background-color: var(--background-light);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+}
+
+.faq-item h3 {
+    background-color: var(--primary-light);
+    color: var(--primary-color);
+    padding: 1rem 1.5rem;
+    margin: 0;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.faq-answer {
+    padding: 1.5rem;
+}
+
+.faq-answer p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.faq-answer p:last-child {
+    margin-bottom: 0;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.service-item {
+    background-color: var(--background-light);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+    border-top: 4px solid var(--primary-color);
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.service-item h3 {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.service-item p {
+    line-height: 1.5;
+}
+
+.appointment-section {
+    background-color: var(--background-light);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.contact-form {
+    margin-top: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--text-dark);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(var(--primary-color-rgb), 0.2);
+}
+
+.form-submit {
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .page-header h1 {
+        font-size: 2rem;
+    }
+}
