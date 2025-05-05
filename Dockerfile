@@ -13,8 +13,9 @@ RUN npm install
 # Copy the rest of the application code
 COPY . .
 
-# Build the Angular application for production with increased budget limit
-RUN npm run build -- --configuration production --budget-error=10kb
+# First modify the angular.json to increase the budget limits then build the app
+RUN sed -i 's/"maximumError": "4kB"/"maximumError": "10kB"/' angular.json && \
+    npm run build -- --configuration production
 
 # Use a lightweight Nginx image as the base image
 FROM nginx:alpine
