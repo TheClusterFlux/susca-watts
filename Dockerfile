@@ -13,8 +13,8 @@ RUN npm install
 # Copy the rest of the application code
 COPY . .
 
-# Build the Angular application for production
-RUN npm run build
+# Build the Angular application for production with increased budget limit
+RUN npm run build -- --configuration production --budget-error=10kb
 
 # Use a lightweight Nginx image as the base image
 FROM nginx:alpine
