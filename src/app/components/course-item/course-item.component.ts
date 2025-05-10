@@ -8,7 +8,23 @@ import { TranslateModule } from '@ngx-translate/core';
   standalone: true,
   imports: [CommonModule, TranslateModule],
   templateUrl: './course-item.component.html',
-  styleUrl: './course-item.component.css'
+  styleUrl: './course-item.component.css',
+  styles: [`
+    .venue-container {
+      margin-bottom: 10px;
+    }
+    .venue-container p strong {
+      margin-bottom: 5px;
+    }
+    .venue-list {
+      margin-top: 5px;
+      margin-bottom: 10px;
+      padding-left: 20px;
+    }
+    .venue-list li {
+      margin-bottom: 3px;
+    }
+  `]
 })
 export class CourseItemComponent {
   @Input() courseItem!: CourseItem;
@@ -19,4 +35,8 @@ export class CourseItemComponent {
   }
   
   constructor() { }
+  
+  isVenueArray(venue: string | string[]): venue is string[] {
+    return Array.isArray(venue);
+  }
 }

@@ -22,11 +22,19 @@
             <li *ngFor="let subCategory of courseItem.subCategories" 
                 role="listitem"
                 class="subcategory-item">                <div class="subcategory-details">
-                    <h5>{{ subCategory.name }}</h5>
-                    <p *ngIf="subCategory.duration"><strong>{{ 'courses.duration' | translate }}:</strong> {{ subCategory.duration }}</p>
+                    <h5>{{ subCategory.name }}</h5>                    <p *ngIf="subCategory.duration"><strong>{{ 'courses.duration' | translate }}:</strong> {{ subCategory.duration }}</p>
                     <p *ngIf="subCategory.qualification"><strong>{{ 'courses.qualification' | translate }}:</strong> {{ subCategory.qualification }}</p>
                     <p *ngIf="subCategory.certification"><strong>{{ 'courses.certification' | translate }}:</strong> {{ subCategory.certification }}</p>
-                    <p *ngIf="subCategory.venue"><strong>{{ 'courses.venue' | translate }}:</strong> {{ subCategory.venue }}</p>
+                    
+                    <!-- Handle venue as either string or array -->
+                    <div *ngIf="subCategory.venue" class="venue-container">
+                      <p><strong>{{ 'courses.venue' | translate }}:</strong></p>
+                      <ul *ngIf="isVenueArray(subCategory.venue)" class="venue-list">
+                        <li *ngFor="let location of subCategory.venue">{{ location }}</li>
+                      </ul>
+                      <p *ngIf="!isVenueArray(subCategory.venue)">{{ subCategory.venue }}</p>
+                    </div>
+                    
                     <p *ngIf="subCategory.details" class="subcategory-details-text">{{ subCategory.details }}</p>
                     <a *ngIf="subCategory.link" 
                           [href]="subCategory.link"

@@ -1,77 +1,129 @@
-<section class="accreditation-page">    <div class="page-header">
-        <h1>{{ 'accreditation.title' | translate }}</h1>
-        <p class="subtitle">{{ 'accreditation.subtitle' | translate }}</p>
+<section class="accreditation-page">
+  <div class="page-header">
+    <h1>{{ "accreditation.title" | translate }}</h1>
+    <p class="subtitle">{{ "accreditation.subtitle" | translate }}</p>
+  </div>
+
+  <div class="content-container">
+    <div class="accreditation-section">
+      <h2>{{ "accreditation.international" | translate }}</h2>
+
+      <div class="accreditation-items">
+        <div class="accreditation-item">
+          <div class="logo-container">
+            <img
+              src="/assets/images/accreditation/itec.png"
+              alt="ITEC Logo"
+              class="accreditation-logo"
+            />
+          </div>
+          <h3>{{ "accreditation.institutions.itec" | translate }}</h3>
+          <div class="accreditation-details">
+            <p>
+              <strong
+                >{{ "accreditation.accreditationNumber" | translate }}:</strong
+              >
+              {{ "accreditation.accreditationNumbers.itec" | translate }}
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    
-    <div class="content-container">
-        <div class="accreditation-section">            <h2>{{ 'accreditation.international' | translate }}</h2>
-            
-            <div class="accreditation-items">                <div class="accreditation-item">
-                    <div class="logo-container">
-                        <img src="/assets/images/accreditation/itec.png" alt="ITEC Logo" class="accreditation-logo">
-                    </div>                    <h3>{{ 'accreditation.institutions.itec' | translate }}</h3>
-                    <div class="accreditation-details">
-                        <p><strong>{{ 'accreditation.accreditationNumber' | translate }}:</strong> {{ 'accreditation.accreditationNumbers.itec' | translate }}</p>
-                    </div>
-                </div>
-            </div>
+
+    <div class="accreditation-section">
+      <h2>{{ "accreditation.national" | translate }}</h2>
+
+      <div class="accreditation-items">
+        <div class="accreditation-item">
+          <div class="logo-container">
+            <img
+              src="/assets/images/accreditation/SAAHSP-LOGO.png"
+              alt="SAAHSP Logo"
+              class="accreditation-logo"
+            />
+          </div>
+          <h3>{{ "accreditation.institutions.saahsp" | translate }}</h3>
         </div>
-        
-        <div class="accreditation-section">
-            <h2>{{ 'accreditation.national' | translate }}</h2>
-            
-            <div class="accreditation-items">                <div class="accreditation-item">
-                    <div class="logo-container">
-                        <img src="/assets/images/accreditation/SAAHSP-LOGO.png" alt="SAAHSP Logo" class="accreditation-logo">
-                    </div>
-                    <h3>{{ 'accreditation.institutions.saahsp' | translate }}</h3>
-                </div>
-            </div>
-        </div>
-        
-        <div class="accreditation-section">
-            <h2>{{ 'accreditation.accreditations' | translate }}</h2>
-            
-            <div class="accreditation-items">                <div class="accreditation-item">
-                    <div class="logo-container">
-                        <img src="/assets/images/accreditation/seta.jpg" alt="Services SETA Logo" class="accreditation-logo">
-                    </div>
-                    <h3>{{ 'accreditation.institutions.servicesSETA' | translate }}</h3>
-                    <div class="accreditation-details">
-                        <p><strong>{{ 'accreditation.accreditationNumber' | translate }}:</strong> {{ 'accreditation.accreditationNumbers.servicesSETA' | translate }}</p>
-                    </div>
-                </div>
-                  <div class="accreditation-item">
-                    <div class="logo-container">
-                        <img src="/assets/images/accreditation/speccon.jpg" alt="ETDP SETA Logo" class="accreditation-logo">
-                    </div>
-                    <h3>{{ 'accreditation.institutions.speccon' | translate }}</h3>
-                </div>
-                  <div class="accreditation-item">
-                    <div class="logo-container">
-                        <img src="/assets/images/accreditation/etdp-seta-logo-horizontal.jpg" alt="ETDP SETA Logo" class="accreditation-logo">
-                    </div>
-                    <h3>{{ 'accreditation.institutions.etdpSETA' | translate }}</h3>
-                    <div class="accreditation-details">
-                        <p><strong>{{ 'accreditation.accreditationNumber' | translate }}:</strong> {{ 'accreditation.accreditationNumbers.etdpSETA' | translate }}</p>
-                    </div>
-                </div>
-                  <div class="accreditation-item">
-                    <div class="logo-container">
-                        <img src="/assets/images/accreditation/qcto.png" alt="QCTO Logo" class="accreditation-logo">
-                    </div>
-                    <h3>{{ 'accreditation.institutions.qcto' | translate }}</h3>
-                    <div class="accreditation-details">
-                        <p><strong>{{ 'accreditation.accreditationNumber' | translate }}:</strong> {{ 'accreditation.accreditationNumbers.qcto' | translate }}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="accreditation-info">            <h3>{{ 'accreditation.whatIs' | translate }}</h3>
-            <p>{{ 'accreditation.whatIsText' | translate }}</p>
-              <h3>{{ 'accreditation.whyChoose' | translate }}</h3>
-            <p>{{ 'accreditation.whyChooseText' | translate }}</p>
-        </div>
+      </div>
     </div>
+
+    <div class="accreditation-section">
+      <h2>{{ "accreditation.accreditations" | translate }}</h2>
+
+      <div class="accreditation-items">
+        <div class="accreditation-item">
+          <div class="logo-container">
+            <img
+              src="/assets/images/accreditation/seta.jpg"
+              alt="Services SETA Logo"
+              class="accreditation-logo"
+            />
+          </div>
+          <h3>{{ "accreditation.institutions.servicesSETA" | translate }}</h3>
+          <div class="accreditation-details">
+            <p>
+              <strong
+                >{{ "accreditation.accreditationNumber" | translate }}:</strong
+              >
+              {{
+                "accreditation.accreditationNumbers.servicesSETA" | translate
+              }}
+            </p>
+          </div>
+        </div>
+        <div class="accreditation-item">
+          <div class="logo-container">
+            <img
+              src="/assets/images/accreditation/etdp-seta-logo-horizontal.jpg"
+              alt="ETDP SETA Logo"
+              class="accreditation-logo"
+            />
+          </div>
+          <h3>{{ "accreditation.institutions.etdpSETA" | translate }}</h3>
+          <div class="accreditation-details">
+            <p>
+              <strong
+                >{{ "accreditation.accreditationNumber" | translate }}:</strong
+              >
+              {{ "accreditation.accreditationNumbers.etdpSETA" | translate }}
+            </p>
+          </div>
+        </div>
+        <div class="accreditation-item">
+          <div class="logo-container">
+            <img
+              src="/assets/images/accreditation/qcto.png"
+              alt="QCTO Logo"
+              class="accreditation-logo"
+            />
+          </div>
+          <h3>{{ "accreditation.institutions.qcto" | translate }}</h3>
+          <div class="accreditation-details">
+            <p>
+              <strong
+                >{{ "accreditation.accreditationNumber" | translate }}:</strong
+              >
+              {{ "accreditation.accreditationNumbers.qcto" | translate }}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accreditation-section">
+        <h2>{{ "accreditation.skillsPartner" | translate }}</h2>
+
+        <div class="accreditation-items">
+          <div class="accreditation-item">
+            <div class="logo-container">
+              <img
+                src="/assets/images/accreditation/speccon.jpg"
+                alt="ETDP SETA Logo"
+                class="accreditation-logo"
+              />
+            </div>
+            <h3>{{ "accreditation.institutions.speccon" | translate }}</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>

@@ -1,491 +1,444 @@
-{    "common": {
-        "contactUs": "Contact Us",
-        "learnMore": "Learn More",
-        "login": "Login",
-        "backToHome": "Return to Homepage",
-        "hours": "Hours",
-        "address": "Address",
-        "contact": "Contact"
-    },    "contact": {
-        "title": "Contact Us",
-        "subtitle": "Get in touch with us through various channels",
-        "contactInfo": "Contact Information",
-        "contactDetails": "Contact Details",
-        "findUs": "Find Us",
-        "socialMedia": "Connect with Us on Social Media",
-        "socialIntro": "Follow us on social media to stay updated with our latest news, events, and educational resources.",
-        "sendMessage": "Send us a Message",
-        "formIntro": "Have a question or inquiry? Fill out the form below and we'll get back to you as soon as possible.",
-        "form": {
-            "name": "Name",
-            "namePlaceholder": "Enter your full name",
-            "nameRequired": "Name is required",
-            "nameMinLength": "Name must be at least 2 characters",
-            "email": "Email",
-            "emailPlaceholder": "Enter your email address",
-            "emailRequired": "Email is required",
-            "emailInvalid": "Please enter a valid email address",
-            "subject": "Subject",
-            "subjectPlaceholder": "What is your message about?",
-            "subjectRequired": "Subject is required",
-            "message": "Message",
-            "messagePlaceholder": "Enter your message here...",
-            "messageRequired": "Message is required",
-            "messageMinLength": "Message must be at least 10 characters",
-            "submit": "Send Message",
-            "successMessage": "Your message has been sent successfully. We will contact you soon!",
-            "errorMessage": "Please fix the errors in the form before submitting."
-        }
-    },
-    "homepage": {
-        "welcome": "Welcome to the Home Page",
-        "title": "Susca Watts Academy",
-        "subtitle": "Your one-stop solution for all your educational needs.",
-        "quote": "Make the most of what you have and keep your standards high. Never settle for anything less than you deserve or are capable of achieving."
-    },    "navbar": {
-        "home": "Home",
-        "academics": "Academics",
-        "academic": "Academic",
-        "business": "Business",
-        "courses": "Courses",
-        "education": "Education",
-        "services": "Services",
-        "accreditation": "Accreditation",
-        "rpl": "RPL",
-        "finance": "Finance",
-        "consulting": "Consulting",
-        "freelance": "Freelance",
-        "info": "Info",
-        "contact": "Contact Us",
-        "studentPortal": "Student Portal"
-    },    "footer": {
-        "address": "Address",
-        "contact": "Contact",
-        "hours": "Hours",
-        "copyright": "© 2025 Susca Watts Academy. All rights reserved.",
-        "monday": "Mon 8am-4pm",
-        "tuesday": "Tue 8am-4pm",
-        "wednesday": "Wed 8am-4pm",
-        "thursday": "Thu 8am-4pm",
-        "friday": "Fri 8am-3pm",
-        "academy": "SuscaWatts Academy",
-        "tagline": "Your one-stop solution for all your educational needs.",
-        "accreditationText": "Fully Accredited Institution",
-        "learnWithUs": "Learn With Us",
-        "ourServices": "Our Services",
-        "resources": "Resources",
-        "studentHandbook": "Student Handbook",
-        "academicCalendar": "Academic Calendar",
-        "placementServices": "Placement Services",
-        "careerGuidance": "Career Guidance",
-        "newsletterTitle": "Subscribe to Our Newsletter",
-        "newsletterDesc": "Stay updated with our latest courses, events and educational resources.",
-        "emailPlaceholder": "Enter your email address",
-        "subscribe": "Subscribe",
-        "newsletterConsent": "I agree to receive emails from SuscaWatts Academy",
-        "socialTitle": "Get Social with Us",
-        "termsService": "Terms of Service",
-        "privacyPolicy": "Privacy Policy",
-        "cookiePolicy": "Cookie Policy",
-        "sitemap": "Sitemap",
-        "scrollTop": "Scroll to top",
-        "businessSolutions": "Business Solutions",
-        "academicSupport": "Academic Support",
-        "sendInquiry": "Send Inquiry"
-    },
+{
     "academics": {
-        "title": "Academics",
-        "subtitle": "Empowering through education",
-        "notice": "We are busy updating our course information. Please contact our main office for the updated prices and courses available.",
-        "programsTitle": "Our Academic Programs",
-        "programsDescription": "Susca Watts Academy provides quality education through various academic programs designed to help students excel in their studies and careers.",
         "academicSupport": {
-            "title": "Academic Support",
-            "description": "Additional tutoring and support for students struggling with specific subjects"
+            "description": "Additional tutoring and support for students struggling with specific subjects",
+            "title": "Academic Support"
         },
-        "examPrep": {
-            "title": "Exam Preparation",
-            "description": "Focused courses to help students prepare for important exams"
-        },
-        "skillsDev": {
-            "title": "Skills Development",
-            "description": "Courses aimed at developing specific skills needed for academic success"
-        },
-        "whyChoose": "Why Choose Our Academic Programs",
         "benefits": {
-            "teachers": "Experienced and qualified teachers",
             "classSize": "Small class sizes for personalized attention",
-            "trackRecord": "Proven track record of student success",
             "methods": "Modern teaching methodologies",
-            "scheduling": "Flexible scheduling options"
+            "scheduling": "Flexible scheduling options",
+            "teachers": "Experienced and qualified teachers",
+            "trackRecord": "Proven track record of student success"
+        },
+        "contactMsg": "Contact our office to learn more about our academic programs and current pricing.",
+        "examPrep": {
+            "description": "Focused courses to help students prepare for important exams",
+            "title": "Exam Preparation"
         },
         "getInfo": "Get More Information",
-        "contactMsg": "Contact our office to learn more about our academic programs and current pricing."
-    },
-    "business": {
-        "title": "Business Services",
-        "subtitle": "Professional development and support for businesses",
-        "notice": "We are busy updating our business services information. Please contact our main office for the updated prices and services available.",
-        "servicesTitle": "Our Business Services",
-        "servicesDescription": "Susca Watts Academy provides comprehensive business support services designed to help businesses grow and succeed in today's competitive market.",
-        "consulting": {
-            "title": "Business Consulting",
-            "description": "Expert guidance to help your business overcome challenges and achieve growth"
-        },
-        "training": {
-            "title": "Corporate Training",
-            "description": "Customized training programs for staff development and skills enhancement"
-        },
-        "optimization": {
-            "title": "Business Process Optimization",
-            "description": "Streamline your operations and improve efficiency with our expert analysis"
-        },
-        "whyPartner": "Why Partner With Us",
-        "benefits": {
-            "consultants": "Experienced business consultants with industry knowledge",
-            "solutions": "Customized solutions tailored to your business needs",
-            "trackRecord": "Proven track record of business growth and improvement",
-            "costEffective": "Cost-effective services with measurable results",
-            "support": "Ongoing support throughout implementation"
-        },
-        "getInfo": "Get More Information",
-        "contactMsg": "Contact our office to learn more about our business services and how we can help your organization."
-    },    "info": {
-        "title": "About Susca Watts Academy",
-        "subtitle": "Learn more about who we are and what we do",
-        "welcome": "Welcome to Susca Watts Academy, a premier training institution with its head office and main campus located in the heart of Middelburg, Mpumalanga, South Africa. We pride ourselves on offering a diverse range of courses designed to equip students with the skills and knowledge needed for successful careers across various industries.",
-        "getInTouch": {
-            "title": "Get in Touch",
-            "description": "Have questions or want to learn more about our programs? Our team is ready to assist you with any inquiries or support you may need."
-        },
-        "mission": {
-            "title": "Our Mission",
-            "description": "At Susca Watts Academy, we strive to accommodate students according to their needs and go the extra mile to assist. We have been in the industry since 1996, and it is our passion to create meaningful futures for our students. We motivate our students to always strive for success!"
-        },
-        "values": {
-            "item1": {
-                "title": "Student-Centered",
-                "description": "We put our students' needs first, providing personalized support and guidance."
-            },
-            "item2": {
-                "title": "Excellence",
-                "description": "We maintain world-class standards in our teaching methods and course offerings."
-            },
-            "item3": {
-                "title": "Empowerment",
-                "description": "We focus on providing skills that lead to meaningful employment and entrepreneurial opportunities."
-            }
-        },
-        "history": {
-            "title": "Our History",
-            "description": "In 1994, SUSCA WATTS ACADEMY opened its doors as a national training institute with 7 learners. The company literally doubled its amount of learners every year and within 3 years we became Internationally accredited.",
-            "timeline": {
-                "1994": "SUSCA WATTS ACADEMY opened its doors as a national training institute with 7 learners.",
-                "1996": "We became established in the industry with growing enrollment.",
-                "2000": "Mrs. Susca Le Roux received the Award for South Africa 2000 extraordinary women in business as published by Nedbank."
-            }
-        },        
-        "faculties": {
-            "title": "Our Faculties",
-            "description": "Each course is designed to provide practical and theoretical knowledge, ensuring our students are well-prepared for the workforce.",
-            "healthSkincare": {
-                "title": "Faculty of Health and Skincare",
-                "description": "Offering comprehensive training in health and skincare services."
-            },
-            "hair": {
-                "title": "Faculty of Hairdressing",
-                "description": "Professional hair styling and management training."
-            },
-            "etdp": {
-                "title": "Faculty of ETDP - Facilitator, Assessor and Moderator (SpecCon)",
-                "description": "Education, Training and Development Practices courses."
-            },
-            "business": {
-                "title": "Faculty of Online Business Training (SpecCon)",
-                "description": "Providing qualifications in business management and entrepreneurship."
-            }
-        },        
-        "whyStudy": {
-            "title": "Why Study With Us?",
-            "reasons": {
-                "accreditation": "Accredited Excellence: At Susca Watts Academy, we uphold world-class standards in our training methods. Our accreditation with respected regulatory bodies such as QCTO, SERVICES SETA, ETDP SETA, SAAHSP, and ITEC guarantees that you're receiving top-quality education.",
-                "courses": "Diverse Course Options: We offer a variety of accredited courses that can be pursued on-site or through distance learning. Our student advisers are here to help you select the courses that will shape the future you desire.",
-                "enrollment": "Flexible Enrollment: We believe in providing opportunities for everyone to pursue their dreams, regardless of their previous qualifications.",
-                "workStudy": "Work and Study Balance: We offer flexible schedules that allow you to work and earn an income while studying. Depending on the course, you may only need to attend class one day a week.",
-                "access": "Nationwide Access: Our Online Business courses enable you to study from anywhere in South Africa, ensuring that quality education is accessible to all.",
-                "fees": "All-Inclusive Fees: Our course fees cover all your study materials, so there are no hidden costs. We also offer flexible payment options to make education more affordable.",
-                "support": "Personalized Support: We go the extra mile to accommodate students according to their needs. Our dedicated staff is committed to helping you achieve your goals and succeed in your studies.",
-                "experience": "Industry Experience: Since 1994, our passion has been creating meaningful futures for our students. Our extensive industry experience ensures that you receive relevant and practical training.",
-                "environment": "Motivational Environment: We motivate our students to strive for success and reach their full potential. Our supportive learning environment fosters growth and achievement."
-            },
-            "conclusion": "By choosing Susca Watts Academy, you're not just enrolling in a course—you're joining a community dedicated to your success and personal growth. Join us and take the first step toward a brighter future."
-            
-        },
-        "contact": {
-            "title": "Contact Information",
-            "hours": {
-                "monday": "Monday: 8am-4pm",
-                "tuesday": "Tuesday: 8am-4pm",
-                "wednesday": "Wednesday: 8am-4pm",
-                "thursday": "Thursday: 8am-4pm",
-                "friday": "Friday: 8am-3pm",
-                "weekend": "Saturday & Sunday: Closed"
-            }
-        }
-    },
-    
-    "studentPortal": {
-        "title": "Student Portal",
-        "subtitle": "Access your courses and learning materials",
-        "login": {
-            "title": "Login to Your Account",
-            "username": "Student ID / Username",
-            "password": "Password",
-            "button": "Login",
-            "forgot": "Forgot Password?"
-        },
-        "features": {
-            "title": "Student Portal Features",
-            "access": "Access your course materials and assignments",
-            "submit": "Submit assignments and check your grades",
-            "communicate": "Communicate with instructors and classmates",
-            "track": "Track your academic progress",
-            "resources": "Access additional learning resources"
-        },
-        "help": {
-            "title": "Need Help?",
-            "message": "If you're having trouble accessing your account, please contact our support team:"
-        }
-    },
-    "notFound": {
-        "code": "404",
-        "title": "Page Not Found",
-        "message": "The page you are looking for doesn't exist or has been moved.",
-        "home": "Return to Homepage",
-        "courses": "Browse Courses"
-    },    "courses": {
-        "title": "Our Courses",
-        "subtitle": "Empowering you with knowledge and skills for a brighter future",
-        "intro": "At Susca Watts Academy, we offer a wide range of accredited and non-credit bearing courses tailored to meet your educational and professional needs.",
-        "quote": "Education is the most powerful weapon which you can use to change the world.",
-        "quoteAuthor": "Nelson Mandela",
-        "categories": "Course Categories",
-        "allCourses": "All Courses",
         "notice": "We are busy updating our course information. Please contact our main office for the updated prices and courses available.",
-        "additionalInfo": "For more information about our courses, scheduling, and pricing, please contact our office.",
-        "needMoreInfo": "Need More Information?",
-        "inquiries": "For registration details, course schedules, or any other inquiries about our programs, please don't hesitate to contact us.",
-        "duration": "Duration",
-        "qualification": "Qualification",
-        "certification": "Certification",
-        "venue": "Venue",
-        "learnMore": "Learn More",
-        "showDetails": "Show Details",
-        "hideDetails": "Hide Details",
-        "subcategories": "Subcategories",
-        "courseData": {
-            "accredited": {
-                "title": "ACCREDITED COURSES",
-                "description": "Our accredited courses are recognized by various Sector Education and Training Authorities (SETAs) and international certification bodies, ensuring that our students receive quality education and industry-recognized qualifications.",
-                "subCategories": {
-                    "hairdressing": {
-                        "name": "QCTO Occupational Certificate in Hairdressing",
-                        "duration": "Varies",
-                        "qualification": "Occupational Certificate",
-                        "certification": "QCTO",
-                        "venue": "Middelburg",
-                        "details": "Include: Ladies Caucasian, Ladies Afro Hair, Gents Hair. Shampoo, condition and treat scalp and hair, Style hair, cut hair, Colour hair, Chemical Services"
-                    },
-                    "healthSkincare2Year": {
-                        "name": "2-Year: SAAHSP Health and Skincare Diploma and ITEC International Diplomas",
-                        "duration": "2 Years",
-                        "qualification": "Diploma",
-                        "certification": "SAAHSP & ITEC",
-                        "venue": "Middelburg",
-                        "details": "Include: ITEC Beauty Specialist Diploma, ITEC Holistic Massage Diploma, ITEC Facial Electrical Diploma, ITEC Body Treatment Diploma"
-                    },
-                    "beautyHolistic1Year": {
-                        "name": "1 Year: ITEC Qualification in Beauty Specialist & Holistic Massage Diploma",
-                        "duration": "1 Year",
-                        "qualification": "Diploma",
-                        "certification": "ITEC",
-                        "venue": "Middelburg",
-                        "details": "Include: Facials, Waxing, Make-up, Manicure and Pedicure, Professional Conduct and Business awareness, Anatomy and Physiology, Holistic Massage"
-                    },
-                    "beautySpecialist": {
-                        "name": "ITEC Beauty Specialist Diploma",
-                        "duration": "Varies",
-                        "qualification": "Diploma",
-                        "certification": "ITEC",
-                        "venue": "Middelburg",
-                        "details": "Include: Facials, Waxing, Make-up, Manicure and Pedicure, Business awareness, Anatomy and Physiology"
-                    },
-                    "holisticMassage": {
-                        "name": "ITEC Holistic Massage Diploma",
-                        "duration": "Varies",
-                        "qualification": "Diploma",
-                        "certification": "ITEC",
-                        "venue": "Middelburg",
-                        "details": "Include: Holistic Massage, Business awareness, Anatomy and Physiology"
-                    },
-                    "facilitator": {
-                        "name": "ETDP SETA Facilitator Training",
-                        "duration": "Varies",
-                        "qualification": "Certificate",
-                        "certification": "ETDP SETA",
-                        "venue": "Online",
-                        "details": "Online – minimum of 5 students per class"
-                    },
-                    "assessor": {
-                        "name": "ETDP SETA Assessor Training",
-                        "duration": "Varies",
-                        "qualification": "Certificate",
-                        "certification": "ETDP SETA",
-                        "venue": "Online",
-                        "details": "Online – minimum of 5 students per class"
-                    },
-                    "moderator": {
-                        "name": "ETDP SETA Moderator Training",
-                        "duration": "Varies",
-                        "qualification": "Certificate",
-                        "certification": "ETDP SETA",
-                        "venue": "Online",
-                        "details": "Online – minimum of 5 students per class"
-                    }
-                }
-            },
-            "nonCreditBearing": {
-                "title": "NON-CREDIT BEARING COURSES",
-                "description": "Our non-credit bearing courses are designed to provide practical skills and knowledge in specific areas without the formal certification requirements. These courses are perfect for those looking to enhance their skills or explore new interests.",
-                "subCategories": {
-                    "nailTech": {
-                        "name": "Susca Watts Academy Nail Technology",
-                        "duration": "Varies",
-                        "venue": "Middelburg",
-                        "details": "Include: Manicure and Pedicure, Gel Enhancement, Acrylic Enhancement"
-                    },
-                    "facials": {
-                        "name": "Susca Watts Academy Basic Facials",
-                        "duration": "Varies",
-                        "venue": "Middelburg",
-                        "details": "Include: Facial treatments"
-                    },
-                    "makeup": {
-                        "name": "Susca Watts Academy Professional Make-up",
-                        "duration": "Varies",
-                        "venue": "Middelburg",
-                        "details": "Include: Day, Night, Special Occasion, Bridal and Corrective"
-                    },
-                    "waxing": {
-                        "name": "Susca Watts Academy Waxing",
-                        "duration": "Varies",
-                        "venue": "Middelburg",
-                        "details": "Include: Hot wax, Cold wax"
-                    },
-                    "bodyMassage": {
-                        "name": "Susca Watts Academy Body Massage",
-                        "duration": "Varies",
-                        "venue": "Middelburg",
-                        "details": "Include: Full Body Massage Treatments"
-                    },
-                    "manicurePedicure": {
-                        "name": "Susca Watts Academy Manicure and Pedicure",
-                        "duration": "Varies",
-                        "venue": "Middelburg",
-                        "details": "Include: Manicure and Pedicure"
-                    },
-                    "stageMakeup": {
-                        "name": "Susca Watts Academy Stage Make-up",
-                        "duration": "Varies",
-                        "venue": "Middelburg",
-                        "details": "Include: Ageing, makeup styles, glamour and fancy makeup, wounds, cuts and bruises"
-                    },
-                    "bridalMakeup": {
-                        "name": "Susca Watts Academy Bridal Make-up",
-                        "duration": "Varies",
-                        "venue": "Middelburg",
-                        "details": "Include: Advanced Bridal Make-up Techniques"
-                    },
-                    "eyelashExt": {
-                        "name": "Susca Watts Academy Eyelash Extensions",
-                        "duration": "Varies",
-                        "venue": "Middelburg",
-                        "details": "Include: Eyelash Enhancement Services"
-                    },
-                    "indianHeadMassage": {
-                        "name": "Susca Watts Academy Indian Head Massage",
-                        "duration": "Varies",
-                        "venue": "Middelburg",
-                        "details": "Include: Indian Head Massage Treatments"
-                    },
-                    "fibroblast": {
-                        "name": "Susca Watts Academy Fibroblast",
-                        "duration": "Varies",
-                        "venue": "Middelburg",
-                        "details": "Include: Fibroblast Treatments"
-                    },
-                    "microneedling": {
-                        "name": "Susca Watts Academy Microneedling",
-                        "duration": "Varies",
-                        "venue": "Middelburg",
-                        "details": "Include: Microneedling Treatments"
-                    },
-                    "dermaplaning": {
-                        "name": "Susca Watts Academy Dermaplaning",
-                        "duration": "Varies",
-                        "venue": "Middelburg",
-                        "details": "Include: Dermaplaning Treatments"
-                    },
-                    "onlineBusiness": {
-                        "name": "Online Business Courses",
-                        "duration": "Self-paced",
-                        "venue": "Online",
-                        "details": "More than 240+ Courses to choose from. Registration is Free"
-                    }
-                }
-            }
-        }
-    },"accreditation": {
-        "title": "Accreditation",
-        "subtitle": "Our institution is recognized by various national and international accrediting bodies",
+        "programsDescription": "Susca Watts Academy provides quality education through various academic programs designed to help students excel in their studies and careers.",
+        "programsTitle": "Our Academic Programs",
+        "skillsDev": {
+            "description": "Courses aimed at developing specific skills needed for academic success",
+            "title": "Skills Development"
+        },
+        "subtitle": "Empowering through education",
+        "title": "Academics",
+        "whyChoose": "Why Choose Our Academic Programs"
+    },
+    "accreditation": {
+        "accreditationNumber": "Accreditation Number",
+        "accreditationNumbers": {
+            "etdpSETA": "ETDPS1332",
+            "itec": "X1508",
+            "qcto": "QCTOSDP01190814-1785",
+            "servicesSETA": "2458"
+        },
+        "accreditations": "Accreditations",
+        "institutions": {
+            "etdpSETA": "ETDP SETA",
+            "itec": "ITEC",
+            "qcto": "QCTO",
+            "saahsp": "SAAHSP",
+            "servicesSETA": "Services SETA",
+            "speccon": "Speccon Holdings"
+        },
         "international": "Internationally Recognized Awarding Bodies",
         "national": "Nationally Recognized Awarding Bodies",
-        "accreditations": "Accreditations",
+        "skillsPartner": "Skills Partner",
+        "subtitle": "Our institution is recognized by various national and international accrediting bodies",
+        "title": "Accreditation",
         "whatIs": "What Does Accreditation Mean?",
         "whatIsText": "Accreditation ensures that our courses meet rigorous standards of quality and are recognized by employers and educational institutions. When you complete a course with us, you can be confident that your qualification will be respected and valued in the industry.",
         "whyChoose": "Why Choose an Accredited Institution?",
-        "whyChooseText": "Studying at an accredited institution like Susca Watts Academy gives you the assurance that your education meets established standards and that your qualification will be recognized by employers. Our accreditations with various national and international bodies allow us to offer certifications and qualifications that enhance your career prospects.",
-        "accreditationNumber": "Accreditation Number",
-        "institutions": {
-            "itec": "ITEC",
-            "saahsp": "SAAHSP",
-            "servicesSETA": "Services SETA",
-            "speccon": "Speccon Holdings",
-            "etdpSETA": "ETDP SETA",
-            "qcto": "QCTO"
-        },
-        "accreditationNumbers": {
-            "itec": "X1508",
-            "servicesSETA": "2458",
-            "etdpSETA": "ETDPS1332",
-            "qcto": "QCTOSDP01190814-1785"
-        }
+        "whyChooseText": "Studying at an accredited institution like Susca Watts Academy gives you the assurance that your education meets established standards and that your qualification will be recognized by employers. Our accreditations with various national and international bodies allow us to offer certifications and qualifications that enhance your career prospects."
     },
-    "rpl": {
-        "title": "Recognition of Prior Learning (RPL)",
-        "subtitle": "Get formal recognition for your skills and experience",
-        "whatIs": "What is RPL?",
-        "whatIsText": "The Recognition of Prior Learning (RPL) is a process which allows a person who has formal, non-formal and informal learning to be measured, mediated for recognition across different contexts and certified against the requirements for credit, access, inclusion or advancement in the formal education and training system or workplace.",
-        "aim": "What is the Aim of RPL?",
-        "benefits": "Benefits of RPL to Candidates and Companies",
-        "process": "RPL Process",
-        "procedures": "RPL Procedures",
-        "needMore": "Need More Information About RPL?",
-        "contactUs": "Contact Us"
+    "business": {
+        "benefits": {
+            "consultants": "Experienced business consultants with industry knowledge",
+            "costEffective": "Cost-effective services with measurable results",
+            "solutions": "Customized solutions tailored to your business needs",
+            "support": "Ongoing support throughout implementation",
+            "trackRecord": "Proven track record of business growth and improvement"
+        },
+        "consulting": {
+            "description": "Expert guidance to help your business overcome challenges and achieve growth",
+            "title": "Business Consulting"
+        },
+        "contactMsg": "Contact our office to learn more about our business services and how we can help your organization.",
+        "getInfo": "Get More Information",
+        "notice": "We are busy updating our business services information. Please contact our main office for the updated prices and services available.",
+        "optimization": {
+            "description": "Streamline your operations and improve efficiency with our expert analysis",
+            "title": "Business Process Optimization"
+        },
+        "servicesDescription": "Susca Watts Academy provides comprehensive business support services designed to help businesses grow and succeed in today's competitive market.",
+        "servicesTitle": "Our Business Services",
+        "subtitle": "Professional development and support for businesses",
+        "title": "Business Services",
+        "training": {
+            "description": "Customized training programs for staff development and skills enhancement",
+            "title": "Corporate Training"
+        },
+        "whyPartner": "Why Partner With Us"
+    },
+    "common": {
+        "address": "Address",
+        "backToHome": "Return to Homepage",
+        "contact": "Contact",
+        "contactUs": "Contact Us",
+        "hours": "Hours",
+        "learnMore": "Learn More",
+        "login": "Login"
+    },
+    "consulting": {
+        "appointmentText": "Fill out the form below to schedule a consultation with our experts who can guide you through the process of starting your own training center.",
+        "appointmentTitle": "Request an Appointment",
+        "faq": "General Questions Our Clients Ask Us",
+        "faqItems": {
+            "accreditationCost": {
+                "answer1": "It all depends on what you have in place, the more you have in place the better. In other words, the more you do, the cheaper it is.",
+                "answer2": "If you do this by yourself, it could also cost you your time (could take months/years, depending on what you have/don't have & how many mistakes you make).",
+                "answer3": "Before asking for assistance you must know what qualifications you want to offer. Always keep in mind, To be an accredited provider is expensive - quality learning, high standards, and subject matter experts, assessors and moderators have never been cheap.",
+                "question": "How expensive is Accreditation?"
+            },
+            "accreditationTime": {
+                "answer": "Once we submit your application and supporting documents it can take anything from 3 months to 2 years. The timeline depends on whether your application and supporting documents meet the requirements, and WHERE you submit your application to.",
+                "question": "How long does it take to obtain Accreditation?"
+            }
+        },
+        "form": {
+            "accreditationAssistance": "Accreditation Assistance",
+            "businessSetup": "Business Setup Strategy",
+            "curriculumDevelopment": "Curriculum Development",
+            "email": "Email Address",
+            "fullName": "Full Name",
+            "interest": "Area of Interest",
+            "message": "Your Message",
+            "other": "Other",
+            "phone": "Phone Number",
+            "qualityManagement": "Quality Management Systems",
+            "selectOption": "Select an option",
+            "submit": "Submit Request"
+        },
+        "intro": "If You Want to Start Your Own Training Center",
+        "introText": "Susca Watts Academy has 30 years of extensive experience in the training and education industry with courses accredited from 1996 till today, from local accreditations like Services Seta to international accreditations like Cidesco.",
+        "readyNext": "Ready to take the next step?",
+        "requestAppointment": "Request an Appointment",
+        "serviceItems": {
+            "accreditation": {
+                "description": "We guide you through the process of obtaining accreditation from various national and international bodies, helping you prepare the necessary documentation and meet all requirements.",
+                "title": "Accreditation Assistance"
+            },
+            "business": {
+                "description": "We provide strategic advice on setting up your training center, including facility requirements, staffing needs, and operational best practices.",
+                "title": "Business Setup Strategy"
+            },
+            "curriculum": {
+                "description": "Our team of education experts can help you develop comprehensive curricula that align with industry standards and accreditation requirements.",
+                "title": "Curriculum Development"
+            },
+            "quality": {
+                "description": "Establish robust quality management systems that will help you maintain high standards and meet ongoing accreditation requirements.",
+                "title": "Quality Management Systems"
+            }
+        },
+        "services": "Our Consulting Services",
+        "subtitle": "Expert guidance for starting and growing your training center",
+        "title": "Consulting Services"
+    },
+    "contact": {
+        "contactDetails": "Contact Details",
+        "contactInfo": "Contact Information",
+        "findUs": "Find Us",
+        "form": {
+            "email": "Email",
+            "emailInvalid": "Please enter a valid email address",
+            "emailPlaceholder": "Enter your email address",
+            "emailRequired": "Email is required",
+            "errorMessage": "Please fix the errors in the form before submitting.",
+            "message": "Message",
+            "messageMinLength": "Message must be at least 10 characters",
+            "messagePlaceholder": "Enter your message here...",
+            "messageRequired": "Message is required",
+            "name": "Name",
+            "nameMinLength": "Name must be at least 2 characters",
+            "namePlaceholder": "Enter your full name",
+            "nameRequired": "Name is required",
+            "subject": "Subject",
+            "subjectPlaceholder": "What is your message about?",
+            "subjectRequired": "Subject is required",
+            "submit": "Send Message",
+            "successMessage": "Your message has been sent successfully. We will contact you soon!"
+        },
+        "formIntro": "Have a question or inquiry? Fill out the form below and we'll get back to you as soon as possible.",
+        "sendMessage": "Send us a Message",
+        "socialIntro": "Follow us on social media to stay updated with our latest news, events, and educational resources.",
+        "socialMedia": "Connect with Us on Social Media",
+        "subtitle": "Get in touch with us through various channels",
+        "title": "Contact Us"
+    },
+    "courses": {
+        "additionalInfo": "For more information about our courses, scheduling, and pricing, please contact our office.",
+        "allCourses": "All Courses",
+        "categories": "Course Categories",
+        "certification": "Certification",
+        "courseData": {
+            "accredited": {
+                "description": "Our accredited courses are recognized by various Sector Education and Training Authorities (SETAs) and international certification bodies, ensuring that our students receive quality education and industry-recognized qualifications.",
+                "subCategories": {
+                    "assessor": {
+                        "certification": "ETDP SETA",
+                        "details": "Online – minimum of 5 students per class",
+                        "duration": "Varies",
+                        "name": "ETDP SETA Assessor Training",
+                        "qualification": "Certificate",
+                        "venue": "Online"
+                    },
+                    "beautyHolistic1Year": {
+                        "certification": "ITEC",
+                        "details": "Include: Facials, Waxing, Make-up, Manicure and Pedicure, Professional Conduct and Business awareness, Anatomy and Physiology, Holistic Massage",
+                        "duration": "1 Year",
+                        "name": "1 Year: ITEC Qualification in Beauty Specialist & Holistic Massage Diploma",
+                        "qualification": "Diploma",
+                        "venue": [
+                            "Groenkol Middelburg Campus",
+                            "Emalahleni Modelpark Campus",
+                            "Ellisras ( Lephalale ) Campus"
+                        ]
+                    },
+                    "beautySpecialist": {
+                        "certification": "ITEC",
+                        "details": "Include: Facials, Waxing, Make-up, Manicure and Pedicure, Business awareness, Anatomy and Physiology",
+                        "duration": "Varies",
+                        "name": "ITEC Beauty Specialist Diploma",
+                        "qualification": "Diploma",
+                        "venue": "Middelburg"
+                    },
+                    "facilitator": {
+                        "certification": "ETDP SETA",
+                        "details": "Online – minimum of 5 students per class",
+                        "duration": "Varies",
+                        "name": "ETDP SETA Facilitator Training",
+                        "qualification": "Certificate",
+                        "venue": "Online"
+                    },
+                    "hairdressing": {
+                        "certification": "QCTO",
+                        "details": "Include: Ladies Caucasian, Ladies Afro Hair, Gents Hair. Shampoo, condition and treat scalp and hair, Style hair, cut hair, Colour hair, Chemical Services",
+                        "duration": "Varies",
+                        "name": "QCTO Occupational Certificate in Hairdressing",
+                        "qualification": "Occupational Certificate",
+                        "venue": [
+                            "Groenkol Middelburg Campus",
+                            "Middelburg Central Campus",
+                            "Emalahleni Central Campus",
+                            "Emalahleni Modelpark Campus",
+                            "Pretoria"
+                        ]
+                    },
+                    "healthSkincare2Year": {
+                        "certification": "SAAHSP & ITEC",
+                        "details": "Include: ITEC Beauty Specialist Diploma, ITEC Holistic Massage Diploma, ITEC Facial Electrical Diploma, ITEC Body Treatment Diploma",
+                        "duration": "2 Years",
+                        "name": "2-Year: SAAHSP Health and Skincare Diploma and ITEC International Diplomas",
+                        "qualification": "Diploma",
+                        "venue": [
+                            "Groenkol Middelburg Campus",
+                            "Emalahleni Modelpark Campus",
+                            "Ellisras ( Lephalale ) Campus"
+                        ]
+                    },
+                    "holisticMassage": {
+                        "certification": "ITEC",
+                        "details": "Include: Holistic Massage, Business awareness, Anatomy and Physiology",
+                        "duration": "Varies",
+                        "name": "ITEC Holistic Massage Diploma",
+                        "qualification": "Diploma",
+                        "venue": "Middelburg"
+                    },
+                    "moderator": {
+                        "certification": "ETDP SETA",
+                        "details": "Online – minimum of 5 students per class",
+                        "duration": "Varies",
+                        "name": "ETDP SETA Moderator Training",
+                        "qualification": "Certificate",
+                        "venue": "Online"
+                    }
+                },
+                "title": "ACCREDITED COURSES"
+            },
+            "nonCreditBearing": {
+                "description": "Our non-credit bearing courses are designed to provide practical skills and knowledge in specific areas without the formal certification requirements. These courses are perfect for those looking to enhance their skills or explore new interests.",
+                "subCategories": {
+                    "bodyMassage": {
+                        "details": "Include: Full Body Massage Treatments",
+                        "duration": "Varies",
+                        "name": "Susca Watts Academy Body Massage",
+                        "venue": [
+                            "Groenkol Middelburg Campus",
+                            "Emalahleni Modelpark Campus",
+                            "Ellisras ( Lephalale ) Campus"
+                        ]
+                    },
+                    "bridalMakeup": {
+                        "details": "Include: Advanced Bridal Make-up Techniques",
+                        "duration": "Varies",
+                        "name": "Susca Watts Academy Bridal Make-up",
+                        "venue": [
+                            "Groenkol Middelburg Campus",
+                            "Emalahleni Modelpark Campus",
+                            "Ellisras ( Lephalale ) Campus"
+                        ]
+                    },
+                    "dermaplaning": {
+                        "details": "Include: Dermaplaning Treatments",
+                        "duration": "Varies",
+                        "name": "Susca Watts Academy Dermaplaning",
+                        "venue": [
+                            "Groenkol Middelburg Campus",
+                            "Emalahleni Modelpark Campus",
+                            "Ellisras ( Lephalale ) Campus"
+                        ]
+                    },
+                    "eyelashExt": {
+                        "details": "Include: Eyelash Enhancement Services",
+                        "duration": "Varies",
+                        "name": "Susca Watts Academy Eyelash Extensions",
+                        "venue": [
+                            "Groenkol Middelburg Campus",
+                            "Emalahleni Modelpark Campus",
+                            "Ellisras ( Lephalale ) Campus"
+                        ]
+                    },
+                    "facials": {
+                        "details": "Include: Facial treatments",
+                        "duration": "Varies",
+                        "name": "Susca Watts Academy Basic Facials",
+                        "venue": [
+                            "Groenkol Middelburg Campus",
+                            "Emalahleni Modelpark Campus",
+                            "Ellisras ( Lephalale ) Campus"
+                        ]
+                    },
+                    "fibroblast": {
+                        "details": "Include: Fibroblast Treatments",
+                        "duration": "Varies",
+                        "name": "Susca Watts Academy Fibroblast",
+                        "venue": [
+                            "Groenkol Middelburg Campus",
+                            "Emalahleni Modelpark Campus",
+                            "Ellisras ( Lephalale ) Campus"
+                        ]
+                    },
+                    "indianHeadMassage": {
+                        "details": "Include: Indian Head Massage Treatments",
+                        "duration": "Varies",
+                        "name": "Susca Watts Academy Indian Head Massage",
+                        "venue": [
+                            "Groenkol Middelburg Campus",
+                            "Emalahleni Modelpark Campus",
+                            "Ellisras ( Lephalale ) Campus"
+                        ]
+                    },
+                    "makeup": {
+                        "details": "Include: Day, Night, Special Occasion, Bridal and Corrective",
+                        "duration": "Varies",
+                        "name": "Susca Watts Academy Professional Make-up",
+                        "venue": [
+                            "Groenkol Middelburg Campus",
+                            "Emalahleni Modelpark Campus",
+                            "Ellisras ( Lephalale ) Campus"
+                        ]
+                    },
+                    "manicurePedicure": {
+                        "details": "Include: Manicure and Pedicure",
+                        "duration": "Varies",
+                        "name": "Susca Watts Academy Manicure and Pedicure",
+                        "venue": [
+                            "Groenkol Middelburg Campus",
+                            "Emalahleni Modelpark Campus",
+                            "Ellisras ( Lephalale ) Campus"
+                        ]
+                    },
+                    "microneedling": {
+                        "details": "Include: Microneedling Treatments",
+                        "duration": "Varies",
+                        "name": "Susca Watts Academy Microneedling",
+                        "venue": [
+                            "Groenkol Middelburg Campus",
+                            "Emalahleni Modelpark Campus",
+                            "Ellisras ( Lephalale ) Campus"
+                        ]
+                    },
+                    "nailTech": {
+                        "details": "Include: Manicure and Pedicure, Gel Enhancement, Acrylic Enhancement",
+                        "duration": "Varies",
+                        "name": "Susca Watts Academy Nail Technology",
+                        "venue": [
+                            "Groenkol Middelburg Campus",
+                            "Emalahleni Modelpark Campus",
+                            "Ellisras ( Lephalale ) Campus"
+                        ]
+                    },
+                    "onlineBusiness": {
+                        "details": "More than 240+ Courses to choose from. Registration is Free",
+                        "duration": "Self-paced",
+                        "name": "Online Business Courses",
+                        "venue": [
+                            "Groenkol Middelburg Campus",
+                            "Emalahleni Modelpark Campus",
+                            "Ellisras ( Lephalale ) Campus"
+                        ]
+                    },
+                    "stageMakeup": {
+                        "details": "Include: Ageing, makeup styles, glamour and fancy makeup, wounds, cuts and bruises",
+                        "duration": "Varies",
+                        "name": "Susca Watts Academy Stage Make-up",
+                        "venue": [
+                            "Groenkol Middelburg Campus",
+                            "Emalahleni Modelpark Campus",
+                            "Ellisras ( Lephalale ) Campus"
+                        ]
+                    },
+                    "waxing": {
+                        "details": "Include: Hot wax, Cold wax",
+                        "duration": "Varies",
+                        "name": "Susca Watts Academy Waxing",
+                        "venue": [
+                            "Groenkol Middelburg Campus",
+                            "Emalahleni Modelpark Campus",
+                            "Ellisras ( Lephalale ) Campus"
+                        ]
+                    }
+                },
+                "title": "NON-CREDIT BEARING SKILLS COURSES"
+            }
+        },
+        "duration": "Duration",
+        "hideDetails": "Hide Details",
+        "inquiries": "For registration details, course schedules, or any other inquiries about our programs, please don't hesitate to contact us.",
+        "intro": "At Susca Watts Academy, we offer a wide range of accredited and non-credit bearing courses tailored to meet your educational and professional needs.",
+        "learnMore": "Learn More",
+        "needMoreInfo": "Need More Information?",
+        "notice": "We are busy updating our course information. Please contact our main office for the updated prices and courses available.",
+        "qualification": "Qualification",
+        "quote": "Education is the most powerful weapon which you can use to change the world.",
+        "quoteAuthor": "Nelson Mandela",
+        "showDetails": "Show Details",
+        "subcategories": "Subcategories",
+        "subtitle": "Empowering you with knowledge and skills for a brighter future",
+        "title": "Our Courses",
+        "venue": "Venue"
     },
     "finance": {
-        "title": "Payment Options",
-        "subtitle": "Flexible payment solutions to make education accessible",
+        "applyHere": "Apply Here",
+        "benefits": "Benefits:",
+        "contactFinance": "Contact Our Finance Team",
+        "importantNote": "NB: No student will be allowed to register unless written proof from the financial/relevant institution that the study loan has been approved is presented before the day of registration.",
+        "needHelp": "Need Help with Financial Options?",
         "notice": "For information regarding the costs of any specific course, please refer to the course details found under \"Courses\".",
         "option1": "Option 1: Normal Settlement",
         "option1Text": "Pay the full annual tuition fee and other fees with registration required.",
@@ -495,81 +448,205 @@
         "option3Text": "Private financing allows education to become affordable to anyone. Money shouldn't be what's holding you back from making your dreams come true.",
         "option4": "Option 4: Bank Study Loan",
         "option4Text": "Apply for a bank study loan in your private name with the following banks:",
-        "benefits": "Benefits:",
-        "applyHere": "Apply Here",
-        "importantNote": "NB: No student will be allowed to register unless written proof from the financial/relevant institution that the study loan has been approved is presented before the day of registration.",
-        "needHelp": "Need Help with Financial Options?",
-        "contactFinance": "Contact Our Finance Team"
-    },    "consulting": {
-        "title": "Consulting Services",
-        "subtitle": "Expert guidance for starting and growing your training center",
-        "intro": "If You Want to Start Your Own Training Center",
-        "introText": "Susca Watts Academy has 30 years of extensive experience in the training and education industry with courses accredited from 1996 till today, from local accreditations like Services Seta to international accreditations like Cidesco.",
-        "readyNext": "Ready to take the next step?",
-        "requestAppointment": "Request an Appointment",
-        "faq": "General Questions Our Clients Ask Us",
-        "services": "Our Consulting Services",
-        "appointmentTitle": "Request an Appointment",
-        "appointmentText": "Fill out the form below to schedule a consultation with our experts who can guide you through the process of starting your own training center.",
-        "faqItems": {
-            "accreditationTime": {
-                "question": "How long does it take to obtain Accreditation?",
-                "answer": "Once we submit your application and supporting documents it can take anything from 3 months to 2 years. The timeline depends on whether your application and supporting documents meet the requirements, and WHERE you submit your application to."
-            },
-            "accreditationCost": {
-                "question": "How expensive is Accreditation?",
-                "answer1": "It all depends on what you have in place, the more you have in place the better. In other words, the more you do, the cheaper it is.",
-                "answer2": "If you do this by yourself, it could also cost you your time (could take months/years, depending on what you have/don't have & how many mistakes you make).",
-                "answer3": "Before asking for assistance you must know what qualifications you want to offer. Always keep in mind, To be an accredited provider is expensive - quality learning, high standards, and subject matter experts, assessors and moderators have never been cheap."
-            }
-        },
-        "serviceItems": {
-            "accreditation": {
-                "title": "Accreditation Assistance",
-                "description": "We guide you through the process of obtaining accreditation from various national and international bodies, helping you prepare the necessary documentation and meet all requirements."
-            },
-            "curriculum": {
-                "title": "Curriculum Development",
-                "description": "Our team of education experts can help you develop comprehensive curricula that align with industry standards and accreditation requirements."
-            },
-            "business": {
-                "title": "Business Setup Strategy",
-                "description": "We provide strategic advice on setting up your training center, including facility requirements, staffing needs, and operational best practices."
-            },
-            "quality": {
-                "title": "Quality Management Systems",
-                "description": "Establish robust quality management systems that will help you maintain high standards and meet ongoing accreditation requirements."
-            }
-        },
-        "form": {
-            "fullName": "Full Name",
-            "email": "Email Address",
-            "phone": "Phone Number",
-            "interest": "Area of Interest",
-            "selectOption": "Select an option",
-            "accreditationAssistance": "Accreditation Assistance",
-            "curriculumDevelopment": "Curriculum Development",
-            "businessSetup": "Business Setup Strategy",
-            "qualityManagement": "Quality Management Systems",
-            "other": "Other",
-            "message": "Your Message",
-            "submit": "Submit Request"
-        }
+        "subtitle": "Flexible payment solutions to make education accessible",
+        "title": "Payment Options"
+    },
+    "footer": {
+        "academicCalendar": "Academic Calendar",
+        "academicSupport": "Academic Support",
+        "academy": "SuscaWatts Academy",
+        "accreditationText": "Fully Accredited Institution",
+        "address": "Address",
+        "businessSolutions": "Business Solutions",
+        "careerGuidance": "Career Guidance",
+        "contact": "Contact",
+        "cookiePolicy": "Cookie Policy",
+        "copyright": "© 2025 Susca Watts Academy. All rights reserved.",
+        "emailPlaceholder": "Enter your email address",
+        "friday": "Fri 8am-3pm",
+        "hours": "Hours",
+        "learnWithUs": "Learn With Us",
+        "monday": "Mon 8am-4pm",
+        "newsletterConsent": "I agree to receive emails from SuscaWatts Academy",
+        "newsletterDesc": "Stay updated with our latest courses, events and educational resources.",
+        "newsletterTitle": "Subscribe to Our Newsletter",
+        "ourServices": "Our Services",
+        "placementServices": "Placement Services",
+        "privacyPolicy": "Privacy Policy",
+        "resources": "Resources",
+        "scrollTop": "Scroll to top",
+        "sendInquiry": "Send Inquiry",
+        "sitemap": "Sitemap",
+        "socialTitle": "Get Social with Us",
+        "studentHandbook": "Student Handbook",
+        "subscribe": "Subscribe",
+        "tagline": "Your one-stop solution for all your educational needs.",
+        "termsService": "Terms of Service",
+        "thursday": "Thu 8am-4pm",
+        "tuesday": "Tue 8am-4pm",
+        "wednesday": "Wed 8am-4pm"
     },
     "freelance": {
-        "title": "Become a Freelance Marketer",
-        "subtitle": "Work your own hours and decide your own income with Susca Watts Academy",
+        "apply": "Apply to Become a Freelance Marketer",
+        "applyNow": "Apply Now",
+        "applyText": "Fill out the form below to apply for our freelance marketing opportunity. Our team will review your application and contact you within 7 days.",
+        "benefits": "Benefits of Being a Freelance Marketer",
         "beYourBoss": "Be Your Own Boss",
+        "howWorks": "How Does It Work?",
         "introText": "Work your own hours and decide your own income. As a freelancer for Susca Watts Academy, you are your own boss. We will give you the opportunity to market our courses that have been helping people for years already, and in exchange, you will receive your share for every student you send our way that signs up.",
         "readyStart": "Ready to start earning on your terms?",
-        "applyNow": "Apply Now",
-        "howWorks": "How Does It Work?",
         "step1": "Sign Up",
         "step2": "Acceptance",
         "step3": "Make Things Happen",
-        "benefits": "Benefits of Being a Freelance Marketer",
-        "apply": "Apply to Become a Freelance Marketer",
-        "applyText": "Fill out the form below to apply for our freelance marketing opportunity. Our team will review your application and contact you within 7 days.",
-        "submit": "Submit Application"
+        "submit": "Submit Application",
+        "subtitle": "Work your own hours and decide your own income with Susca Watts Academy",
+        "title": "Become a Freelance Marketer"
+    },
+    "homepage": {
+        "quote": "Make the most of what you have and keep your standards high. Never settle for anything less than you deserve or are capable of achieving.",
+        "subtitle": "Your one-stop solution for all your educational needs.",
+        "title": "Susca Watts Academy",
+        "welcome": "Welcome to the Home Page"
+    },
+    "info": {
+        "contact": {
+            "hours": {
+                "friday": "Friday: 8am-3pm",
+                "monday": "Monday: 8am-4pm",
+                "thursday": "Thursday: 8am-4pm",
+                "tuesday": "Tuesday: 8am-4pm",
+                "wednesday": "Wednesday: 8am-4pm",
+                "weekend": "Saturday & Sunday: Closed"
+            },
+            "title": "Contact Information"
+        },
+        "faculties": {
+            "business": {
+                "description": "Providing qualifications in business management and entrepreneurship.",
+                "title": "Faculty of Online Business Training (SpecCon)"
+            },
+            "description": "Each course is designed to provide practical and theoretical knowledge, ensuring our students are well-prepared for the workforce.",
+            "etdp": {
+                "description": "Education, Training and Development Practices courses.",
+                "title": "Faculty of ETDP - Facilitator, Assessor and Moderator (SpecCon)"
+            },
+            "hair": {
+                "description": "Professional hair styling and management training.",
+                "title": "Faculty of Hairdressing"
+            },
+            "healthSkincare": {
+                "description": "Offering comprehensive training in health and skincare services.",
+                "title": "Faculty of Health and Skincare"
+            },
+            "title": "Our Faculties"
+        },
+        "getInTouch": {
+            "description": "Have questions or want to learn more about our programs? Our team is ready to assist you with any inquiries or support you may need.",
+            "title": "Get in Touch"
+        },
+        "history": {
+            "description": "In 1994, SUSCA WATTS ACADEMY opened its doors as a national training institute with 7 learners. The company literally doubled its amount of learners every year and within 3 years we became Internationally accredited.",
+            "timeline": {
+                "1994": "SUSCA WATTS ACADEMY opened its doors as a national training institute with 7 learners.",
+                "1996": "We became established in the industry with growing enrollment.",
+                "2000": "Mrs. Susca Le Roux received the Award for South Africa 2000 extraordinary women in business as published by Nedbank."
+            },
+            "title": "Our History"
+        },
+        "mission": {
+            "description": "At Susca Watts Academy, we strive to accommodate students according to their needs and go the extra mile to assist. We have been in the industry since 1996, and it is our passion to create meaningful futures for our students. We motivate our students to always strive for success!",
+            "title": "Our Mission"
+        },
+        "subtitle": "Learn more about who we are and what we do",
+        "title": "About Susca Watts Academy",
+        "values": {
+            "item1": {
+                "description": "We put our students' needs first, providing personalized support and guidance.",
+                "title": "Student-Centered"
+            },
+            "item2": {
+                "description": "We maintain world-class standards in our teaching methods and course offerings.",
+                "title": "Excellence"
+            },
+            "item3": {
+                "description": "We focus on providing skills that lead to meaningful employment and entrepreneurial opportunities.",
+                "title": "Empowerment"
+            }
+        },
+        "welcome": "Welcome to Susca Watts Academy, a premier training institution with its head office and main campus located in the heart of Middelburg, Mpumalanga, South Africa. We pride ourselves on offering a diverse range of courses designed to equip students with the skills and knowledge needed for successful careers across various industries.",
+        "whyStudy": {
+            "conclusion": "By choosing Susca Watts Academy, you're not just enrolling in a course—you're joining a community dedicated to your success and personal growth. Join us and take the first step toward a brighter future.",
+            "reasons": {
+                "access": "Nationwide Access: Our Online Business courses enable you to study from anywhere in South Africa, ensuring that quality education is accessible to all.",
+                "accreditation": "Accredited Excellence: At Susca Watts Academy, we uphold world-class standards in our training methods. Our accreditation with respected regulatory bodies such as QCTO, SERVICES SETA, ETDP SETA, SAAHSP, and ITEC guarantees that you're receiving top-quality education.",
+                "courses": "Diverse Course Options: We offer a variety of accredited courses that can be pursued on-site or through distance learning. Our student advisers are here to help you select the courses that will shape the future you desire.",
+                "enrollment": "Flexible Enrollment: We believe in providing opportunities for everyone to pursue their dreams, regardless of their previous qualifications.",
+                "environment": "Motivational Environment: We motivate our students to strive for success and reach their full potential. Our supportive learning environment fosters growth and achievement.",
+                "experience": "Industry Experience: Since 1994, our passion has been creating meaningful futures for our students. Our extensive industry experience ensures that you receive relevant and practical training.",
+                "fees": "All-Inclusive Fees: Our course fees cover all your study materials, so there are no hidden costs. We also offer flexible payment options to make education more affordable.",
+                "support": "Personalized Support: We go the extra mile to accommodate students according to their needs. Our dedicated staff is committed to helping you achieve your goals and succeed in your studies.",
+                "workStudy": "Work and Study Balance: We offer flexible schedules that allow you to work and earn an income while studying. Depending on the course, you may only need to attend class one day a week."
+            },
+            "title": "Why Study With Us?"
+        }
+    },
+    "navbar": {
+        "academic": "Academic",
+        "academics": "Academics",
+        "accreditation": "Accreditation",
+        "business": "Business",
+        "consulting": "Consulting",
+        "contact": "Contact Us",
+        "courses": "Courses",
+        "education": "Education",
+        "finance": "Finance",
+        "freelance": "Freelance",
+        "home": "Home",
+        "info": "Info",
+        "rpl": "RPL",
+        "services": "Services",
+        "studentPortal": "Student Portal"
+    },
+    "notFound": {
+        "code": "404",
+        "courses": "Browse Courses",
+        "home": "Return to Homepage",
+        "message": "The page you are looking for doesn't exist or has been moved.",
+        "title": "Page Not Found"
+    },
+    "rpl": {
+        "aim": "What is the Aim of RPL?",
+        "benefits": "Benefits of RPL to Candidates and Companies",
+        "contactUs": "Contact Us",
+        "needMore": "Need More Information About RPL?",
+        "procedures": "RPL Procedures",
+        "process": "RPL Process",
+        "subtitle": "Get formal recognition for your skills and experience",
+        "title": "Recognition of Prior Learning (RPL)",
+        "whatIs": "What is RPL?",
+        "whatIsText": "The Recognition of Prior Learning (RPL) is a process which allows a person who has formal, non-formal and informal learning to be measured, mediated for recognition across different contexts and certified against the requirements for credit, access, inclusion or advancement in the formal education and training system or workplace."
+    },
+    "studentPortal": {
+        "features": {
+            "access": "Access your course materials and assignments",
+            "communicate": "Communicate with instructors and classmates",
+            "resources": "Access additional learning resources",
+            "submit": "Submit assignments and check your grades",
+            "title": "Student Portal Features",
+            "track": "Track your academic progress"
+        },
+        "help": {
+            "message": "If you're having trouble accessing your account, please contact our support team:",
+            "title": "Need Help?"
+        },
+        "login": {
+            "button": "Login",
+            "forgot": "Forgot Password?",
+            "password": "Password",
+            "title": "Login to Your Account",
+            "username": "Student ID / Username"
+        },
+        "subtitle": "Access your courses and learning materials",
+        "title": "Student Portal"
     }
 }

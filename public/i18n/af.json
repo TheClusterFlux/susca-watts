@@ -1,484 +1,444 @@
-{    "common": {
-        "contactUs": "Kontak Ons",
-        "learnMore": "Meer Inligting",
-        "login": "Teken In",
-        "backToHome": "Terug na Tuisblad",
-        "hours": "Ure",
-        "address": "Adres",
-        "contact": "Kontak"
-    },    "contact": {
-        "title": "Kontak Ons",
-        "subtitle": "Kry in aanraking met ons deur verskeie kanale",
-        "contactInfo": "Kontakinligting",
-        "contactDetails": "Kontakbesonderhede",
-        "findUs": "Vind Ons",
-        "socialMedia": "Koppel met Ons op Sosiale Media",
-        "socialIntro": "Volg ons op sosiale media om op hoogte te bly met ons nuutste nuus, gebeurtenisse en opvoedkundige hulpbronne.",
-        "sendMessage": "Stuur vir Ons 'n Boodskap",
-        "formIntro": "Het jy 'n vraag of navraag? Vul die vorm hieronder in en ons sal so gou moontlik terugkom na jou.",
-        "form": {
-            "name": "Naam",
-            "namePlaceholder": "Voer jou volle naam in",
-            "nameRequired": "Naam is verpligtend",
-            "nameMinLength": "Naam moet ten minste 2 karakters wees",
-            "email": "E-pos",
-            "emailPlaceholder": "Voer jou e-posadres in",
-            "emailRequired": "E-pos is verpligtend",
-            "emailInvalid": "Voer 'n geldige e-posadres in",
-            "subject": "Onderwerp",
-            "subjectPlaceholder": "Waaroor gaan jou boodskap?",
-            "subjectRequired": "Onderwerp is verpligtend",
-            "message": "Boodskap",
-            "messagePlaceholder": "Tik jou boodskap hier...",
-            "messageRequired": "Boodskap is verpligtend",
-            "messageMinLength": "Boodskap moet ten minste 10 karakters wees",
-            "submit": "Stuur Boodskap",
-            "successMessage": "Jou boodskap is suksesvol gestuur. Ons sal binnekort met jou in verbinding tree!",
-            "errorMessage": "Korrigeer asseblief die foute in die vorm voor indiening."
-        }
-    },
-    "homepage": {
-        "welcome": "Welkom by die Tuisblad",
-        "title": "Susca Watts Akademie",
-        "subtitle": "Jou eenstopoplossing vir al jou opvoedkundige behoeftes.",
-        "quote": "Maak die meeste van wat jy het en hou jou standaarde hoog. Moenie vir enigiets minder as wat jy verdien of in staat is om te bereik nie."
-    },    "navbar": {
-        "home": "Tuis",
-        "academics": "Akademies",
-        "academic": "Akademies",
-        "business": "Besigheid",
-        "courses": "Kursusse",
-        "education": "Opleiding",
-        "services": "Dienste",
-        "accreditation": "Akkreditasie",
-        "rpl": "RPL",
-        "finance": "Finansies",
-        "consulting": "Konsultasie",
-        "freelance": "Vryskut",
-        "info": "Inligting",
-        "contact": "Kontak Ons",
-        "studentPortal": "Studenteportaal"
-    },    "footer": {
-        "address": "Adres",
-        "contact": "Kontak",
-        "hours": "Ure",
-        "copyright": "© 2025 Susca Watts Akademie. Alle regte voorbehou.",
-        "monday": "Maan 8vm-4nm",
-        "tuesday": "Dins 8vm-4nm",
-        "wednesday": "Woens 8vm-4nm",
-        "thursday": "Don 8vm-4nm",
-        "friday": "Vry 8vm-3nm",
-        "academy": "SuscaWatts Akademie",
-        "tagline": "Jou eenstopoplossing vir al jou opvoedkundige behoeftes.",
-        "accreditationText": "Volledig Geakkrediteerde Instelling",
-        "learnWithUs": "Leer Saam Met Ons",
-        "ourServices": "Ons Dienste",
-        "resources": "Hulpbronne",
-        "studentHandbook": "Studentehandboek",
-        "academicCalendar": "Akademiese Kalender",
-        "placementServices": "Plasing Dienste",
-        "careerGuidance": "Loopbaanleiding",
-        "newsletterTitle": "Skryf in vir ons Nuusbrief",
-        "newsletterDesc": "Bly op hoogte met ons nuutste kursusse, gebeure en opvoedkundige hulpbronne.",
-        "emailPlaceholder": "Voer jou e-posadres in",
-        "subscribe": "Skryf In",
-        "newsletterConsent": "Ek stem in om e-posse van SuscaWatts Akademie te ontvang",
-        "socialTitle": "Koppel Sosiaal Met Ons",
-        "termsService": "Diensvoorwaardes",
-        "privacyPolicy": "Privaatheidsbeleid", 
-        "cookiePolicy": "Koekiebeleid",
-        "sitemap": "Webwerf Kaart",
-        "scrollTop": "Skuif na bo",
-        "businessSolutions": "Besigheidsoplossings",
-        "academicSupport": "Akademiese Ondersteuning",
-        "sendInquiry": "Stuur Navraag"
-    },
+{
     "academics": {
-        "title": "Akademies",
-        "subtitle": "Bemagtiging deur onderwys",
-        "notice": "Ons is besig om ons kursusinligting by te werk. Kontak asseblief ons hoofkantoor vir die opgedateerde pryse en beskikbare kursusse.",
-        "programsTitle": "Ons Akademiese Programme",
-        "programsDescription": "Susca Watts Akademie bied kwaliteit onderwys deur verskeie akademiese programme wat ontwerp is om studente te help om in hul studies en loopbane uit te blink.",
         "academicSupport": {
-            "title": "Akademiese Ondersteuning",
-            "description": "Addisionele tutoriaal en ondersteuning vir studente wat met spesifieke vakke sukkel"
+            "description": "Addisionele tutoriaal en ondersteuning vir studente wat met spesifieke vakke sukkel",
+            "title": "Akademiese Ondersteuning"
         },
-        "examPrep": {
-            "title": "Eksamenvoorbereiding",
-            "description": "Gefokusde kursusse om studente te help om voor te berei vir belangrike eksamens"
-        },
-        "skillsDev": {
-            "title": "Vaardigheidsontwikkeling",
-            "description": "Kursusse wat daarop gemik is om spesifieke vaardighede te ontwikkel wat nodig is vir akademiese sukses"
-        },
-        "whyChoose": "Waarom Kies Ons Akademiese Programme",
         "benefits": {
-            "teachers": "Ervare en gekwalifiseerde onderwysers",
             "classSize": "Klein klasgroottes vir persoonlike aandag",
-            "trackRecord": "Bewese rekord van studentesukses",
             "methods": "Moderne onderrigmetodologieë",
-            "scheduling": "Buigsame skedule-opsies"
+            "scheduling": "Buigsame skedule-opsies",
+            "teachers": "Ervare en gekwalifiseerde onderwysers",
+            "trackRecord": "Bewese rekord van studentesukses"
+        },
+        "contactMsg": "Kontak ons kantoor vir meer inligting oor ons akademiese programme en huidige pryse.",
+        "examPrep": {
+            "description": "Gefokusde kursusse om studente te help om voor te berei vir belangrike eksamens",
+            "title": "Eksamenvoorbereiding"
         },
         "getInfo": "Kry Meer Inligting",
-        "contactMsg": "Kontak ons kantoor vir meer inligting oor ons akademiese programme en huidige pryse."
-    },
-    "business": {
-        "title": "Besigheidsdienste",
-        "subtitle": "Professionele ontwikkeling en ondersteuning vir besighede",
-        "notice": "Ons is besig om ons besigheidsdienste-inligting by te werk. Kontak asseblief ons hoofkantoor vir die opgedateerde pryse en beskikbare dienste.",
-        "servicesTitle": "Ons Besigheidsdienste",
-        "servicesDescription": "Susca Watts Akademie bied omvattende besigheidsondersteuningsdienste wat ontwerp is om besighede te help groei en te slaag in vandag se mededingende mark.",
-        "consulting": {
-            "title": "Besigheidskonsultasie",
-            "description": "Deskundige leiding om jou besigheid te help om uitdagings te oorkom en groei te bereik"
-        },
-        "training": {
-            "title": "Korporatiewe Opleiding",
-            "description": "Aangepaste opleidingsprogramme vir personeel-ontwikkeling en vaardighede-verbetering"
-        },
-        "optimization": {
-            "title": "Besigheidsproses Optimalisering",
-            "description": "Optimaliseer jou bedrywighede en verbeter doeltreffendheid met ons kundige analise"
-        },
-        "whyPartner": "Waarom Vennootskap Met Ons",
-        "benefits": {
-            "consultants": "Ervare besigheidskonsultante met industrie-kennis",
-            "solutions": "Aangepaste oplossings wat op jou besigheidsbehoeftes toegespits is",
-            "trackRecord": "Bewese rekord van besigheidsgroei en verbetering",
-            "costEffective": "Koste-effektiewe dienste met meetbare resultate",
-            "support": "Deurlopende ondersteuning tydens implementering"
-        },
-        "getInfo": "Kry Meer Inligting",
-        "contactMsg": "Kontak ons kantoor vir meer inligting oor ons besigheidsdienste en hoe ons jou organisasie kan help."
-    },    "info": {
-        "title": "Oor Susca Watts Akademie",
-        "subtitle": "Leer meer oor wie ons is en wat ons doen",
-        "welcome": "Welkom by Susca Watts Akademie, 'n premier opleidingsinstelling met sy hoofkantoor en hoofkampus geleë in die hart van Middelburg, Mpumalanga, Suid-Afrika. Ons is trots daarop om 'n diverse reeks kursusse aan te bied wat ontwerp is om studente toe te rus met die vaardighede en kennis wat nodig is vir suksesvolle loopbane in verskeie bedrywe.",
-        "getInTouch": {
-            "title": "Kom in Kontak",
-            "description": "Het jy vrae of wil jy meer leer oor ons programme? Ons span is gereed om jou te help met enige navrae of ondersteuning wat jy mag nodig hê."
-        },
-        "whyStudy": {
-            "title": "Waarom Studeer By Ons?",
-            "reasons": {
-                "accreditation": "Geakkrediteerde Uitnemendheid: By Susca Watts Akademie handhaaf ons wêreldklas-standaarde in ons opleidingsmetodes. Ons akkreditasie by gerespekteerde regulerende liggame soos QCTO, SERVICES SETA, ETDP SETA, SAAHSP, en ITEC waarborg dat jy 'n hoë-gehalte onderrig ontvang.",
-                "courses": "Diverse Kursusopsies: Ons bied 'n verskeidenheid geakkrediteerde kursusse wat ter plaatse of deur afstandsonderrig gevolg kan word. Ons studenteadviseurs is hier om jou te help om die kursusse te kies wat die toekoms sal vorm wat jy begeer.",
-                "enrollment": "Buigsame Inskrywing: Ons glo daaraan om geleenthede te bied vir almal om hul drome na te streef, ongeag hul vorige kwalifikasies.",
-                "workStudy": "Werk en Studie Balans: Ons bied buigsame skedules wat jou in staat stel om te werk en 'n inkomste te verdien terwyl jy studeer. Afhangende van die kursus, moet jy dalk net een dag per week klas bywoon.",
-                "access": "Landwye Toegang: Ons Aanlyn Besigheidskursusse stel jou in staat om vanaf enige plek in Suid-Afrika te studeer, om te verseker dat kwaliteit onderwys toeganklik is vir almal.",
-                "fees": "Alles-insluitende Fooie: Ons kursusgelde dek al jou studiemateriaal, dus is daar geen versteekte koste nie. Ons bied ook buigsame betaalopsies om onderwys meer bekostigbaar te maak.",
-                "support": "Persoonlike Ondersteuning: Ons gaan die ekstra myl om studente volgens hul behoeftes te akkommodeer. Ons toegewyde personeel is daartoe verbind om jou te help om jou doelwitte te bereik en in jou studies te slaag.",
-                "experience": "Industrie-ervaring: Sedert 1994 is ons passie om betekenisvolle toekoms vir ons studente te skep. Ons uitgebreide industrie-ervaring verseker dat jy relevante en praktiese opleiding ontvang.",
-                "environment": "Motiverende Omgewing: Ons motiveer ons studente om na sukses te streef en hul volle potensiaal te bereik. Ons ondersteunende leeromgewing bevorder groei en prestasie."
-            },
-            "conclusion": "Deur Susca Watts Akademie te kies, skryf jy nie net in vir 'n kursus nie—jy sluit aan by 'n gemeenskap wat toegewy is aan jou sukses en persoonlike groei. Sluit by ons aan en neem die eerste stap na 'n blinker toekoms."
-        },
-        "mission": {
-            "title": "Ons Missie",
-            "description": "By Susca Watts Akademie is ons toegewyd om kwaliteit-onderwys en professionele ontwikkelingsdienste te bied wat individue en organisasies bemagtig om hul volle potensiaal te bereik. Ons glo daaraan om onderwys toeganklik, prakties en relevant tot vandag se uitdagings te maak."
-        },
-        "history": {
-            "title": "Ons Geskiedenis",
-            "description": "Gestig in Middelburg, Suid-Afrika, het Susca Watts Akademie gegroei van 'n klein tutordiens tot 'n omvattende opvoedkundige instelling wat 'n wye verskeidenheid akademiese kursusse en besigheidsdienste aanbied. Ons groei is gebou op ons verbintenis tot uitnemendheid en ons fokus op studentesukses."
-        },        "facilities": {
-            "title": "Ons Fasiliteite",
-            "description": "Ons kampus in Middelburg beskik oor moderne klaskamers, rekenaarlaboratoriums, en studieruimtes wat ontwerp is om 'n optimale leeromgewing te skep. Ons belê in tegnologie en hulpbronne om te verseker dat ons studente toegang het tot die gereedskap wat hulle nodig het om te slaag.",
-            "classrooms": {
-                "title": "Moderne Klaskamers",
-                "description": "Toegerus met die nuutste onderrigtegnologie"
-            },
-            "labs": {
-                "title": "Rekenaarlaboratoriums",
-                "description": "Moderne rekenaars met industrie-standaard sagteware"
-            },
-            "studyAreas": {
-                "title": "Studiegebiede",
-                "description": "Gemaklike ruimtes vir individuele en groepstudie"
-            }
-        },
-        "faculties": {
-            "title": "Ons Fakulteite",
-            "description": "Elke kursus is ontwerp om praktiese en teoretiese kennis te verskaf, om te verseker dat ons studente goed voorbereid is vir die werksmag.",
-            "healthSkincare": {
-                "title": "Fakulteit van Gesondheid en Velversorging",
-                "description": "Bied omvattende opleiding in gesondheid en velsorgdienste."
-            },
-            "hair": {
-                "title": "Fakulteit van Haarkappery",
-                "description": "Professionele haarstilering en bestuursopleiding."
-            },
-            "etdp": {
-                "title": "Fakulteit van ETDP - Fasiliteerder, Assessor en Moderator (SpecCon)",
-                "description": "Onderwys, Opleiding en Ontwikkelingspraktyke kursusse."
-            },
-            "business": {
-                "title": "Fakulteit van Aanlyn Besigheidsopleiding (SpecCon)",
-                "description": "Verskaf kwalifikasies in besigheidsbestuur en entrepreneurskap."
-            }
-        },
-        "contact": {
-            "title": "Kontakinligting",
-            "hours": {
-                "monday": "Maandag: 8vm-4nm",
-                "tuesday": "Dinsdag: 8vm-4nm",
-                "wednesday": "Woensdag: 8vm-4nm",
-                "thursday": "Donderdag: 8vm-4nm",
-                "friday": "Vrydag: 8vm-3nm",
-                "weekend": "Saterdag & Sondag: Gesluit"
-            }
-        }
-    },
-    "studentPortal": {
-        "title": "Studente Portaal",
-        "subtitle": "Toegang tot jou kursusse en leermateriaal",
-        "login": {
-            "title": "Meld aan by jou rekening",
-            "username": "Studente ID / Gebruikersnaam",
-            "password": "Wagwoord",
-            "button": "Meld Aan",
-            "forgot": "Wagwoord vergeet?"
-        },
-        "features": {
-            "title": "Studente Portaal Funksies",
-            "access": "Toegang tot jou kursusmateriaal en opdragte",
-            "submit": "Dien opdragte in en gaan jou punte na",
-            "communicate": "Kommunikeer met instrukteurs en klasmaats",
-            "track": "Volg jou akademiese vordering",
-            "resources": "Toegang tot addisionele leerhulpbronne"
-        },
-        "help": {
-            "title": "Hulp Nodig?",
-            "message": "As jy probleme ondervind om toegang tot jou rekening te verkry, kontak asseblief ons ondersteuningspan:"
-        }
-    },
-    "notFound": {
-        "code": "404",
-        "title": "Bladsy Nie Gevind",
-        "message": "Die bladsy waarna jy soek bestaan nie of is verskuif.",
-        "home": "Terug na Tuisblad",
-        "courses": "Blaai deur Kursusse"
-    },    "courses": {
-        "title": "Ons Kursusse",
-        "subtitle": "Bemagtig jou met kennis en vaardighede vir 'n blinker toekoms",
-        "intro": "By Susca Watts Akademie bied ons 'n wye verskeidenheid geakkrediteerde en nie-kredietdraende kursusse wat aangepas is om aan jou opvoedkundige en professionele behoeftes te voldoen.",
-        "quote": "Onderwys is die kragtigste wapen wat jy kan gebruik om die wêreld te verander.",
-        "quoteAuthor": "Nelson Mandela",
-        "categories": "Kursuskategorieë",
-        "allCourses": "Alle Kursusse",
         "notice": "Ons is besig om ons kursusinligting by te werk. Kontak asseblief ons hoofkantoor vir die opgedateerde pryse en beskikbare kursusse.",
-        "additionalInfo": "Vir meer inligting oor ons kursusse, skedules en pryse, kontak asseblief ons kantoor.",
-        "needMoreInfo": "Benodig Meer Inligting?",
-        "inquiries": "Vir registrasie-besonderhede, kursusskedules, of enige ander navrae oor ons programme, moet asseblief nie huiwer om ons te kontak nie.",
-        "duration": "Tydsduur",
-        "qualification": "Kwalifikasie",
-        "certification": "Sertifisering",
-        "venue": "Lokaal",
-        "learnMore": "Meer Inligting",
-        "showDetails": "Wys Besonderhede",        "hideDetails": "Versteek Besonderhede",
-        "subcategories": "Subkategorieë",
-        "courseData": {
-            "accredited": {
-                "title": "GEAKKREDITEERDE KURSUSSE",
-                "description": "Ons geakkrediteerde kursusse word erken deur verskeie Sektor Onderwys- en Opleidingsowerhede (SETAs) en internasionale sertifiseringsliggame, wat verseker dat ons studente gehalte onderwys en bedryf-erkende kwalifikasies ontvang.",
-                "subCategories": {
-                    "hairdressing": {
-                        "name": "QCTO Beroepsertifikaat in Haarkappery",
-                        "duration": "Varieer",
-                        "qualification": "Beroepsertifikaat",
-                        "certification": "QCTO",
-                        "venue": "Middelburg",
-                        "details": "Sluit in: Dames Kaukasiese Haar, Dames Afro-Haar, Manshaarkappery. Was, kondisioneer en behandel kopvel en hare, Styleer hare, Sny hare, Kleur hare, Chemiese Dienste"
-                    },
-                    "healthSkincare2Year": {
-                        "name": "2-Jaar: SAAHSP Gesondheid- en Velversorgingdiploma en ITEC Internasionale Diplomas",
-                        "duration": "2 Jaar",
-                        "qualification": "Diploma",
-                        "certification": "SAAHSP & ITEC",
-                        "venue": "Middelburg",
-                        "details": "Sluit in: ITEC Skoonheidspesialis Diploma, ITEC Holistiese Massering Diploma, ITEC Gesigelektriese Diploma, ITEC Liggaamsbehandeling Diploma"
-                    },
-                    "beautyHolistic1Year": {
-                        "name": "1 Jaar: ITEC Kwalifikasie in Skoonheidspesialis & Holistiese Massering Diploma",
-                        "duration": "1 Jaar",
-                        "qualification": "Diploma",
-                        "certification": "ITEC",
-                        "venue": "Middelburg",
-                        "details": "Sluit in: Gesigbehandelings, Ontharing, Grimering, Manikuur en Pedikuur, Professionele Gedrag en Besigheidsbewustheid, Anatomie en Fisiologie, Holistiese Massering"
-                    },
-                    "beautySpecialist": {
-                        "name": "ITEC Skoonheidspesialis Diploma",
-                        "duration": "Varieer",
-                        "qualification": "Diploma",
-                        "certification": "ITEC",
-                        "venue": "Middelburg",
-                        "details": "Sluit in: Gesigbehandelings, Ontharing, Grimering, Manikuur en Pedikuur, Besigheidsbewustheid, Anatomie en Fisiologie"
-                    },
-                    "holisticMassage": {
-                        "name": "ITEC Holistiese Massering Diploma",
-                        "duration": "Varieer",
-                        "qualification": "Diploma",
-                        "certification": "ITEC",
-                        "venue": "Middelburg",
-                        "details": "Sluit in: Holistiese Massering, Besigheidsbewustheid, Anatomie en Fisiologie"
-                    },
-                    "facilitator": {
-                        "name": "ETDP SETA Fasiliteerder Opleiding",
-                        "duration": "Varieer",
-                        "qualification": "Sertifikaat",
-                        "certification": "ETDP SETA",
-                        "venue": "Aanlyn",
-                        "details": "Aanlyn – minimum van 5 studente per klas"
-                    },
-                    "assessor": {
-                        "name": "ETDP SETA Assessor Opleiding",
-                        "duration": "Varieer",
-                        "qualification": "Sertifikaat",
-                        "certification": "ETDP SETA",
-                        "venue": "Aanlyn",
-                        "details": "Aanlyn – minimum van 5 studente per klas"
-                    },
-                    "moderator": {
-                        "name": "ETDP SETA Moderator Opleiding",
-                        "duration": "Varieer",
-                        "qualification": "Sertifikaat",
-                        "certification": "ETDP SETA",
-                        "venue": "Aanlyn",
-                        "details": "Aanlyn – minimum van 5 studente per klas"
-                    }
-                }
-            },
-            "nonCreditBearing": {
-                "title": "NIE-KREDIETDRAENDE KURSUSSE",
-                "description": "Ons nie-kredietdraende kursusse is ontwerp om praktiese vaardighede en kennis in spesifieke areas te verskaf sonder die formele sertifiseringsvereistes. Hierdie kursusse is perfek vir diegene wat hul vaardighede wil verbeter of nuwe belangstellings wil verken.",
-                "subCategories": {
-                    "nailTech": {
-                        "name": "Susca Watts Akademie Naeltegnologie",
-                        "duration": "Varieer",
-                        "venue": "Middelburg",
-                        "details": "Sluit in: Manikuur en Pedikuur, Jelversterking, Akrielversterking"
-                    },
-                    "facials": {
-                        "name": "Susca Watts Akademie Basiese Gesigbehandelings",
-                        "duration": "Varieer",
-                        "venue": "Middelburg",
-                        "details": "Sluit in: Gesigbehandelings"
-                    },
-                    "makeup": {
-                        "name": "Susca Watts Akademie Professionele Grimering",
-                        "duration": "Varieer",
-                        "venue": "Middelburg",
-                        "details": "Sluit in: Dag, Aand, Spesiale Geleentheid, Bruid en Korrektiewe"
-                    },
-                    "waxing": {
-                        "name": "Susca Watts Akademie Ontharing",
-                        "duration": "Varieer",
-                        "venue": "Middelburg",
-                        "details": "Sluit in: Warm was, Koue was"
-                    },
-                    "bodyMassage": {
-                        "name": "Susca Watts Akademie Liggaamsmassering",
-                        "duration": "Varieer",
-                        "venue": "Middelburg",
-                        "details": "Sluit in: Volliggaam Masseringsbehandelings"
-                    },
-                    "manicurePedicure": {
-                        "name": "Susca Watts Akademie Manikuur en Pedikuur",
-                        "duration": "Varieer",
-                        "venue": "Middelburg",
-                        "details": "Sluit in: Manikuur en Pedikuur"
-                    },
-                    "stageMakeup": {
-                        "name": "Susca Watts Akademie Verhoog Grimering",
-                        "duration": "Varieer",
-                        "venue": "Middelburg",
-                        "details": "Sluit in: Veroudering, grimering style, glamour en fantasie grimering, wonde, snye en kneusings"
-                    },
-                    "bridalMakeup": {
-                        "name": "Susca Watts Akademie Bruid Grimering",
-                        "duration": "Varieer",
-                        "venue": "Middelburg",
-                        "details": "Sluit in: Gevorderde Bruid Grimeringstegnieke"
-                    },
-                    "eyelashExt": {
-                        "name": "Susca Watts Akademie Oogwimper Verlengings",
-                        "duration": "Varieer",
-                        "venue": "Middelburg",
-                        "details": "Sluit in: Oogwimper Versterkingsdienste"
-                    },
-                    "indianHeadMassage": {
-                        "name": "Susca Watts Akademie Indiese Kopmassering",
-                        "duration": "Varieer",
-                        "venue": "Middelburg",
-                        "details": "Sluit in: Indiese Kopmasseringbehandelings"
-                    },
-                    "fibroblast": {
-                        "name": "Susca Watts Akademie Fibroblast",
-                        "duration": "Varieer",
-                        "venue": "Middelburg",
-                        "details": "Sluit in: Fibroblast Behandelings"
-                    },
-                    "microneedling": {
-                        "name": "Susca Watts Akademie Mikronaaldwerk",
-                        "duration": "Varieer",
-                        "venue": "Middelburg",
-                        "details": "Sluit in: Mikronaaldwerk Behandelings"
-                    },
-                    "dermaplaning": {
-                        "name": "Susca Watts Akademie Dermaplaning",
-                        "duration": "Varieer",
-                        "venue": "Middelburg",
-                        "details": "Sluit in: Dermaplaning Behandelings"
-                    },
-                    "onlineBusiness": {
-                        "name": "Aanlyn Besigheidskursusse",
-                        "duration": "Self-pas",
-                        "venue": "Aanlyn",
-                        "details": "Meer as 240+ Kursusse om van te kies. Registrasie is Gratis"
-                    }
-                }
-            }
-        }
-    },"accreditation": {
-        "title": "Akkreditasie",
-        "subtitle": "Ons instelling word erken deur verskeie nasionale en internasionale akkreditasieliggame",
+        "programsDescription": "Susca Watts Akademie bied kwaliteit onderwys deur verskeie akademiese programme wat ontwerp is om studente te help om in hul studies en loopbane uit te blink.",
+        "programsTitle": "Ons Akademiese Programme",
+        "skillsDev": {
+            "description": "Kursusse wat daarop gemik is om spesifieke vaardighede te ontwikkel wat nodig is vir akademiese sukses",
+            "title": "Vaardigheidsontwikkeling"
+        },
+        "subtitle": "Bemagtiging deur onderwys",
+        "title": "Akademies",
+        "whyChoose": "Waarom Kies Ons Akademiese Programme"
+    },
+    "accreditation": {
+        "accreditationNumber": "Akkreditasienommer",
+        "accreditationNumbers": {
+            "etdpSETA": "ETDPS1332",
+            "itec": "X1508",
+            "qcto": "QCTOSDP01190814-1785",
+            "servicesSETA": "2458"
+        },
+        "accreditations": "Akkreditasies",
+        "institutions": {
+            "etdpSETA": "ETDP SETA",
+            "itec": "ITEC",
+            "qcto": "QCTO",
+            "saahsp": "SAAHSP",
+            "servicesSETA": "Services SETA",
+            "speccon": "Speccon Holdings"
+        },
         "international": "Internasionaal Erkende Toekenningsliggame",
         "national": "Nasionaal Erkende Toekenningsliggame",
-        "accreditations": "Akkreditasies",
+        "skillsPartner": "Vaardigheidsvennoot",
+        "subtitle": "Ons instelling word erken deur verskeie nasionale en internasionale akkreditasieliggame",
+        "title": "Akkreditasie",
         "whatIs": "Wat Beteken Akkreditasie?",
         "whatIsText": "Akkreditasie verseker dat ons kursusse aan streng standaarde van gehalte voldoen en deur werkgewers en opvoedkundige instellings erken word. Wanneer jy 'n kursus by ons voltooi, kan jy seker wees dat jou kwalifikasie in die bedryf gerespekteer en gewaardeer sal word.",
         "whyChoose": "Waarom 'n Geakkrediteerde Instelling Kies?",
-        "whyChooseText": "Studie by 'n geakkrediteerde instelling soos Susca Watts Academy gee jou die versekering dat jou onderrig aan vasgestelde standaarde voldoen en dat jou kwalifikasie deur werkgewers erken sal word. Ons akkreditasies met verskeie nasionale en internasionale liggame stel ons in staat om sertifikate en kwalifikasies aan te bied wat jou loopbaanvooruitsigte verbeter.",
-        "accreditationNumber": "Akkreditasienommer",
-        "institutions": {
-            "itec": "ITEC",
-            "saahsp": "SAAHSP",
-            "servicesSETA": "Services SETA",
-            "speccon": "Speccon Holdings",
-            "etdpSETA": "ETDP SETA",
-            "qcto": "QCTO"
-        },
-        "accreditationNumbers": {
-            "itec": "X1508",
-            "servicesSETA": "2458",
-            "etdpSETA": "ETDPS1332",
-            "qcto": "QCTOSDP01190814-1785"
-        }
+        "whyChooseText": "Studie by 'n geakkrediteerde instelling soos Susca Watts Academy gee jou die versekering dat jou onderrig aan vasgestelde standaarde voldoen en dat jou kwalifikasie deur werkgewers erken sal word. Ons akkreditasies met verskeie nasionale en internasionale liggame stel ons in staat om sertifikate en kwalifikasies aan te bied wat jou loopbaanvooruitsigte verbeter."
     },
-    "rpl": {
-        "title": "Erkenning van Voorafgaande Leer (RPL)",
-        "subtitle": "Kry formele erkenning vir jou vaardighede en ervaring",
-        "whatIs": "Wat is RPL?",
-        "whatIsText": "Die Erkenning van Voorafgaande Leer (RPL) is 'n proses wat 'n persoon met formele, nie-formele en informele leer toelaat om gemeet en bemiddel te word vir erkenning in verskillende kontekste en gesertifiseer te word teen die vereistes vir krediet, toegang, insluiting of vordering in die formele onderwys- en opleidingstelsel of werkplek.",
-        "aim": "Wat is die Doel van RPL?",
-        "benefits": "Voordele van RPL vir Kandidate en Maatskappye",
-        "process": "RPL Proses",
-        "procedures": "RPL Prosedures",
-        "needMore": "Benodig Meer Inligting oor RPL?",
-        "contactUs": "Kontak Ons"
+    "business": {
+        "benefits": {
+            "consultants": "Ervare besigheidskonsultante met industrie-kennis",
+            "costEffective": "Koste-effektiewe dienste met meetbare resultate",
+            "solutions": "Aangepaste oplossings wat op jou besigheidsbehoeftes toegespits is",
+            "support": "Deurlopende ondersteuning tydens implementering",
+            "trackRecord": "Bewese rekord van besigheidsgroei en verbetering"
+        },
+        "consulting": {
+            "description": "Deskundige leiding om jou besigheid te help om uitdagings te oorkom en groei te bereik",
+            "title": "Besigheidskonsultasie"
+        },
+        "contactMsg": "Kontak ons kantoor vir meer inligting oor ons besigheidsdienste en hoe ons jou organisasie kan help.",
+        "getInfo": "Kry Meer Inligting",
+        "notice": "Ons is besig om ons besigheidsdienste-inligting by te werk. Kontak asseblief ons hoofkantoor vir die opgedateerde pryse en beskikbare dienste.",
+        "optimization": {
+            "description": "Optimaliseer jou bedrywighede en verbeter doeltreffendheid met ons kundige analise",
+            "title": "Besigheidsproses Optimalisering"
+        },
+        "servicesDescription": "Susca Watts Akademie bied omvattende besigheidsondersteuningsdienste wat ontwerp is om besighede te help groei en te slaag in vandag se mededingende mark.",
+        "servicesTitle": "Ons Besigheidsdienste",
+        "subtitle": "Professionele ontwikkeling en ondersteuning vir besighede",
+        "title": "Besigheidsdienste",
+        "training": {
+            "description": "Aangepaste opleidingsprogramme vir personeel-ontwikkeling en vaardighede-verbetering",
+            "title": "Korporatiewe Opleiding"
+        },
+        "whyPartner": "Waarom Vennootskap Met Ons"
+    },
+    "common": {
+        "address": "Adres",
+        "backToHome": "Terug na Tuisblad",
+        "contact": "Kontak",
+        "contactUs": "Kontak Ons",
+        "hours": "Ure",
+        "learnMore": "Meer Inligting",
+        "login": "Teken In"
+    },
+    "consulting": {
+        "appointmentText": "Vul die vorm hieronder in om 'n konsultasie te skeduleer met ons kundiges wat jou deur die proses kan lei om jou eie opleidingsentrum te begin.",
+        "appointmentTitle": "Versoek 'n Afspraak",
+        "faq": "Algemene Vrae Wat Ons Kliënte Ons Vra",
+        "faqItems": {
+            "accreditationCost": {
+                "answer1": "Dit hang alles af van wat jy in plek het, hoe meer jy in plek het, hoe beter. Met ander woorde, hoe meer jy doen, hoe goedkoper is dit.",
+                "answer2": "As jy dit op jou eie doen, kan dit jou ook jou tyd kos (kan maande/jare neem, afhangende van wat jy het/nie het nie & hoeveel foute jy maak).",
+                "answer3": "Voor jy om hulp vra, moet jy weet watter kwalifikasies jy wil aanbied. Hou altyd in gedagte, om 'n geakkrediteerde verskaffer te wees is duur - gehalte leer, hoë standaarde, en vakkundiges, assessore en moderators was nog nooit goedkoop nie.",
+                "question": "Hoe duur is Akkreditasie?"
+            },
+            "accreditationTime": {
+                "answer": "Sodra ons jou aansoek en ondersteunende dokumente indien, kan dit enigiets van 3 maande tot 2 jaar duur. Die tydlyn hang af van of jou aansoek en ondersteunende dokumente aan die vereistes voldoen, en WAAR jy jou aansoek indien.",
+                "question": "Hoe lank neem dit om Akkreditasie te verkry?"
+            }
+        },
+        "form": {
+            "accreditationAssistance": "Akkreditasie-hulp",
+            "businessSetup": "Besigheidsopstellingsstrategie",
+            "curriculumDevelopment": "Kurrikulum-ontwikkeling",
+            "email": "E-posadres",
+            "fullName": "Volle Naam",
+            "interest": "Area van Belangstelling",
+            "message": "Jou Boodskap",
+            "other": "Ander",
+            "phone": "Telefoonnommer",
+            "qualityManagement": "Kwaliteitsbestuurstelsels",
+            "selectOption": "Kies 'n opsie",
+            "submit": "Dien Versoek In"
+        },
+        "intro": "As Jy Jou Eie Opleidingsentrum Wil Begin",
+        "introText": "Susca Watts Academy het 30 jaar uitgebreide ervaring in die opleiding- en onderwysbedryf met kursusse wat vanaf 1996 tot vandag geakkrediteer is, van plaaslike akkreditasies soos Services Seta tot internasionale akkreditasies soos Cidesco.",
+        "readyNext": "Gereed om die volgende stap te neem?",
+        "requestAppointment": "Versoek 'n Afspraak",
+        "serviceItems": {
+            "accreditation": {
+                "description": "Ons lei jou deur die proses om akkreditasie van verskeie nasionale en internasionale liggame te verkry, en help jou om die nodige dokumentasie voor te berei en aan alle vereistes te voldoen.",
+                "title": "Akkreditasie-hulp"
+            },
+            "business": {
+                "description": "Ons bied strategiese advies oor die oprigting van jou opleidingsentrum, insluitend fasiliteitsvereistes, personeelbehoeftes en operasionele beste praktyke.",
+                "title": "Besigheidsopstellingsstrategie"
+            },
+            "curriculum": {
+                "description": "Ons span onderwysspesialiste kan jou help om omvattende kurrikulums te ontwikkel wat in lyn is met industriestandaarde en akkreditasievereistes.",
+                "title": "Kurrikulum-ontwikkeling"
+            },
+            "quality": {
+                "description": "Stel robuuste kwaliteitsbestuurstelsels op wat jou sal help om hoë standaarde te handhaaf en aan voortdurende akkreditasievereistes te voldoen.",
+                "title": "Kwaliteitsbestuurstelsels"
+            }
+        },
+        "services": "Ons Konsultasiedienste",
+        "subtitle": "Deskundige leiding vir die begin en groei van jou opleidingsentrum",
+        "title": "Konsultasiedienste"
+    },
+    "contact": {
+        "contactDetails": "Kontakbesonderhede",
+        "contactInfo": "Kontakinligting",
+        "findUs": "Vind Ons",
+        "form": {
+            "email": "E-pos",
+            "emailInvalid": "Voer 'n geldige e-posadres in",
+            "emailPlaceholder": "Voer jou e-posadres in",
+            "emailRequired": "E-pos is verpligtend",
+            "errorMessage": "Korrigeer asseblief die foute in die vorm voor indiening.",
+            "message": "Boodskap",
+            "messageMinLength": "Boodskap moet ten minste 10 karakters wees",
+            "messagePlaceholder": "Tik jou boodskap hier...",
+            "messageRequired": "Boodskap is verpligtend",
+            "name": "Naam",
+            "nameMinLength": "Naam moet ten minste 2 karakters wees",
+            "namePlaceholder": "Voer jou volle naam in",
+            "nameRequired": "Naam is verpligtend",
+            "subject": "Onderwerp",
+            "subjectPlaceholder": "Waaroor gaan jou boodskap?",
+            "subjectRequired": "Onderwerp is verpligtend",
+            "submit": "Stuur Boodskap",
+            "successMessage": "Jou boodskap is suksesvol gestuur. Ons sal binnekort met jou in verbinding tree!"
+        },
+        "formIntro": "Het jy 'n vraag of navraag? Vul die vorm hieronder in en ons sal so gou moontlik terugkom na jou.",
+        "sendMessage": "Stuur vir Ons 'n Boodskap",
+        "socialIntro": "Volg ons op sosiale media om op hoogte te bly met ons nuutste nuus, gebeurtenisse en opvoedkundige hulpbronne.",
+        "socialMedia": "Koppel met Ons op Sosiale Media",
+        "subtitle": "Kry in aanraking met ons deur verskeie kanale",
+        "title": "Kontak Ons"
+    },
+    "courses": {
+        "additionalInfo": "Vir meer inligting oor ons kursusse, skedules en pryse, kontak asseblief ons kantoor.",
+        "allCourses": "Alle Kursusse",
+        "categories": "Kursuskategorieë",
+        "certification": "Sertifisering",
+        "courseData": {
+            "accredited": {
+                "description": "Ons geakkrediteerde kursusse word erken deur verskeie Sektor Onderwys- en Opleidingsowerhede (SETAs) en internasionale sertifiseringsliggame, wat verseker dat ons studente gehalte onderwys en bedryf-erkende kwalifikasies ontvang.",
+                "subCategories": {
+                    "assessor": {
+                        "certification": "ETDP SETA",
+                        "details": "Aanlyn – minimum van 5 studente per klas",
+                        "duration": "Varieer",
+                        "name": "ETDP SETA Assessor Opleiding",
+                        "qualification": "Sertifikaat",
+                        "venue": "Aanlyn"
+                    },
+                    "beautyHolistic1Year": {
+                        "certification": "ITEC",
+                        "details": "Sluit in: Gesigbehandelings, Ontharing, Grimering, Manikuur en Pedikuur, Professionele Gedrag en Besigheidsbewustheid, Anatomie en Fisiologie, Holistiese Massering",
+                        "duration": "1 Jaar",
+                        "name": "1 Jaar: ITEC Kwalifikasie in Skoonheidspesialis & Holistiese Massering Diploma",
+                        "qualification": "Diploma",
+                        "venue": [
+                            "Groenkol Middelburg Kampus",
+                            "Emalahleni Modelpark Kampus",
+                            "Ellisras (Lephalale) Kampus"
+                        ]
+                    },
+                    "beautySpecialist": {
+                        "certification": "ITEC",
+                        "details": "Sluit in: Gesigbehandelings, Ontharing, Grimering, Manikuur en Pedikuur, Besigheidsbewustheid, Anatomie en Fisiologie",
+                        "duration": "Varieer",
+                        "name": "ITEC Skoonheidspesialis Diploma",
+                        "qualification": "Diploma",
+                        "venue": "Middelburg"
+                    },
+                    "facilitator": {
+                        "certification": "ETDP SETA",
+                        "details": "Aanlyn – minimum van 5 studente per klas",
+                        "duration": "Varieer",
+                        "name": "ETDP SETA Fasiliteerder Opleiding",
+                        "qualification": "Sertifikaat",
+                        "venue": "Aanlyn"
+                    },
+                    "hairdressing": {
+                        "certification": "QCTO",
+                        "details": "Sluit in: Dames Kaukasiese Haar, Dames Afro-Haar, Manshaarkappery. Was, kondisioneer en behandel kopvel en hare, Styleer hare, Sny hare, Kleur hare, Chemiese Dienste",
+                        "duration": "Varieer",
+                        "name": "QCTO Beroepsertifikaat in Haarkappery",
+                        "qualification": "Beroepsertifikaat",
+                        "venue": [
+                            "Groenkol Middelburg Kampus",
+                            "Middelburg Sentrale Kampus",
+                            "Emalahleni Sentrale Kampus",
+                            "Emalahleni Modelpark Kampus",
+                            "Pretoria"
+                        ]
+                    },
+                    "healthSkincare2Year": {
+                        "certification": "SAAHSP & ITEC",
+                        "details": "Sluit in: ITEC Skoonheidspesialis Diploma, ITEC Holistiese Massering Diploma, ITEC Gesigelektriese Diploma, ITEC Liggaamsbehandeling Diploma",
+                        "duration": "2 Jaar",
+                        "name": "2-Jaar: SAAHSP Gesondheid- en Velversorgingdiploma en ITEC Internasionale Diplomas",
+                        "qualification": "Diploma",
+                        "venue": [
+                            "Groenkol Middelburg Kampus",
+                            "Emalahleni Modelpark Kampus",
+                            "Ellisras (Lephalale) Kampus"
+                        ]
+                    },
+                    "holisticMassage": {
+                        "certification": "ITEC",
+                        "details": "Sluit in: Holistiese Massering, Besigheidsbewustheid, Anatomie en Fisiologie",
+                        "duration": "Varieer",
+                        "name": "ITEC Holistiese Massering Diploma",
+                        "qualification": "Diploma",
+                        "venue": "Middelburg"
+                    },
+                    "moderator": {
+                        "certification": "ETDP SETA",
+                        "details": "Aanlyn – minimum van 5 studente per klas",
+                        "duration": "Varieer",
+                        "name": "ETDP SETA Moderator Opleiding",
+                        "qualification": "Sertifikaat",
+                        "venue": "Aanlyn"
+                    }
+                },
+                "title": "GEAKKREDITEERDE KURSUSSE"
+            },
+            "nonCreditBearing": {
+                "description": "Ons nie-kredietdraende kursusse is ontwerp om praktiese vaardighede en kennis in spesifieke areas te verskaf sonder die formele sertifiseringsvereistes. Hierdie kursusse is perfek vir diegene wat hul vaardighede wil verbeter of nuwe belangstellings wil verken.",
+                "subCategories": {
+                    "bodyMassage": {
+                        "details": "Sluit in: Volliggaam Masseringsbehandelings",
+                        "duration": "Varieer",
+                        "name": "Susca Watts Akademie Liggaamsmassering",
+                        "venue": [
+                            "Groenkol Middelburg Kampus",
+                            "Emalahleni Modelpark Kampus",
+                            "Ellisras (Lephalale) Kampus"
+                        ]
+                    },
+                    "bridalMakeup": {
+                        "details": "Sluit in: Gevorderde Bruid Grimeringstegnieke",
+                        "duration": "Varieer",
+                        "name": "Susca Watts Akademie Bruid Grimering",
+                        "venue": [
+                            "Groenkol Middelburg Kampus",
+                            "Emalahleni Modelpark Kampus",
+                            "Ellisras (Lephalale) Kampus"
+                        ]
+                    },
+                    "dermaplaning": {
+                        "details": "Sluit in: Dermaplaning Behandelings",
+                        "duration": "Varieer",
+                        "name": "Susca Watts Akademie Dermaplaning",
+                        "venue": [
+                            "Groenkol Middelburg Kampus",
+                            "Emalahleni Modelpark Kampus",
+                            "Ellisras (Lephalale) Kampus"
+                        ]
+                    },
+                    "eyelashExt": {
+                        "details": "Sluit in: Oogwimper Versterkingsdienste",
+                        "duration": "Varieer",
+                        "name": "Susca Watts Akademie Oogwimper Verlengings",
+                        "venue": [
+                            "Groenkol Middelburg Kampus",
+                            "Emalahleni Modelpark Kampus",
+                            "Ellisras (Lephalale) Kampus"
+                        ]
+                    },
+                    "facials": {
+                        "details": "Sluit in: Gesigbehandelings",
+                        "duration": "Varieer",
+                        "name": "Susca Watts Akademie Basiese Gesigbehandelings",
+                        "venue": [
+                            "Groenkol Middelburg Kampus",
+                            "Emalahleni Modelpark Kampus",
+                            "Ellisras (Lephalale) Kampus"
+                        ]
+                    },
+                    "fibroblast": {
+                        "details": "Sluit in: Fibroblast Behandelings",
+                        "duration": "Varieer",
+                        "name": "Susca Watts Akademie Fibroblast",
+                        "venue": [
+                            "Groenkol Middelburg Kampus",
+                            "Emalahleni Modelpark Kampus",
+                            "Ellisras (Lephalale) Kampus"
+                        ]
+                    },
+                    "indianHeadMassage": {
+                        "details": "Sluit in: Indiese Kopmasseringbehandelings",
+                        "duration": "Varieer",
+                        "name": "Susca Watts Akademie Indiese Kopmassering",
+                        "venue": [
+                            "Groenkol Middelburg Kampus",
+                            "Emalahleni Modelpark Kampus",
+                            "Ellisras (Lephalale) Kampus"
+                        ]
+                    },
+                    "makeup": {
+                        "details": "Sluit in: Dag, Aand, Spesiale Geleentheid, Bruid en Korrektiewe",
+                        "duration": "Varieer",
+                        "name": "Susca Watts Akademie Professionele Grimering",
+                        "venue": [
+                            "Groenkol Middelburg Kampus",
+                            "Emalahleni Modelpark Kampus",
+                            "Ellisras (Lephalale) Kampus"
+                        ]
+                    },
+                    "manicurePedicure": {
+                        "details": "Sluit in: Manikuur en Pedikuur",
+                        "duration": "Varieer",
+                        "name": "Susca Watts Akademie Manikuur en Pedikuur",
+                        "venue": [
+                            "Groenkol Middelburg Kampus",
+                            "Emalahleni Modelpark Kampus",
+                            "Ellisras (Lephalale) Kampus"
+                        ]
+                    },
+                    "microneedling": {
+                        "details": "Sluit in: Mikronaaldwerk Behandelings",
+                        "duration": "Varieer",
+                        "name": "Susca Watts Akademie Mikronaaldwerk",
+                        "venue": [
+                            "Groenkol Middelburg Kampus",
+                            "Emalahleni Modelpark Kampus",
+                            "Ellisras (Lephalale) Kampus"
+                        ]
+                    },
+                    "nailTech": {
+                        "details": "Sluit in: Manikuur en Pedikuur, Jelversterking, Akrielversterking",
+                        "duration": "Varieer",
+                        "name": "Susca Watts Akademie Naeltegnologie",
+                        "venue": [
+                            "Groenkol Middelburg Kampus",
+                            "Emalahleni Modelpark Kampus",
+                            "Ellisras (Lephalale) Kampus"
+                        ]
+                    },
+                    "onlineBusiness": {
+                        "details": "Meer as 240+ Kursusse om van te kies. Registrasie is Gratis",
+                        "duration": "Self-pas",
+                        "name": "Aanlyn Besigheidskursusse",
+                        "venue": [
+                            "Groenkol Middelburg Kampus",
+                            "Emalahleni Modelpark Kampus",
+                            "Ellisras (Lephalale) Kampus"
+                        ]
+                    },
+                    "stageMakeup": {
+                        "details": "Sluit in: Veroudering, grimering style, glamour en fantasie grimering, wonde, snye en kneusings",
+                        "duration": "Varieer",
+                        "name": "Susca Watts Akademie Verhoog Grimering",
+                        "venue": [
+                            "Groenkol Middelburg Kampus",
+                            "Emalahleni Modelpark Kampus",
+                            "Ellisras (Lephalale) Kampus"
+                        ]
+                    },
+                    "waxing": {
+                        "details": "Sluit in: Warm was, Koue was",
+                        "duration": "Varieer",
+                        "name": "Susca Watts Akademie Ontharing",
+                        "venue": [
+                            "Groenkol Middelburg Kampus",
+                            "Emalahleni Modelpark Kampus",
+                            "Ellisras (Lephalale) Kampus"
+                        ]
+                    }
+                },
+                "title": "NIE-KREDIETDRAENDE VAARDIGHEIDSKURSUSSE"
+            }
+        },
+        "duration": "Tydsduur",
+        "hideDetails": "Versteek Besonderhede",
+        "inquiries": "Vir registrasie-besonderhede, kursusskedules, of enige ander navrae oor ons programme, moet asseblief nie huiwer om ons te kontak nie.",
+        "intro": "By Susca Watts Akademie bied ons 'n wye verskeidenheid geakkrediteerde en nie-kredietdraende kursusse wat aangepas is om aan jou opvoedkundige en professionele behoeftes te voldoen.",
+        "learnMore": "Meer Inligting",
+        "needMoreInfo": "Benodig Meer Inligting?",
+        "notice": "Ons is besig om ons kursusinligting by te werk. Kontak asseblief ons hoofkantoor vir die opgedateerde pryse en beskikbare kursusse.",
+        "qualification": "Kwalifikasie",
+        "quote": "Onderwys is die kragtigste wapen wat jy kan gebruik om die wêreld te verander.",
+        "quoteAuthor": "Nelson Mandela",
+        "showDetails": "Wys Besonderhede",
+        "subcategories": "Subkategorieë",
+        "subtitle": "Bemagtig jou met kennis en vaardighede vir 'n blinker toekoms",
+        "title": "Ons Kursusse",
+        "venue": "Lokaal"
     },
     "finance": {
-        "title": "Betalingsopsies",
-        "subtitle": "Buigsame betalingsoplossings om onderwys toeganklik te maak",
+        "applyHere": "Doen Hier Aansoek",
+        "benefits": "Voordele:",
+        "contactFinance": "Kontak Ons Finansiële Span",
+        "importantNote": "NB: Geen student sal toegelaat word om te registreer tensy skriftelike bewys van die finansiële/relevante instelling dat die studielening goedgekeur is, voor die dag van registrasie aangebied word nie.",
+        "needHelp": "Benodig Hulp met Finansiële Opsies?",
         "notice": "Vir inligting oor die koste van enige spesifieke kursus, raadpleeg asseblief die kursusbesonderhede onder \"Kursusse\".",
         "option1": "Opsie 1: Normale Vereffening",
         "option1Text": "Betaal die volle jaarlikse klasgeld en ander fooie met registrasie vereis.",
@@ -488,81 +448,202 @@
         "option3Text": "Privaat finansiering maak onderwys bekostigbaar vir almal. Geld behoort nie te wees wat jou terughou om jou drome te verwesenlik nie.",
         "option4": "Opsie 4: Bank Studielening",
         "option4Text": "Doen aansoek vir 'n bank studielening in jou privaat naam by die volgende banke:",
-        "benefits": "Voordele:",
-        "applyHere": "Doen Hier Aansoek",
-        "importantNote": "NB: Geen student sal toegelaat word om te registreer tensy skriftelike bewys van die finansiële/relevante instelling dat die studielening goedgekeur is, voor die dag van registrasie aangebied word nie.",
-        "needHelp": "Benodig Hulp met Finansiële Opsies?",
-        "contactFinance": "Kontak Ons Finansiële Span"
-    },    "consulting": {
-        "title": "Konsultasiedienste",
-        "subtitle": "Deskundige leiding vir die begin en groei van jou opleidingsentrum",
-        "intro": "As Jy Jou Eie Opleidingsentrum Wil Begin",
-        "introText": "Susca Watts Academy het 30 jaar uitgebreide ervaring in die opleiding- en onderwysbedryf met kursusse wat vanaf 1996 tot vandag geakkrediteer is, van plaaslike akkreditasies soos Services Seta tot internasionale akkreditasies soos Cidesco.",
-        "readyNext": "Gereed om die volgende stap te neem?",
-        "requestAppointment": "Versoek 'n Afspraak",
-        "faq": "Algemene Vrae Wat Ons Kliënte Ons Vra",
-        "services": "Ons Konsultasiedienste",
-        "appointmentTitle": "Versoek 'n Afspraak",
-        "appointmentText": "Vul die vorm hieronder in om 'n konsultasie te skeduleer met ons kundiges wat jou deur die proses kan lei om jou eie opleidingsentrum te begin.",
-        "faqItems": {
-            "accreditationTime": {
-                "question": "Hoe lank neem dit om Akkreditasie te verkry?",
-                "answer": "Sodra ons jou aansoek en ondersteunende dokumente indien, kan dit enigiets van 3 maande tot 2 jaar duur. Die tydlyn hang af van of jou aansoek en ondersteunende dokumente aan die vereistes voldoen, en WAAR jy jou aansoek indien."
-            },
-            "accreditationCost": {
-                "question": "Hoe duur is Akkreditasie?",
-                "answer1": "Dit hang alles af van wat jy in plek het, hoe meer jy in plek het, hoe beter. Met ander woorde, hoe meer jy doen, hoe goedkoper is dit.",
-                "answer2": "As jy dit op jou eie doen, kan dit jou ook jou tyd kos (kan maande/jare neem, afhangende van wat jy het/nie het nie & hoeveel foute jy maak).",
-                "answer3": "Voor jy om hulp vra, moet jy weet watter kwalifikasies jy wil aanbied. Hou altyd in gedagte, om 'n geakkrediteerde verskaffer te wees is duur - gehalte leer, hoë standaarde, en vakkundiges, assessore en moderators was nog nooit goedkoop nie."
-            }
-        },
-        "serviceItems": {
-            "accreditation": {
-                "title": "Akkreditasie-hulp",
-                "description": "Ons lei jou deur die proses om akkreditasie van verskeie nasionale en internasionale liggame te verkry, en help jou om die nodige dokumentasie voor te berei en aan alle vereistes te voldoen."
-            },
-            "curriculum": {
-                "title": "Kurrikulum-ontwikkeling",
-                "description": "Ons span onderwysspesialiste kan jou help om omvattende kurrikulums te ontwikkel wat in lyn is met industriestandaarde en akkreditasievereistes."
-            },
-            "business": {
-                "title": "Besigheidsopstellingsstrategie",
-                "description": "Ons bied strategiese advies oor die oprigting van jou opleidingsentrum, insluitend fasiliteitsvereistes, personeelbehoeftes en operasionele beste praktyke."
-            },
-            "quality": {
-                "title": "Kwaliteitsbestuurstelsels",
-                "description": "Stel robuuste kwaliteitsbestuurstelsels op wat jou sal help om hoë standaarde te handhaaf en aan voortdurende akkreditasievereistes te voldoen."
-            }
-        },
-        "form": {
-            "fullName": "Volle Naam",
-            "email": "E-posadres",
-            "phone": "Telefoonnommer",
-            "interest": "Area van Belangstelling",
-            "selectOption": "Kies 'n opsie",
-            "accreditationAssistance": "Akkreditasie-hulp",
-            "curriculumDevelopment": "Kurrikulum-ontwikkeling",
-            "businessSetup": "Besigheidsopstellingsstrategie",
-            "qualityManagement": "Kwaliteitsbestuurstelsels",
-            "other": "Ander",
-            "message": "Jou Boodskap",
-            "submit": "Dien Versoek In"
-        }
+        "subtitle": "Buigsame betalingsoplossings om onderwys toeganklik te maak",
+        "title": "Betalingsopsies"
+    },
+    "footer": {
+        "academicCalendar": "Akademiese Kalender",
+        "academicSupport": "Akademiese Ondersteuning",
+        "academy": "SuscaWatts Akademie",
+        "accreditationText": "Volledig Geakkrediteerde Instelling",
+        "address": "Adres",
+        "businessSolutions": "Besigheidsoplossings",
+        "careerGuidance": "Loopbaanleiding",
+        "contact": "Kontak",
+        "cookiePolicy": "Koekiebeleid",
+        "copyright": "© 2025 Susca Watts Akademie. Alle regte voorbehou.",
+        "emailPlaceholder": "Voer jou e-posadres in",
+        "friday": "Vry 8vm-3nm",
+        "hours": "Ure",
+        "learnWithUs": "Leer Saam Met Ons",
+        "monday": "Maan 8vm-4nm",
+        "newsletterConsent": "Ek stem in om e-posse van SuscaWatts Akademie te ontvang",
+        "newsletterDesc": "Bly op hoogte met ons nuutste kursusse, gebeure en opvoedkundige hulpbronne.",
+        "newsletterTitle": "Skryf in vir ons Nuusbrief",
+        "ourServices": "Ons Dienste",
+        "placementServices": "Plasing Dienste",
+        "privacyPolicy": "Privaatheidsbeleid",
+        "resources": "Hulpbronne",
+        "scrollTop": "Skuif na bo",
+        "sendInquiry": "Stuur Navraag",
+        "sitemap": "Webwerf Kaart",
+        "socialTitle": "Koppel Sosiaal Met Ons",
+        "studentHandbook": "Studentehandboek",
+        "subscribe": "Skryf In",
+        "tagline": "Jou eenstopoplossing vir al jou opvoedkundige behoeftes.",
+        "termsService": "Diensvoorwaardes",
+        "thursday": "Don 8vm-4nm",
+        "tuesday": "Dins 8vm-4nm",
+        "wednesday": "Woens 8vm-4nm"
     },
     "freelance": {
-        "title": "Word 'n Vryskut Bemarker",
-        "subtitle": "Werk jou eie ure en besluit jou eie inkomste met Susca Watts Academy",
+        "apply": "Doen Aansoek om 'n Vryskut Bemarker te Word",
+        "applyNow": "Doen Nou Aansoek",
+        "applyText": "Vul die vorm hieronder in om aansoek te doen vir ons vryskut bemarkingsgeleentheid. Ons span sal jou aansoek nagaan en binne 7 dae kontak.",
+        "benefits": "Voordele van 'n Vryskut Bemarker Wees",
         "beYourBoss": "Wees Jou Eie Baas",
+        "howWorks": "Hoe Werk Dit?",
         "introText": "Werk jou eie ure en besluit jou eie inkomste. As 'n vryskutwerker vir Susca Watts Academy is jy jou eie baas. Ons sal jou die geleentheid gee om ons kursusse te bemark wat reeds jare lank mense help, en in ruil daarvoor ontvang jy jou deel vir elke student wat jy ons kant toe stuur wat inskryf.",
         "readyStart": "Gereed om op jou terme te begin verdien?",
-        "applyNow": "Doen Nou Aansoek",
-        "howWorks": "Hoe Werk Dit?",
         "step1": "Skryf In",
         "step2": "Aanvaarding",
         "step3": "Laat Dinge Gebeur",
-        "benefits": "Voordele van 'n Vryskut Bemarker Wees",
-        "apply": "Doen Aansoek om 'n Vryskut Bemarker te Word",
-        "applyText": "Vul die vorm hieronder in om aansoek te doen vir ons vryskut bemarkingsgeleentheid. Ons span sal jou aansoek nagaan en binne 7 dae kontak.",
-        "submit": "Dien Aansoek In"
+        "submit": "Dien Aansoek In",
+        "subtitle": "Werk jou eie ure en besluit jou eie inkomste met Susca Watts Academy",
+        "title": "Word 'n Vryskut Bemarker"
+    },
+    "homepage": {
+        "quote": "Maak die meeste van wat jy het en hou jou standaarde hoog. Moenie vir enigiets minder as wat jy verdien of in staat is om te bereik nie.",
+        "subtitle": "Jou eenstopoplossing vir al jou opvoedkundige behoeftes.",
+        "title": "Susca Watts Akademie",
+        "welcome": "Welkom by die Tuisblad"
+    },
+    "info": {
+        "contact": {
+            "hours": {
+                "friday": "Vrydag: 8vm-3nm",
+                "monday": "Maandag: 8vm-4nm",
+                "thursday": "Donderdag: 8vm-4nm",
+                "tuesday": "Dinsdag: 8vm-4nm",
+                "wednesday": "Woensdag: 8vm-4nm",
+                "weekend": "Saterdag & Sondag: Gesluit"
+            },
+            "title": "Kontakinligting"
+        },
+        "facilities": {
+            "classrooms": {
+                "description": "Toegerus met die nuutste onderrigtegnologie",
+                "title": "Moderne Klaskamers"
+            },
+            "description": "Ons kampus in Middelburg beskik oor moderne klaskamers, rekenaarlaboratoriums, en studieruimtes wat ontwerp is om 'n optimale leeromgewing te skep. Ons belê in tegnologie en hulpbronne om te verseker dat ons studente toegang het tot die gereedskap wat hulle nodig het om te slaag.",
+            "labs": {
+                "description": "Moderne rekenaars met industrie-standaard sagteware",
+                "title": "Rekenaarlaboratoriums"
+            },
+            "studyAreas": {
+                "description": "Gemaklike ruimtes vir individuele en groepstudie",
+                "title": "Studiegebiede"
+            },
+            "title": "Ons Fasiliteite"
+        },
+        "faculties": {
+            "business": {
+                "description": "Verskaf kwalifikasies in besigheidsbestuur en entrepreneurskap.",
+                "title": "Fakulteit van Aanlyn Besigheidsopleiding (SpecCon)"
+            },
+            "description": "Elke kursus is ontwerp om praktiese en teoretiese kennis te verskaf, om te verseker dat ons studente goed voorbereid is vir die werksmag.",
+            "etdp": {
+                "description": "Onderwys, Opleiding en Ontwikkelingspraktyke kursusse.",
+                "title": "Fakulteit van ETDP - Fasiliteerder, Assessor en Moderator (SpecCon)"
+            },
+            "hair": {
+                "description": "Professionele haarstilering en bestuursopleiding.",
+                "title": "Fakulteit van Haarkappery"
+            },
+            "healthSkincare": {
+                "description": "Bied omvattende opleiding in gesondheid en velsorgdienste.",
+                "title": "Fakulteit van Gesondheid en Velversorging"
+            },
+            "title": "Ons Fakulteite"
+        },
+        "getInTouch": {
+            "description": "Het jy vrae of wil jy meer leer oor ons programme? Ons span is gereed om jou te help met enige navrae of ondersteuning wat jy mag nodig hê.",
+            "title": "Kom in Kontak"
+        },
+        "history": {
+            "description": "Gestig in Middelburg, Suid-Afrika, het Susca Watts Akademie gegroei van 'n klein tutordiens tot 'n omvattende opvoedkundige instelling wat 'n wye verskeidenheid akademiese kursusse en besigheidsdienste aanbied. Ons groei is gebou op ons verbintenis tot uitnemendheid en ons fokus op studentesukses.",
+            "title": "Ons Geskiedenis"
+        },
+        "mission": {
+            "description": "By Susca Watts Akademie is ons toegewyd om kwaliteit-onderwys en professionele ontwikkelingsdienste te bied wat individue en organisasies bemagtig om hul volle potensiaal te bereik. Ons glo daaraan om onderwys toeganklik, prakties en relevant tot vandag se uitdagings te maak.",
+            "title": "Ons Missie"
+        },
+        "subtitle": "Leer meer oor wie ons is en wat ons doen",
+        "title": "Oor Susca Watts Akademie",
+        "welcome": "Welkom by Susca Watts Akademie, 'n premier opleidingsinstelling met sy hoofkantoor en hoofkampus geleë in die hart van Middelburg, Mpumalanga, Suid-Afrika. Ons is trots daarop om 'n diverse reeks kursusse aan te bied wat ontwerp is om studente toe te rus met die vaardighede en kennis wat nodig is vir suksesvolle loopbane in verskeie bedrywe.",
+        "whyStudy": {
+            "conclusion": "Deur Susca Watts Akademie te kies, skryf jy nie net in vir 'n kursus nie—jy sluit aan by 'n gemeenskap wat toegewy is aan jou sukses en persoonlike groei. Sluit by ons aan en neem die eerste stap na 'n blinker toekoms.",
+            "reasons": {
+                "access": "Landwye Toegang: Ons Aanlyn Besigheidskursusse stel jou in staat om vanaf enige plek in Suid-Afrika te studeer, om te verseker dat kwaliteit onderwys toeganklik is vir almal.",
+                "accreditation": "Geakkrediteerde Uitnemendheid: By Susca Watts Akademie handhaaf ons wêreldklas-standaarde in ons opleidingsmetodes. Ons akkreditasie by gerespekteerde regulerende liggame soos QCTO, SERVICES SETA, ETDP SETA, SAAHSP, en ITEC waarborg dat jy 'n hoë-gehalte onderrig ontvang.",
+                "courses": "Diverse Kursusopsies: Ons bied 'n verskeidenheid geakkrediteerde kursusse wat ter plaatse of deur afstandsonderrig gevolg kan word. Ons studenteadviseurs is hier om jou te help om die kursusse te kies wat die toekoms sal vorm wat jy begeer.",
+                "enrollment": "Buigsame Inskrywing: Ons glo daaraan om geleenthede te bied vir almal om hul drome na te streef, ongeag hul vorige kwalifikasies.",
+                "environment": "Motiverende Omgewing: Ons motiveer ons studente om na sukses te streef en hul volle potensiaal te bereik. Ons ondersteunende leeromgewing bevorder groei en prestasie.",
+                "experience": "Industrie-ervaring: Sedert 1994 is ons passie om betekenisvolle toekoms vir ons studente te skep. Ons uitgebreide industrie-ervaring verseker dat jy relevante en praktiese opleiding ontvang.",
+                "fees": "Alles-insluitende Fooie: Ons kursusgelde dek al jou studiemateriaal, dus is daar geen versteekte koste nie. Ons bied ook buigsame betaalopsies om onderwys meer bekostigbaar te maak.",
+                "support": "Persoonlike Ondersteuning: Ons gaan die ekstra myl om studente volgens hul behoeftes te akkommodeer. Ons toegewyde personeel is daartoe verbind om jou te help om jou doelwitte te bereik en in jou studies te slaag.",
+                "workStudy": "Werk en Studie Balans: Ons bied buigsame skedules wat jou in staat stel om te werk en 'n inkomste te verdien terwyl jy studeer. Afhangende van die kursus, moet jy dalk net een dag per week klas bywoon."
+            },
+            "title": "Waarom Studeer By Ons?"
+        }
+    },
+    "navbar": {
+        "academic": "Akademies",
+        "academics": "Akademies",
+        "accreditation": "Akkreditasie",
+        "business": "Besigheid",
+        "consulting": "Konsultasie",
+        "contact": "Kontak Ons",
+        "courses": "Kursusse",
+        "education": "Opleiding",
+        "finance": "Finansies",
+        "freelance": "Vryskut",
+        "home": "Tuis",
+        "info": "Inligting",
+        "rpl": "RPL",
+        "services": "Dienste",
+        "studentPortal": "Studenteportaal"
+    },
+    "notFound": {
+        "code": "404",
+        "courses": "Blaai deur Kursusse",
+        "home": "Terug na Tuisblad",
+        "message": "Die bladsy waarna jy soek bestaan nie of is verskuif.",
+        "title": "Bladsy Nie Gevind"
+    },
+    "rpl": {
+        "aim": "Wat is die Doel van RPL?",
+        "benefits": "Voordele van RPL vir Kandidate en Maatskappye",
+        "contactUs": "Kontak Ons",
+        "needMore": "Benodig Meer Inligting oor RPL?",
+        "procedures": "RPL Prosedures",
+        "process": "RPL Proses",
+        "subtitle": "Kry formele erkenning vir jou vaardighede en ervaring",
+        "title": "Erkenning van Voorafgaande Leer (RPL)",
+        "whatIs": "Wat is RPL?",
+        "whatIsText": "Die Erkenning van Voorafgaande Leer (RPL) is 'n proses wat 'n persoon met formele, nie-formele en informele leer toelaat om gemeet en bemiddel te word vir erkenning in verskillende kontekste en gesertifiseer te word teen die vereistes vir krediet, toegang, insluiting of vordering in die formele onderwys- en opleidingstelsel of werkplek."
+    },
+    "studentPortal": {
+        "features": {
+            "access": "Toegang tot jou kursusmateriaal en opdragte",
+            "communicate": "Kommunikeer met instrukteurs en klasmaats",
+            "resources": "Toegang tot addisionele leerhulpbronne",
+            "submit": "Dien opdragte in en gaan jou punte na",
+            "title": "Studente Portaal Funksies",
+            "track": "Volg jou akademiese vordering"
+        },
+        "help": {
+            "message": "As jy probleme ondervind om toegang tot jou rekening te verkry, kontak asseblief ons ondersteuningspan:",
+            "title": "Hulp Nodig?"
+        },
+        "login": {
+            "button": "Meld Aan",
+            "forgot": "Wagwoord vergeet?",
+            "password": "Wagwoord",
+            "title": "Meld aan by jou rekening",
+            "username": "Studente ID / Gebruikersnaam"
+        },
+        "subtitle": "Toegang tot jou kursusse en leermateriaal",
+        "title": "Studente Portaal"
     }
 }

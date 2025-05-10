@@ -12,7 +12,7 @@ export interface SubCategory {
     duration?: string;
     qualification?: string;
     certification?: string;
-    venue?: string;
+    venue?: string | string[];
     link?: string;
     details?: string;
 }
