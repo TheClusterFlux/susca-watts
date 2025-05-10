@@ -8,10 +8,13 @@
 .course-item h3 {
   font-size: 1.8rem;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   color: var(--primary-color);
   border-bottom: 2px solid var(--primary-light);
   padding-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
 }
 
 .course-item p {
@@ -60,7 +63,7 @@
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 1.5rem;
 }
 
@@ -72,6 +75,7 @@
   background-color: var(--background-light);
   box-shadow: var(--box-shadow);
   transition: all 0.3s ease;
+  position: relative;
 }
 
 .subcategory-item:hover {
@@ -84,11 +88,24 @@
   margin-top: 0;
   margin-bottom: 1rem;
   color: var(--primary-color);
+  padding-bottom: 0.5rem;
+  border-bottom: 1px dashed var(--border-color);
+  font-weight: 600;
 }
 
 .subcategory-details p {
   margin: 0.5rem 0;
   font-size: 1rem;
+}
+
+.subcategory-details-text {
+  margin-top: 1rem !important;
+  padding: 0.75rem;
+  background-color: var(--background-off-white);
+  border-left: 3px solid var(--primary-light);
+  border-radius: 0 var(--border-radius) var(--border-radius) 0;
+  font-size: 0.95rem !important;
+  line-height: 1.5;
 }
 
 .subcategory-link {

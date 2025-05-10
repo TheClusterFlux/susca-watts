@@ -14,4 +14,5 @@ export interface SubCategory {
     certification?: string;
     venue?: string;
     link?: string;
+    details?: string;
 }

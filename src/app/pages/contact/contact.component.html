@@ -1,0 +1,186 @@
+<section class="contact-page">
+    <div class="page-header">
+        <h1>{{ 'contact.title' | translate }}</h1>
+        <p class="subtitle">{{ 'contact.subtitle' | translate }}</p>
+    </div>
+    
+    <div class="content-container">
+        <div class="contact-content">            <div class="section contact-info-section">
+                <h2>{{ 'contact.contactInfo' | translate }}</h2>
+                <div class="contact-info">
+                    <div class="contact-card contact-all-info">
+                        <div class="icon-container">
+                            <i class="fas fa-id-card"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>{{ 'contact.contactDetails' | translate }}</h3>
+                            
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>
+                                    <a href="https://www.google.co.za/maps/place/8A+Vos+St,+Groenkol,+Middelburg,+1055/@-25.7809328,29.4565727,17z/data=!3m1!4b1!4m6!3m5!1s0x1eea605e984df0e1:0x220f239b42aefae6!8m2!3d-25.7809328!4f29.4591476!16s%2Fg%2F11fdy1179f?entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+                                        8A Vos Street, Groenkol, Middelburg, MP, 1055, South Africa
+                                    </a>
+                                </p>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <p><a href="tel:+27832765557">+27 83 276 5557</a></p>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <p><a href="mailto:middelburg&#64;suscawatts.co.za">middelburg&#64;suscawatts.co.za</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="icon-container">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>{{ 'common.hours' | translate }}</h3>
+                            <ul class="hours-list">
+                                <li>{{ 'info.contact.hours.monday' | translate }}</li>
+                                <li>{{ 'info.contact.hours.tuesday' | translate }}</li>
+                                <li>{{ 'info.contact.hours.wednesday' | translate }}</li>
+                                <li>{{ 'info.contact.hours.thursday' | translate }}</li>
+                                <li>{{ 'info.contact.hours.friday' | translate }}</li>
+                                <li>{{ 'info.contact.hours.weekend' | translate }}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section map-section">
+                <h2>{{ 'contact.findUs' | translate }}</h2>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.076192157353!2d29.456572715008858!3d-25.780932783615093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1eea605e984df0e1%3A0x220f239b42aefae6!2s8A%20Vos%20St%2C%20Groenkol%2C%20Middelburg%2C%201055!5e0!3m2!1sen!2sza!4v1683047544038!5m2!1sen!2sza" 
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+              <div class="section contact-form-section">
+                <h2>{{ 'contact.sendMessage' | translate }}</h2>
+                <p class="form-intro">{{ 'contact.formIntro' | translate }}</p>
+                
+                <div class="contact-form-container">
+                    <form [formGroup]="contactForm" (ngSubmit)="submitForm()" class="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name">{{ 'contact.form.name' | translate }} *</label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                formControlName="name" 
+                                [placeholder]="'contact.form.namePlaceholder' | translate"
+                                [class.invalid]="contactForm.get('name')?.invalid && contactForm.get('name')?.touched"
+                            >
+                            <div class="validation-error" *ngIf="contactForm.get('name')?.invalid && contactForm.get('name')?.touched">
+                                <span *ngIf="contactForm.get('name')?.errors?.['required']">{{ 'contact.form.nameRequired' | translate }}</span>
+                                <span *ngIf="contactForm.get('name')?.errors?.['minlength']">{{ 'contact.form.nameMinLength' | translate }}</span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">{{ 'contact.form.email' | translate }} *</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                formControlName="email" 
+                                [placeholder]="'contact.form.emailPlaceholder' | translate"
+                                [class.invalid]="contactForm.get('email')?.invalid && contactForm.get('email')?.touched"
+                            >
+                            <div class="validation-error" *ngIf="contactForm.get('email')?.invalid && contactForm.get('email')?.touched">
+                                <span *ngIf="contactForm.get('email')?.errors?.['required']">{{ 'contact.form.emailRequired' | translate }}</span>
+                                <span *ngIf="contactForm.get('email')?.errors?.['email']">{{ 'contact.form.emailInvalid' | translate }}</span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">{{ 'contact.form.subject' | translate }} *</label>
+                            <input 
+                                type="text" 
+                                id="subject" 
+                                formControlName="subject" 
+                                [placeholder]="'contact.form.subjectPlaceholder' | translate"
+                                [class.invalid]="contactForm.get('subject')?.invalid && contactForm.get('subject')?.touched"
+                            >
+                            <div class="validation-error" *ngIf="contactForm.get('subject')?.invalid && contactForm.get('subject')?.touched">
+                                <span *ngIf="contactForm.get('subject')?.errors?.['required']">{{ 'contact.form.subjectRequired' | translate }}</span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">{{ 'contact.form.message' | translate }} *</label>
+                            <textarea 
+                                id="message" 
+                                formControlName="message" 
+                                rows="6" 
+                                [placeholder]="'contact.form.messagePlaceholder' | translate"
+                                [class.invalid]="contactForm.get('message')?.invalid && contactForm.get('message')?.touched"
+                            ></textarea>
+                            <div class="validation-error" *ngIf="contactForm.get('message')?.invalid && contactForm.get('message')?.touched">
+                                <span *ngIf="contactForm.get('message')?.errors?.['required']">{{ 'contact.form.messageRequired' | translate }}</span>
+                                <span *ngIf="contactForm.get('message')?.errors?.['minlength']">{{ 'contact.form.messageMinLength' | translate }}</span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button type="submit" class="btn-submit" [disabled]="contactForm.invalid">
+                                {{ 'contact.form.submit' | translate }}
+                            </button>
+                        </div>
+                        
+                        <div class="form-feedback">
+                            <div class="success-message" *ngIf="formSubmitted">
+                                <i class="fas fa-check-circle"></i> {{ 'contact.form.successMessage' | translate }}
+                            </div>
+                            <div class="error-message" *ngIf="formSubmitError">
+                                <i class="fas fa-exclamation-circle"></i> {{ 'contact.form.errorMessage' | translate }}
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="section social-section">
+                <h2>{{ 'contact.socialMedia' | translate }}</h2>
+                <p class="social-intro">{{ 'contact.socialIntro' | translate }}</p>
+                <div class="social-grid">
+                    <a href="https://www.facebook.com/SuscaWattsAcademy" target="_blank" rel="noopener noreferrer" class="social-card facebook">
+                        <div class="social-icon"><i class="fab fa-facebook-f"></i></div>
+                        <h3>Facebook</h3>
+                        <p>SuscaWattsAcademy</p>
+                    </a>
+                    
+                    <a href="https://twitter.com/watts_susca" target="_blank" rel="noopener noreferrer" class="social-card twitter">
+                        <div class="social-icon"><i class="fab fa-twitter"></i></div>
+                        <h3>Twitter/X</h3>
+                        <p>&#64;watts_susca</p>
+                    </a>
+                    
+                    <a href="https://www.instagram.com/suscawattsacad" target="_blank" rel="noopener noreferrer" class="social-card instagram">
+                        <div class="social-icon"><i class="fab fa-instagram"></i></div>
+                        <h3>Instagram</h3>
+                        <p>&#64;suscawattsacad</p>
+                    </a>
+                    
+                    <a href="https://www.tiktok.com/@suscawattsacademy2" target="_blank" rel="noopener noreferrer" class="social-card tiktok">
+                        <div class="social-icon"><i class="fab fa-tiktok"></i></div>
+                        <h3>TikTok</h3>
+                        <p>&#64;suscawattsacademy2</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

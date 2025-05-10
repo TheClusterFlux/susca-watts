@@ -1,35 +1,23 @@
-<section class="courses-page">
-    <div class="page-header">
+<section class="courses-page">    <div class="page-header">
         <h1>{{ 'courses.title' | translate }}</h1>
         <p class="subtitle">{{ 'courses.subtitle' | translate }}</p>
+        <div class="courses-intro">
+            <p>{{ 'courses.intro' | translate }}</p>
+        </div>
         <blockquote class="courses-quote">
             "{{ 'courses.quote' | translate }}" - {{ 'courses.quoteAuthor' | translate }}
         </blockquote>
     </div>
     
-    <div class="content-container">
-        <div class="notice-banner">
-            <p>{{ 'courses.notice' | translate }}</p>
-        </div>
-        
-        <nav class="course-categories">
-            <h3>{{ 'courses.categories' | translate }}</h3>
-            <ul>
-                <li><a href="#all" (click)="scrollToCourse('all')" class="active">{{ 'courses.allCourses' | translate }}</a></li>
-                <li *ngFor="let course of courses">
-                    <a (click)="scrollToCourse(course.id)">{{ course.title }}</a>
-                </li>
-            </ul>
-        </nav>
-
+    <div class="content-container">      
         <div class="courses-content">
             <div *ngFor="let courseItem of courses" class="course-item" [id]="'course-' + courseItem.id" #courseElement>
                 <app-course-item [courseItem]="courseItem"></app-course-item>
             </div>
-        </div>
-
-        <div class="additional-info">
+        </div>        <div class="additional-info">
+            <h3>{{ 'courses.needMoreInfo' | translate }}</h3>
             <p>{{ 'courses.additionalInfo' | translate }}</p>
+            <p>{{ 'courses.inquiries' | translate }}</p>
             <a href="mailto:middelburg@suscawatts.co.za" class="contact-button">{{ 'common.contactUs' | translate }}</a>
         </div>
     </div>

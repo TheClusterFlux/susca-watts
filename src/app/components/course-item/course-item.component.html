@@ -21,13 +21,13 @@
         <ul class="subcategory-list" role="list">
             <li *ngFor="let subCategory of courseItem.subCategories" 
                 role="listitem"
-                class="subcategory-item">
-                <div class="subcategory-details">
+                class="subcategory-item">                <div class="subcategory-details">
                     <h5>{{ subCategory.name }}</h5>
                     <p *ngIf="subCategory.duration"><strong>{{ 'courses.duration' | translate }}:</strong> {{ subCategory.duration }}</p>
                     <p *ngIf="subCategory.qualification"><strong>{{ 'courses.qualification' | translate }}:</strong> {{ subCategory.qualification }}</p>
                     <p *ngIf="subCategory.certification"><strong>{{ 'courses.certification' | translate }}:</strong> {{ subCategory.certification }}</p>
                     <p *ngIf="subCategory.venue"><strong>{{ 'courses.venue' | translate }}:</strong> {{ subCategory.venue }}</p>
+                    <p *ngIf="subCategory.details" class="subcategory-details-text">{{ subCategory.details }}</p>
                     <a *ngIf="subCategory.link" 
                           [href]="subCategory.link"
                        class="subcategory-link"

@@ -49,6 +49,25 @@
     padding: 1.5rem;
     transition: transform 0.3s ease;
     border-left: 4px solid var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.accreditation-logo {
+    max-height: 100px;
+    max-width: 100%;
+    object-fit: contain;
 }
 
 .accreditation-item:hover {

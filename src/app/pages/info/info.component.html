@@ -3,13 +3,13 @@
         <h1>{{ 'info.title' | translate }}</h1>
         <p class="subtitle">{{ 'info.subtitle' | translate }}</p>
     </div>
-    
-    <div class="content-container">
+      <div class="content-container">
         <div class="info-content">
             <div class="section about-section">
+                <p>{{ 'info.welcome' | translate }}</p>
+                
                 <h2>{{ 'info.mission.title' | translate }}</h2>
                 <p>{{ 'info.mission.description' | translate }}</p>
-                
                 <div class="values-grid">
                     <div class="value-item">
                         <h3>{{ 'info.values.item1.title' | translate }}</h3>
@@ -44,71 +44,49 @@
                         <p>{{ 'info.history.timeline.2000' | translate }}</p>
                     </div>
                 </div>
-            </div>
-            
-            <div class="section">
-                <h2>{{ 'info.divisions.title' | translate }}</h2>
-                <p>{{ 'info.divisions.description' | translate }}</p>
+            </div>              <div class="section">
+                <h2>{{ 'info.faculties.title' | translate }}</h2>
+                <p>{{ 'info.faculties.description' | translate }}</p>
                 
-                <div class="divisions-grid">
-                    <div class="division">
-                        <h3>{{ 'info.divisions.healthSkincare.title' | translate }}</h3>
-                        <p>{{ 'info.divisions.healthSkincare.description' | translate }}</p>
+                <div class="faculties-grid">
+                    <div class="faculty-item">
+                        <h3>{{ 'info.faculties.healthSkincare.title' | translate }}</h3>
+                        <p>{{ 'info.faculties.healthSkincare.description' | translate }}</p>
                     </div>
-                    <div class="division">
-                        <h3>{{ 'info.divisions.business.title' | translate }}</h3>
-                        <p>{{ 'info.divisions.business.description' | translate }}</p>
+                    <div class="faculty-item">
+                        <h3>{{ 'info.faculties.hair.title' | translate }}</h3>
+                        <p>{{ 'info.faculties.hair.description' | translate }}</p>
                     </div>
-                    <div class="division">
-                        <h3>{{ 'info.divisions.hair.title' | translate }}</h3>
-                        <p>{{ 'info.divisions.hair.description' | translate }}</p>
+                    <div class="faculty-item">
+                        <h3>{{ 'info.faculties.etdp.title' | translate }}</h3>
+                        <p>{{ 'info.faculties.etdp.description' | translate }}</p>
                     </div>
-                    <div class="division">
-                        <h3>{{ 'info.divisions.it.title' | translate }}</h3>
-                        <p>{{ 'info.divisions.it.description' | translate }}</p>
-                    </div>
-                    <div class="division">
-                        <h3>{{ 'info.divisions.etdp.title' | translate }}</h3>
-                        <p>{{ 'info.divisions.etdp.description' | translate }}</p>
-                    </div>
-                    <div class="division">
-                        <h3>{{ 'info.divisions.agriculture.title' | translate }}</h3>
-                        <p>{{ 'info.divisions.agriculture.description' | translate }}</p>
+                    <div class="faculty-item">
+                        <h3>{{ 'info.faculties.business.title' | translate }}</h3>
+                        <p>{{ 'info.faculties.business.description' | translate }}</p>
                     </div>
                 </div>
             </div>
-            
-            <div class="section">
+              <div class="section why-study-section">
                 <h2>{{ 'info.whyStudy.title' | translate }}</h2>
                 <ul class="benefits-list">
                     <li>{{ 'info.whyStudy.reasons.accreditation' | translate }}</li>
-                    <li>{{ 'info.whyStudy.reasons.standards' | translate }}</li>
                     <li>{{ 'info.whyStudy.reasons.courses' | translate }}</li>
-                    <li>{{ 'info.whyStudy.reasons.advisers' | translate }}</li>
-                    <li>{{ 'info.whyStudy.reasons.noMatric' | translate }}</li>
+                    <li>{{ 'info.whyStudy.reasons.enrollment' | translate }}</li>
                     <li>{{ 'info.whyStudy.reasons.workStudy' | translate }}</li>
-                    <li>{{ 'info.whyStudy.reasons.correspondence' | translate }}</li>
-                    <li>{{ 'info.whyStudy.reasons.materials' | translate }}</li>
-                    <li>{{ 'info.whyStudy.reasons.payment' | translate }}</li>
-                    <li>{{ 'info.whyStudy.reasons.kits' | translate }}</li>
+                    <li>{{ 'info.whyStudy.reasons.access' | translate }}</li>
+                    <li>{{ 'info.whyStudy.reasons.fees' | translate }}</li>
+                    <li>{{ 'info.whyStudy.reasons.support' | translate }}</li>
+                    <li>{{ 'info.whyStudy.reasons.experience' | translate }}</li>
+                    <li>{{ 'info.whyStudy.reasons.environment' | translate }}</li>
                 </ul>
+                <p class="study-conclusion">{{ 'info.whyStudy.conclusion' | translate }}</p>
             </div>
-            
-            <div class="section">
-                <h2>{{ 'info.contact.title' | translate }}</h2>
-                <div class="contact-info">
-                    <p><strong>{{ 'common.address' | translate }}:</strong> 8A Vos Street, Middelburg, MP, 1055, South Africa</p>
-                    <p><strong>{{ 'common.contact' | translate }}:</strong> +27 83 276 5557</p>
-                    <p><strong>Email:</strong> <a href="mailto:middelburg&#64;suscawatts.co.za">middelburg&#64;suscawatts.co.za</a></p>
-                    <p><strong>{{ 'common.hours' | translate }}:</strong></p>
-                    <ul class="hours-list">
-                        <li>{{ 'info.contact.hours.monday' | translate }}</li>
-                        <li>{{ 'info.contact.hours.tuesday' | translate }}</li>
-                        <li>{{ 'info.contact.hours.wednesday' | translate }}</li>
-                        <li>{{ 'info.contact.hours.thursday' | translate }}</li>
-                        <li>{{ 'info.contact.hours.friday' | translate }}</li>
-                        <li>{{ 'info.contact.hours.weekend' | translate }}</li>
-                    </ul>
+              <div class="section cta-section">
+                <h2>{{ 'info.getInTouch.title' | translate }}</h2>
+                <p>{{ 'info.getInTouch.description' | translate }}</p>
+                <div class="cta-button-container">
+                    <a [routerLink]="['/contact']" class="btn-primary">{{ 'common.contactUs' | translate }}</a>
                 </div>
             </div>
         </div>

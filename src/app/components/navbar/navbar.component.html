@@ -1,6 +1,6 @@
-<nav class="navbar" aria-label="Main Navigation">
-    <div class="logo">
+<nav class="navbar" aria-label="Main Navigation">    <div class="logo">
         <a [routerLink]="['/']" aria-label="SuscaWatts Home">
+            <img src="/assets/images/accreditation/logo swa.jpg" alt="SuscaWatts Logo" class="logo-img"/>
             <span class="logo-text">SuscaWatts Academy</span>
         </a>
     </div>
@@ -38,8 +38,8 @@
                 <li role="none"><a role="menuitem" [routerLink]="['/freelance']" routerLinkActive="active">{{ 'navbar.freelance' | translate }}</a></li>
             </ul>
         </li>
-        
-        <li role="none"><a role="menuitem" [routerLink]="['/info']" routerLinkActive="active">{{ 'navbar.info' | translate }}</a></li>
+          <li role="none"><a role="menuitem" [routerLink]="['/info']" routerLinkActive="active">{{ 'navbar.info' | translate }}</a></li>
+        <li role="none"><a role="menuitem" [routerLink]="['/contact']" routerLinkActive="active">{{ 'navbar.contact' | translate }}</a></li>
         <li role="none"><a role="menuitem" [routerLink]="['/student-portal']" routerLinkActive="active">{{ 'navbar.studentPortal' | translate }}</a></li>
         
         <li role="none" class="language-selector">

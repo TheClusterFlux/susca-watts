@@ -53,6 +53,8 @@
     margin: 0 auto;
 }
 
+/* Additional styling for courses page */
+
 .page-header {
     text-align: center;
     margin-bottom: 2rem;
@@ -70,6 +72,14 @@
     font-style: italic;
 }
 
+.courses-intro {
+    max-width: 800px;
+    margin: 1.5rem auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--text-dark);
+}
+
 .courses-quote {
     font-style: italic;
     max-width: 800px;
@@ -85,9 +95,26 @@
 .notice-banner {
     background-color: var(--background-off-white);
     border-left: 4px solid var(--accent-color);
-    padding: 1rem;
+    padding: 1.5rem;
     margin-bottom: 2rem;
     border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.notice-banner p {
+    margin: 0.5rem 0;
+}
+
+.notice-banner p:first-child {
+    margin-top: 0;
+}
+
+.notice-banner p:last-child {
+    margin-bottom: 0;
+}
+
+.notice-banner strong {
+    color: var(--accent-color);
 }
 
 .content-container {
@@ -107,6 +134,8 @@
     font-size: 1.3rem;
     border-bottom: 1px solid var(--border-color);
     padding-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .course-categories ul {
@@ -138,6 +167,12 @@
     border-color: var(--primary-color);
 }
 
+.course-categories a.category-highlight {
+    background-color: var(--accent-color);
+    color: white;
+    border-color: var(--accent-color);
+}
+
 .courses-content {
     display: flex;
     flex-direction: column;
@@ -165,6 +200,21 @@
     border-radius: var(--border-radius);
     text-align: center;
     margin-top: 2rem;
+    border-top: 3px solid var(--primary-color);
+}
+
+.additional-info h3 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.additional-info p {
+    margin-bottom: 1rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contact-button {

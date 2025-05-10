@@ -139,6 +139,32 @@
     color: var(--primary-color);
 }
 
+.faculties-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.faculty-item {
+    background-color: var(--background-light);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.faculty-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.faculty-item h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+    color: var(--primary-color);
+}
+
 .benefits-list {
     list-style-type: none;
     padding: 0;
@@ -159,6 +185,57 @@
     top: 0.5rem;
     color: var(--primary-color);
     font-weight: bold;
+}
+
+.why-study-section .study-conclusion {
+    margin-top: 1.5rem;
+    font-style: italic;
+    background-color: var(--background-off-white);
+    padding: 1rem;
+    border-left: 4px solid var(--primary-color);
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+}
+
+.cta-section {
+    background-color: var(--background-off-white);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+}
+
+.cta-section h2 {
+    margin-top: 0;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.cta-section p {
+    margin-bottom: 1.5rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-button-container {
+    margin-top: 1.5rem;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
 }
 
 .contact-info {
@@ -195,7 +272,8 @@
 
 @media (max-width: 768px) {
     .values-grid,
-    .divisions-grid {
+    .divisions-grid,
+    .faculties-grid {
         grid-template-columns: 1fr;
     }
     

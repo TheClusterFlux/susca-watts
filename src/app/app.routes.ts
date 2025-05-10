@@ -9,11 +9,13 @@ import { RplComponent } from './pages/rpl/rpl.component';
 import { FinanceComponent } from './pages/finance/finance.component';
 import { ConsultingComponent } from './pages/consulting/consulting.component';
 import { FreelanceComponent } from './pages/freelance/freelance.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 export const routes: Routes = [
      { path: '', component: HomeComponent },
      { path: 'courses', component: CoursesComponent },
      { path: 'info', component: InfoComponent },
+     { path: 'contact', component: ContactComponent },
      { path: 'student-portal', component: StudentPortalComponent },
      { path: 'accreditation', component: AccreditationComponent },
      { path: 'rpl', component: RplComponent },
