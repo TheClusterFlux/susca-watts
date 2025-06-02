@@ -15,4 +15,5 @@ export interface SubCategory {
     venue?: string | string[];
     link?: string;
     details?: string;
+    pdfPath?: string;
 }

@@ -426,12 +426,12 @@
         "notice": "Ons is besig om ons kursusinligting by te werk. Kontak asseblief ons hoofkantoor vir die opgedateerde pryse en beskikbare kursusse.",
         "qualification": "Kwalifikasie",
         "quote": "Onderwys is die kragtigste wapen wat jy kan gebruik om die wêreld te verander.",
-        "quoteAuthor": "Nelson Mandela",
-        "showDetails": "Wys Besonderhede",
+        "quoteAuthor": "Nelson Mandela",        "showDetails": "Wys Besonderhede",
         "subcategories": "Subkategorieë",
         "subtitle": "Bemagtig jou met kennis en vaardighede vir 'n blinker toekoms",
         "title": "Ons Kursusse",
-        "venue": "Lokaal"
+        "venue": "Lokaal",
+        "viewPdf": "Bekyk Kursus Inligting PDF"
     },
     "finance": {
         "applyHere": "Doen Hier Aansoek",

@@ -427,11 +427,11 @@
         "qualification": "Qualification",
         "quote": "Education is the most powerful weapon which you can use to change the world.",
         "quoteAuthor": "Nelson Mandela",
-        "showDetails": "Show Details",
-        "subcategories": "Subcategories",
+        "showDetails": "Show Details",        "subcategories": "Subcategories",
         "subtitle": "Empowering you with knowledge and skills for a brighter future",
         "title": "Our Courses",
-        "venue": "Venue"
+        "venue": "Venue",
+        "viewPdf": "View Course Info PDF"
     },
     "finance": {
         "applyHere": "Apply Here",

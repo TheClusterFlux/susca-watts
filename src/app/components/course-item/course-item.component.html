@@ -34,8 +34,17 @@
                       </ul>
                       <p *ngIf="!isVenueArray(subCategory.venue)">{{ subCategory.venue }}</p>
                     </div>
+                      <p *ngIf="subCategory.details" class="subcategory-details-text">{{ subCategory.details }}</p>
                     
-                    <p *ngIf="subCategory.details" class="subcategory-details-text">{{ subCategory.details }}</p>
+                    <!-- PDF Document Button -->
+                    <button *ngIf="hasPdf(subCategory.pdfPath)" 
+                            class="pdf-button"
+                            (click)="openPdf(subCategory.pdfPath!)"
+                            [attr.aria-label]="'View PDF for ' + subCategory.name">
+                        <span class="pdf-icon">📄</span>
+                        {{ 'courses.viewPdf' | translate }}
+                    </button>
+                    
                     <a *ngIf="subCategory.link" 
                           [href]="subCategory.link"
                        class="subcategory-link"
