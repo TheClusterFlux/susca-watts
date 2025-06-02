@@ -168,10 +168,10 @@
             "namePlaceholder": "Voer jou volle naam in",
             "nameRequired": "Naam is verpligtend",
             "subject": "Onderwerp",
-            "subjectPlaceholder": "Waaroor gaan jou boodskap?",
-            "subjectRequired": "Onderwerp is verpligtend",
+            "subjectPlaceholder": "Waaroor gaan jou boodskap?",            "subjectRequired": "Onderwerp is verpligtend",
             "submit": "Stuur Boodskap",
-            "successMessage": "Jou boodskap is suksesvol gestuur. Ons sal binnekort met jou in verbinding tree!"
+            "sending": "Besig om te stuur...",
+            "successMessage": "Jou e-pos kliënt is geopen met jou boodskap. Stuur asseblief die e-pos om jou navraag te voltooi."
         },
         "formIntro": "Het jy 'n vraag of navraag? Vul die vorm hieronder in en ons sal so gou moontlik terugkom na jou.",
         "sendMessage": "Stuur vir Ons 'n Boodskap",

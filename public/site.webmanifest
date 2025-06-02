@@ -1,0 +1,22 @@
+{
+  "name": "Susca Watts Academy",
+  "short_name": "SuscaWatts",
+  "description": "Accredited education and training institution offering courses in hairdressing, beauty therapy, health & skincare, and business skills.",
+  "icons": [
+    {
+      "src": "android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#8B4513",
+  "background_color": "#fffbf4",
+  "orientation": "portrait-primary"
+}

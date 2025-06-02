@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://suscawatts.co.za/sitemap.xml
+
+# Disallow admin and private areas (if any in future)
+
+# Allow all course and info pages
+Allow: /courses/
+Allow: /contact/
+Allow: /info/
+Allow: /accreditation/
+Allow: /academics/
+Allow: /business/
+Allow: /consulting/
+Allow: /finance/
+Allow: /freelance/
+Allow: /rpl/
+
+# Crawl-delay (optional, helpful for large sites)

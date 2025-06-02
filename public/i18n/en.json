@@ -168,10 +168,10 @@
             "namePlaceholder": "Enter your full name",
             "nameRequired": "Name is required",
             "subject": "Subject",
-            "subjectPlaceholder": "What is your message about?",
-            "subjectRequired": "Subject is required",
-            "submit": "Send Message",
-            "successMessage": "Your message has been sent successfully. We will contact you soon!"
+            "subjectPlaceholder": "What is your message about?",            "subjectRequired": "Subject is required",            "submit": "Send Message",
+            "sending": "Sending...",
+            "successMessage": "Your email client has been opened with your message. Please send the email to complete your inquiry.",
+            "comingSoonMessage": "Thank you for your message! We've received your inquiry and will get back to you soon. Email functionality is currently being enhanced for a better experience."
         },
         "formIntro": "Have a question or inquiry? Fill out the form below and we'll get back to you as soon as possible.",
         "sendMessage": "Send us a Message",

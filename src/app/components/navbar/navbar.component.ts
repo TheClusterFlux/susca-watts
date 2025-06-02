@@ -16,12 +16,15 @@ export class NavbarComponent implements AfterViewInit {
   
   isMenuOpen = false;
   activeDropdown: string | null = null;
-
   constructor(
     private translate: TranslateService,
     private renderer: Renderer2,
     private router: Router
   ) {
+    // Force English language and disable language switching
+    this.translate.setDefaultLang('en');
+    this.translate.use('en');
+    
     // Add click event listener to the document to close dropdowns when clicking outside
     this.renderer.listen('document', 'click', (event: Event) => {
       if (this.activeDropdown && !this.isClickInsideDropdown(event)) {
@@ -114,9 +117,8 @@ export class NavbarComponent implements AfterViewInit {
     const isDropdownIcon = clickedElement.classList.contains('dropdown-icon');
     
     return isDropdownToggle || isInsideDropdownMenu || isDropdownIcon;
-  }
-
-  useLanguage(language: string): void {
-    this.translate.use(language);
+  }  useLanguage(language: string): void {
+    // Language switching disabled - always use English
+    console.log('Language switching has been disabled');
   }
 }

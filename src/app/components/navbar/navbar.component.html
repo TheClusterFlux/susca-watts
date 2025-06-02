@@ -37,15 +37,10 @@
                 <li role="none"><a role="menuitem" [routerLink]="['/consulting']" routerLinkActive="active">{{ 'navbar.consulting' | translate }}</a></li>
                 <li role="none"><a role="menuitem" [routerLink]="['/freelance']" routerLinkActive="active">{{ 'navbar.freelance' | translate }}</a></li>
             </ul>
-        </li>
-          <li role="none"><a role="menuitem" [routerLink]="['/info']" routerLinkActive="active">{{ 'navbar.info' | translate }}</a></li>
+        </li>        <li role="none"><a role="menuitem" [routerLink]="['/info']" routerLinkActive="active">{{ 'navbar.info' | translate }}</a></li>
         <li role="none"><a role="menuitem" [routerLink]="['/contact']" routerLinkActive="active">{{ 'navbar.contact' | translate }}</a></li>
-        <li role="none"><a role="menuitem" [routerLink]="['/student-portal']" routerLinkActive="active">{{ 'navbar.studentPortal' | translate }}</a></li>
+        <!-- Student Portal and Language Selector hidden per requirement -->
         
-        <li role="none" class="language-selector">
-            <button role="menuitem" (click)="useLanguage('en')" aria-label="Switch to English">EN</button> |
-            <button role="menuitem" (click)="useLanguage('af')" aria-label="Switch to Afrikaans">AF</button>
-        </li>
     </ul>
 </nav>
 

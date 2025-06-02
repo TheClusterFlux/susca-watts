@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { EmailService } from '../../services/email.service';
 
 @Component({
   selector: 'app-contact',
@@ -14,29 +15,41 @@ export class ContactComponent {
   contactForm: FormGroup;
   formSubmitted = false;
   formSubmitError = false;
+  isSubmitting = false;
+  isComingSoon = false;
   
-  constructor(private fb: FormBuilder) {
+  constructor(private readonly fb: FormBuilder, private readonly emailService: EmailService) {
     this.contactForm = this.fb.group({
       name: ['', [Validators.required, Validators.minLength(2)]],
       email: ['', [Validators.required, Validators.email]],
       subject: ['', Validators.required],
       message: ['', [Validators.required, Validators.minLength(10)]]
     });
-  }
-
-  submitForm() {
+  }  async submitForm() {
     this.formSubmitted = false;
     this.formSubmitError = false;
+    this.isComingSoon = false;
     
     if (this.contactForm.valid) {
-      // In a real-world application, you would send this data to your backend API
-      console.log('Form submitted:', this.contactForm.value);
+      this.isSubmitting = true;
       
-      // Simulate a successful form submission
-      setTimeout(() => {
-        this.formSubmitted = true;
-        this.contactForm.reset();
-      }, 1000);
+      try {
+        const result = await this.emailService.sendEmail(this.contactForm.value);
+        
+        if (result.success) {
+          this.formSubmitted = true;
+          this.isComingSoon = result.isComingSoon || false;
+          this.contactForm.reset();
+        } else {
+          this.formSubmitError = true;
+          console.error('Email sending failed:', result.error);
+        }
+      } catch (error) {
+        console.error('Error sending email:', error);
+        this.formSubmitError = true;
+      } finally {
+        this.isSubmitting = false;
+      }
     } else {
       this.formSubmitError = true;
       // Mark all form controls as touched to display validation errors

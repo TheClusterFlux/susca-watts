@@ -2,7 +2,7 @@ import { Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { CoursesComponent } from './pages/courses/courses.component';
 import { InfoComponent } from './pages/info/info.component';
-import { StudentPortalComponent } from './pages/student-portal/student-portal.component';
+// Student portal component import removed
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { AccreditationComponent } from './pages/accreditation/accreditation.component';
 import { RplComponent } from './pages/rpl/rpl.component';
@@ -13,10 +13,10 @@ import { ContactComponent } from './pages/contact/contact.component';
 
 export const routes: Routes = [
      { path: '', component: HomeComponent },
-     { path: 'courses', component: CoursesComponent },
-     { path: 'info', component: InfoComponent },
+     { path: 'courses', component: CoursesComponent },     { path: 'info', component: InfoComponent },
      { path: 'contact', component: ContactComponent },
-     { path: 'student-portal', component: StudentPortalComponent },
+     // Student portal disabled
+     { path: 'student-portal', component: NotFoundComponent },
      { path: 'accreditation', component: AccreditationComponent },
      { path: 'rpl', component: RplComponent },
      { path: 'finance', component: FinanceComponent },

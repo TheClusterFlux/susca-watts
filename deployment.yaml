@@ -38,14 +38,27 @@ metadata:
   namespace: default
   annotations:
     nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+    nginx.ingress.kubernetes.io/redirect-to-https: "true"
 spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - susca-watts.theclusterflux.com
-    secretName: theclusterflux
+    - suscawatts.com
+    - www.suscawatts.com
+    secretName: suscawatts-tls
   rules:
-  - host: susca-watts.theclusterflux.com
+  - host: suscawatts.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: susca-watts
+            port:
+              number: 8080
+  - host: www.suscawatts.com
     http:
       paths:
       - path: /

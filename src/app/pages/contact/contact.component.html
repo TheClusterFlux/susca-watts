@@ -69,7 +69,7 @@
                     </iframe>
                 </div>
             </div>
-              <div class="section contact-form-section">
+              <!-- <div class="section contact-form-section">
                 <h2>{{ 'contact.sendMessage' | translate }}</h2>
                 <p class="form-intro">{{ 'contact.formIntro' | translate }}</p>
                 
@@ -133,16 +133,18 @@
                                 <span *ngIf="contactForm.get('message')?.errors?.['minlength']">{{ 'contact.form.messageMinLength' | translate }}</span>
                             </div>
                         </div>
-                        
-                        <div class="form-actions">
-                            <button type="submit" class="btn-submit" [disabled]="contactForm.invalid">
-                                {{ 'contact.form.submit' | translate }}
+                          <div class="form-actions">
+                            <button type="submit" class="btn-submit" [disabled]="contactForm.invalid || isSubmitting">
+                                <span *ngIf="!isSubmitting">{{ 'contact.form.submit' | translate }}</span>
+                                <span *ngIf="isSubmitting">
+                                    <i class="fas fa-spinner fa-spin"></i> {{ 'contact.form.sending' | translate }}
+                                </span>
                             </button>
                         </div>
-                        
-                        <div class="form-feedback">
+                          <div class="form-feedback">
                             <div class="success-message" *ngIf="formSubmitted">
-                                <i class="fas fa-check-circle"></i> {{ 'contact.form.successMessage' | translate }}
+                                <i class="fas fa-check-circle"></i> 
+                                {{ isComingSoon ? ('contact.form.comingSoonMessage' | translate) : ('contact.form.successMessage' | translate) }}
                             </div>
                             <div class="error-message" *ngIf="formSubmitError">
                                 <i class="fas fa-exclamation-circle"></i> {{ 'contact.form.errorMessage' | translate }}
@@ -150,7 +152,7 @@
                         </div>
                     </form>
                 </div>
-            </div>
+            </div> -->
 
             <div class="section social-section">
                 <h2>{{ 'contact.socialMedia' | translate }}</h2>
