@@ -27,8 +27,7 @@ export class HomeComponent {
   quickLinks: ListItem[] = [
     { id: 1, heading: 'CONSULTING', description: 'Expert guidance for starting and growing your training center.', icon: 'fas fa-handshake', link: '/consulting' },
     { id: 2, heading: 'FREELANCE', description: 'Work your own hours and decide your own income with us.', icon: 'fas fa-laptop-house', link: '/freelance' },
-    { id: 3, heading: 'STUDENT PORTAL', description: 'Access your personalized student dashboard and tools.', icon: 'fas fa-user-graduate', link: '/student-portal' },
-    { id: 4, heading: 'INFO', description: 'Learn more about Susca Watts Academy and our mission.', icon: 'fas fa-info-circle', link: '/info' }
+    { id: 3, heading: 'INFO', description: 'Learn more about Susca Watts Academy and our mission.', icon: 'fas fa-info-circle', link: '/info' }
   ];
 
   testimonials = [

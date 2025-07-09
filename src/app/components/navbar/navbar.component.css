@@ -36,10 +36,20 @@
   letter-spacing: 0.5px;
 }
 
+.logo-text-short {
+  display: none;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: white;
+  margin-left: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+}
+
 /* Logo responsive styles */
 @media (max-width: 768px) {
   .logo {
-    max-width: 80%;
+    max-width: 100%;
   }
   
   .logo a {
@@ -55,6 +65,86 @@
   .logo-text {
     font-size: 1.4rem;
     white-space: nowrap;
+  }
+}
+
+/* Extra small mobile devices */
+@media (max-width: 480px) {
+  .logo {
+    max-width: 100%;
+  }
+  
+  .logo-img {
+    height: 28px;
+    margin-right: 6px;
+  }
+  
+  .logo-text {
+    font-size: 1.2rem;
+  }
+}
+
+/* Very small mobile devices */
+@media (max-width: 410px) {
+  .logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo-img {
+    height: 24px;
+    margin-right: 4px;
+    flex-shrink: 0;
+  }
+  
+  .logo-text {
+    display: none;
+  }
+  
+  .logo-text-short {
+    display: inline;
+    font-size: 1.1rem;
+    flex: 1;
+    text-align: center;
+  }
+}
+
+/* Ultra small devices */
+@media (max-width: 320px) {
+  .logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo-img {
+    height: 20px;
+    margin-right: 3px;
+    flex-shrink: 0;
+  }
+  
+  .logo-text {
+    display: none;
+  }
+  
+  .logo-text-short {
+    display: inline;
+    font-size: 1.2rem;
+    flex: 1;
+    text-align: center;
   }
 }
 
