@@ -198,24 +198,16 @@
                         "venue": "Aanlyn"
                     },
                     "beautyHolistic1Year": {
-                        "certification": "ITEC",
+                        "certification": "ITEC & QCTO",
                         "details": "Sluit in: Gesigbehandelings, Ontharing, Grimering, Manikuur en Pedikuur, Professionele Gedrag en Besigheidsbewustheid, Anatomie en Fisiologie, Holistiese Massering",
                         "duration": "1 Jaar",
-                        "name": "1 Jaar: ITEC Kwalifikasie in Skoonheidspesialis & Holistiese Massering Diploma",
+                        "name": "1 Jaar: ITEC & QCTO Gekombineerde Skoonheidsterapie Kwalifikasie",
                         "qualification": "Diploma",
                         "venue": [
                             "Groenkol Middelburg Kampus",
                             "Emalahleni Modelpark Kampus",
                             "Ellisras (Lephalale) Kampus"
                         ]
-                    },
-                    "beautySpecialist": {
-                        "certification": "ITEC",
-                        "details": "Sluit in: Gesigbehandelings, Ontharing, Grimering, Manikuur en Pedikuur, Besigheidsbewustheid, Anatomie en Fisiologie",
-                        "duration": "Varieer",
-                        "name": "ITEC Skoonheidspesialis Diploma",
-                        "qualification": "Diploma",
-                        "venue": "Middelburg"
                     },
                     "facilitator": {
                         "certification": "ETDP SETA",
@@ -228,7 +220,7 @@
                     "hairdressing": {
                         "certification": "QCTO",
                         "details": "Sluit in: Dames Kaukasiese Haar, Dames Afro-Haar, Manshaarkappery. Was, kondisioneer en behandel kopvel en hare, Styleer hare, Sny hare, Kleur hare, Chemiese Dienste",
-                        "duration": "Varieer",
+                        "duration": "3 Jaar",
                         "name": "QCTO Beroepsertifikaat in Haarkappery",
                         "qualification": "Beroepsertifikaat",
                         "venue": [
@@ -238,7 +230,8 @@
                             "Emalahleni Modelpark Kampus",
                             "Pretoria"
                         ]
-                    },                    "healthSkincare2Year": {
+                    },                    
+                    "healthSkincare2Year": {
                         "certification": "SAAHSP & ITEC",
                         "details": "Sluit in: ITEC Skoonheidspesialis Diploma, ITEC Holistiese Massering Diploma, ITEC Gesigelektriese Diploma, ITEC Liggaamsbehandeling Diploma",
                         "duration": "2 Jaar",
@@ -249,14 +242,6 @@
                             "Emalahleni Modelpark Kampus",
                             "Ellisras (Lephalale) Kampus"
                         ]
-                    },
-                    "holisticMassage": {
-                        "certification": "ITEC",
-                        "details": "Sluit in: Holistiese Massering, Besigheidsbewustheid, Anatomie en Fisiologie",
-                        "duration": "Varieer",
-                        "name": "ITEC Holistiese Massering Diploma",
-                        "qualification": "Diploma",
-                        "venue": "Middelburg"
                     },
                     "moderator": {
                         "certification": "ETDP SETA",
@@ -282,26 +267,6 @@
                             "Ellisras (Lephalale) Kampus"
                         ]
                     },
-                    "bridalMakeup": {
-                        "details": "Sluit in: Gevorderde Bruid Grimeringstegnieke",
-                        "duration": "Varieer",
-                        "name": "Susca Watts Akademie Bruid Grimering",
-                        "venue": [
-                            "Groenkol Middelburg Kampus",
-                            "Emalahleni Modelpark Kampus",
-                            "Ellisras (Lephalale) Kampus"
-                        ]
-                    },
-                    "dermaplaning": {
-                        "details": "Sluit in: Dermaplaning Behandelings",
-                        "duration": "Varieer",
-                        "name": "Susca Watts Akademie Dermaplaning",
-                        "venue": [
-                            "Groenkol Middelburg Kampus",
-                            "Emalahleni Modelpark Kampus",
-                            "Ellisras (Lephalale) Kampus"
-                        ]
-                    },
                     "eyelashExt": {
                         "details": "Sluit in: Oogwimper Versterkingsdienste",
                         "duration": "Varieer",
@@ -312,30 +277,10 @@
                             "Ellisras (Lephalale) Kampus"
                         ]
                     },
-                    "facials": {
-                        "details": "Sluit in: Gesigbehandelings",
+                    "eyelashBrowTreatments": {
+                        "details": "Sluit in: Oogwimper en Wenkbrou Behandelingsdienste",
                         "duration": "Varieer",
-                        "name": "Susca Watts Akademie Basiese Gesigbehandelings",
-                        "venue": [
-                            "Groenkol Middelburg Kampus",
-                            "Emalahleni Modelpark Kampus",
-                            "Ellisras (Lephalale) Kampus"
-                        ]
-                    },
-                    "fibroblast": {
-                        "details": "Sluit in: Fibroblast Behandelings",
-                        "duration": "Varieer",
-                        "name": "Susca Watts Akademie Fibroblast",
-                        "venue": [
-                            "Groenkol Middelburg Kampus",
-                            "Emalahleni Modelpark Kampus",
-                            "Ellisras (Lephalale) Kampus"
-                        ]
-                    },
-                    "indianHeadMassage": {
-                        "details": "Sluit in: Indiese Kopmasseringbehandelings",
-                        "duration": "Varieer",
-                        "name": "Susca Watts Akademie Indiese Kopmassering",
+                        "name": "Susca Watts Akademie Oogwimper en Wenkbrou Behandelings",
                         "venue": [
                             "Groenkol Middelburg Kampus",
                             "Emalahleni Modelpark Kampus",
@@ -362,40 +307,10 @@
                             "Ellisras (Lephalale) Kampus"
                         ]
                     },
-                    "microneedling": {
-                        "details": "Sluit in: Mikronaaldwerk Behandelings",
-                        "duration": "Varieer",
-                        "name": "Susca Watts Akademie Mikronaaldwerk",
-                        "venue": [
-                            "Groenkol Middelburg Kampus",
-                            "Emalahleni Modelpark Kampus",
-                            "Ellisras (Lephalale) Kampus"
-                        ]
-                    },
                     "nailTech": {
                         "details": "Sluit in: Manikuur en Pedikuur, Jelversterking, Akrielversterking",
                         "duration": "Varieer",
                         "name": "Susca Watts Akademie Naeltegnologie",
-                        "venue": [
-                            "Groenkol Middelburg Kampus",
-                            "Emalahleni Modelpark Kampus",
-                            "Ellisras (Lephalale) Kampus"
-                        ]
-                    },
-                    "onlineBusiness": {
-                        "details": "Meer as 240+ Kursusse om van te kies. Registrasie is Gratis",
-                        "duration": "Self-pas",
-                        "name": "Aanlyn Besigheidskursusse",
-                        "venue": [
-                            "Groenkol Middelburg Kampus",
-                            "Emalahleni Modelpark Kampus",
-                            "Ellisras (Lephalale) Kampus"
-                        ]
-                    },
-                    "stageMakeup": {
-                        "details": "Sluit in: Veroudering, grimering style, glamour en fantasie grimering, wonde, snye en kneusings",
-                        "duration": "Varieer",
-                        "name": "Susca Watts Akademie Verhoog Grimering",
                         "venue": [
                             "Groenkol Middelburg Kampus",
                             "Emalahleni Modelpark Kampus",

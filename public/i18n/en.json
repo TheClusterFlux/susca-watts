@@ -198,24 +198,16 @@
                         "venue": "Online"
                     },
                     "beautyHolistic1Year": {
-                        "certification": "ITEC",
+                        "certification": "ITEC & QCTO",
                         "details": "Include: Facials, Waxing, Make-up, Manicure and Pedicure, Professional Conduct and Business awareness, Anatomy and Physiology, Holistic Massage",
                         "duration": "1 Year",
-                        "name": "1 Year: ITEC Qualification in Beauty Specialist & Holistic Massage Diploma",
+                        "name": "1 Year: ITEC & QCTO Combined Beauty Therapy Qualification",
                         "qualification": "Diploma",
                         "venue": [
                             "Groenkol Middelburg Campus",
                             "Emalahleni Modelpark Campus",
                             "Ellisras ( Lephalale ) Campus"
                         ]
-                    },
-                    "beautySpecialist": {
-                        "certification": "ITEC",
-                        "details": "Include: Facials, Waxing, Make-up, Manicure and Pedicure, Business awareness, Anatomy and Physiology",
-                        "duration": "Varies",
-                        "name": "ITEC Beauty Specialist Diploma",
-                        "qualification": "Diploma",
-                        "venue": "Middelburg"
                     },
                     "facilitator": {
                         "certification": "ETDP SETA",
@@ -228,7 +220,7 @@
                     "hairdressing": {
                         "certification": "QCTO",
                         "details": "Include: Ladies Caucasian, Ladies Afro Hair, Gents Hair. Shampoo, condition and treat scalp and hair, Style hair, cut hair, Colour hair, Chemical Services",
-                        "duration": "Varies",
+                        "duration": "3 Years",
                         "name": "QCTO Occupational Certificate in Hairdressing",
                         "qualification": "Occupational Certificate",
                         "venue": [
@@ -250,14 +242,6 @@
                             "Emalahleni Modelpark Campus",
                             "Ellisras ( Lephalale ) Campus"
                         ]
-                    },
-                    "holisticMassage": {
-                        "certification": "ITEC",
-                        "details": "Include: Holistic Massage, Business awareness, Anatomy and Physiology",
-                        "duration": "Varies",
-                        "name": "ITEC Holistic Massage Diploma",
-                        "qualification": "Diploma",
-                        "venue": "Middelburg"
                     },
                     "moderator": {
                         "certification": "ETDP SETA",
@@ -283,26 +267,6 @@
                             "Ellisras ( Lephalale ) Campus"
                         ]
                     },
-                    "bridalMakeup": {
-                        "details": "Include: Advanced Bridal Make-up Techniques",
-                        "duration": "Varies",
-                        "name": "Susca Watts Academy Bridal Make-up",
-                        "venue": [
-                            "Groenkol Middelburg Campus",
-                            "Emalahleni Modelpark Campus",
-                            "Ellisras ( Lephalale ) Campus"
-                        ]
-                    },
-                    "dermaplaning": {
-                        "details": "Include: Dermaplaning Treatments",
-                        "duration": "Varies",
-                        "name": "Susca Watts Academy Dermaplaning",
-                        "venue": [
-                            "Groenkol Middelburg Campus",
-                            "Emalahleni Modelpark Campus",
-                            "Ellisras ( Lephalale ) Campus"
-                        ]
-                    },
                     "eyelashExt": {
                         "details": "Include: Eyelash Enhancement Services",
                         "duration": "Varies",
@@ -313,30 +277,10 @@
                             "Ellisras ( Lephalale ) Campus"
                         ]
                     },
-                    "facials": {
-                        "details": "Include: Facial treatments",
+                    "eyelashBrowTreatments": {
+                        "details": "Include: Eyelash and Brow Treatment Services",
                         "duration": "Varies",
-                        "name": "Susca Watts Academy Basic Facials",
-                        "venue": [
-                            "Groenkol Middelburg Campus",
-                            "Emalahleni Modelpark Campus",
-                            "Ellisras ( Lephalale ) Campus"
-                        ]
-                    },
-                    "fibroblast": {
-                        "details": "Include: Fibroblast Treatments",
-                        "duration": "Varies",
-                        "name": "Susca Watts Academy Fibroblast",
-                        "venue": [
-                            "Groenkol Middelburg Campus",
-                            "Emalahleni Modelpark Campus",
-                            "Ellisras ( Lephalale ) Campus"
-                        ]
-                    },
-                    "indianHeadMassage": {
-                        "details": "Include: Indian Head Massage Treatments",
-                        "duration": "Varies",
-                        "name": "Susca Watts Academy Indian Head Massage",
+                        "name": "Susca Watts Academy Eyelash and Brow Treatments",
                         "venue": [
                             "Groenkol Middelburg Campus",
                             "Emalahleni Modelpark Campus",
@@ -363,40 +307,10 @@
                             "Ellisras ( Lephalale ) Campus"
                         ]
                     },
-                    "microneedling": {
-                        "details": "Include: Microneedling Treatments",
-                        "duration": "Varies",
-                        "name": "Susca Watts Academy Microneedling",
-                        "venue": [
-                            "Groenkol Middelburg Campus",
-                            "Emalahleni Modelpark Campus",
-                            "Ellisras ( Lephalale ) Campus"
-                        ]
-                    },
                     "nailTech": {
                         "details": "Include: Manicure and Pedicure, Gel Enhancement, Acrylic Enhancement",
                         "duration": "Varies",
                         "name": "Susca Watts Academy Nail Technology",
-                        "venue": [
-                            "Groenkol Middelburg Campus",
-                            "Emalahleni Modelpark Campus",
-                            "Ellisras ( Lephalale ) Campus"
-                        ]
-                    },
-                    "onlineBusiness": {
-                        "details": "More than 240+ Courses to choose from. Registration is Free",
-                        "duration": "Self-paced",
-                        "name": "Online Business Courses",
-                        "venue": [
-                            "Groenkol Middelburg Campus",
-                            "Emalahleni Modelpark Campus",
-                            "Ellisras ( Lephalale ) Campus"
-                        ]
-                    },
-                    "stageMakeup": {
-                        "details": "Include: Ageing, makeup styles, glamour and fancy makeup, wounds, cuts and bruises",
-                        "duration": "Varies",
-                        "name": "Susca Watts Academy Stage Make-up",
                         "venue": [
                             "Groenkol Middelburg Campus",
                             "Emalahleni Modelpark Campus",

@@ -5,27 +5,22 @@ import { Injectable } from '@angular/core';
 })
 export class PdfMappingService {
   private pdfMappings: { [key: string]: string } = {
-    // Qualifications PDFs - mapping course keys to actual numbered PDF files
-    'beautyHolistic1Year': '1. Qualifications/1. 1 YEAR - ITEC - Beauty Therapy Info Sheet - 2025.pdf',
-    'healthSkincare2Year': '1. Qualifications/2. 2 YEAR - ITEC & SAAHSP Combined - Beauty Therapy Info Sheet - 2025.pdf',
-    'hairdressing': '1. Qualifications/3. 3 YEAR - QCTO - Hairdresser.pdf',
-    'beautySpecialist': '1. Qualifications/4.  6 Month - ITEC - Beauty Specialist  Info Sheet - 2025 .pdf',
-    'holisticMassage': '1. Qualifications/5. 3 Month ITEC - Holistic Massage Info Sheet - 2025 .pdf',
+    // Qualifications PDFs - mapping course keys to actual numbered PDF files (2026)
+    'beautyHolistic1Year': '1. Qualifications/1. 1 YEAR - ITEC & QCTO Combined - Beauty Therapy Info Sheet - 2026.pdf',
+    'healthSkincare2Year': '1. Qualifications/2. 2- YEAR -  SAAHSP & ITEC Combined - Health and Skincare Info Sheet 2026.pdf',
+    'hairdressing': '1. Qualifications/3. 3 YEAR - QCTO - Hairdresser Info Sheet - 2025 2026.pdf',
+    'assessor': '1. Qualifications/1. ETDP - Course Info sheets 2026.pdf',
+    'facilitator': '1. Qualifications/1. ETDP - Course Info sheets 2026.pdf',
+    'moderator': '1. Qualifications/1. ETDP - Course Info sheets 2026.pdf',
     
-    // Short Course & Master Classes PDFs - mapping course keys to actual numbered PDF files
-    'nailTech': '2. Short Course & Master Classes/1. Nail Technology Short Course Info Sheet - 2025.pdf',
-    'facials': '2. Short Course & Master Classes/2. Basic Facials Short Course Info Sheet - 2025.pdf',
-    'makeup': '2. Short Course & Master Classes/3. Professional Make-up Short Course Info Sheet - 2025.pdf',
-    'waxing': '2. Short Course & Master Classes/4. Waxing Info Sheet - 2025.pdf',
-    'bodyMassage': '2. Short Course & Master Classes/5. Body Massage Info Sheet - 2025.pdf',
-    'manicurePedicure': '2. Short Course & Master Classes/6. Manicure & Pedicure Info Sheet - 2025.pdf',
-    'stageMakeup': '2. Short Course & Master Classes/7. Stage Make-up Master Class Info Sheet - 2025.pdf',
-    'bridalMakeup': '2. Short Course & Master Classes/8. Bridal Make-up Master Class Info Sheet -2025.pdf',
-    'eyelashExt': '2. Short Course & Master Classes/9. Eyelash Extensions Short Course Info Sheet - 2025 .pdf',
-    'indianHeadMassage': '2. Short Course & Master Classes/10. Indian Head Short Course Info Sheet - 2025.pdf',
-    'fibroblast': '2. Short Course & Master Classes/11. Fibroblast Short Course Info Sheet -2025  .pdf',
-    'microneedling': '2. Short Course & Master Classes/12. Microneedling Short Course Info Sheet -2025 .pdf',
-    'dermaplaning': '2. Short Course & Master Classes/13. Dermaplaning Short Course Info Sheet -2025  .pdf'
+    // Short Course & Master Classes PDFs - mapping course keys to actual numbered PDF files (2026)
+    'nailTech': '2. Short Course & Master Classes/1. Nail Technology  Info Sheet - 2026.pdf',
+    'makeup': '2. Short Course & Master Classes/2. Professional Make-up Info Sheet - 2026.pdf',
+    'waxing': '2. Short Course & Master Classes/3. Waxing Info Sheet - 2026.pdf',
+    'bodyMassage': '2. Short Course & Master Classes/4. Body Massage Info Sheet - 2026.pdf',
+    'manicurePedicure': '2. Short Course & Master Classes/5. Manicure & Pedicure Info Sheet - 2026.pdf',
+    'eyelashExt': '2. Short Course & Master Classes/6. Eyelash Extensions Info Sheet - 2026.pdf',
+    'eyelashBrowTreatments': '2. Short Course & Master Classes/7. Eyelash and Brow Treatments Info Sheet - 2026.pdf'
   };
 
   constructor() { }
