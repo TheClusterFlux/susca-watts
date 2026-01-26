@@ -197,6 +197,18 @@
                         "qualification": "Certificate",
                         "venue": "Online"
                     },
+                    "beautySpecialist6Month": {
+                        "certification": "ITEC",
+                        "details": "Include: Skincare and eye treatments, Make-up, Manicure and pedicure, Waxing, Professional conduct and business awareness",
+                        "duration": "6 Months",
+                        "name": "6 Month: ITEC Beauty Specialist Diploma",
+                        "qualification": "Diploma",
+                        "venue": [
+                            "Groenkol Middelburg Campus",
+                            "Emalahleni Modelpark Campus",
+                            "Ellisras ( Lephalale ) Campus"
+                        ]
+                    },
                     "beautyHolistic1Year": {
                         "certification": "ITEC & QCTO",
                         "details": "Include: Facials, Waxing, Make-up, Manicure and Pedicure, Professional Conduct and Business awareness, Anatomy and Physiology, Holistic Massage",
@@ -287,10 +299,40 @@
                             "Ellisras ( Lephalale ) Campus"
                         ]
                     },
+                    "indianHeadMassage": {
+                        "details": "Include: Indian Head Massage techniques and treatments",
+                        "duration": "2 Weeks",
+                        "name": "Susca Watts Academy Indian Head Massage",
+                        "venue": [
+                            "Groenkol Middelburg Campus",
+                            "Emalahleni Modelpark Campus",
+                            "Ellisras ( Lephalale ) Campus"
+                        ]
+                    },
                     "makeup": {
                         "details": "Include: Day, Night, Special Occasion, Bridal and Corrective",
                         "duration": "Varies",
                         "name": "Susca Watts Academy Professional Make-up",
+                        "venue": [
+                            "Groenkol Middelburg Campus",
+                            "Emalahleni Modelpark Campus",
+                            "Ellisras ( Lephalale ) Campus"
+                        ]
+                    },
+                    "manualBodyCare": {
+                        "details": "Include: Full body measurements, BMI, Full body exfoliation, Full body wrap/mask, Artificial self-tan services, Post care body care",
+                        "duration": "3 Weeks",
+                        "name": "Susca Watts Academy Manual Body Care Services",
+                        "venue": [
+                            "Groenkol Middelburg Campus",
+                            "Emalahleni Modelpark Campus",
+                            "Ellisras ( Lephalale ) Campus"
+                        ]
+                    },
+                    "manualSkincare": {
+                        "details": "Include: Manual Skincare Services and treatments",
+                        "duration": "5 Weeks",
+                        "name": "Susca Watts Academy Manual Skincare Services",
                         "venue": [
                             "Groenkol Middelburg Campus",
                             "Emalahleni Modelpark Campus",

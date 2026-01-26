@@ -143,19 +143,20 @@ export class CoursesComponent implements OnInit {
       if (name.includes('2-year') || name.includes('2 year')) return 2;
       if (name.includes('1-year') || name.includes('1 year')) return 3;
       
-      // Beauty specialist courses
-      if (name.includes('beauty specialist')) return 4;
-      if (name.includes('health and skincare')) return 5;
+      // Beauty specialist courses (6 month and other beauty specialist)
+      if (name.includes('6 month')) return 4;
+      if (name.includes('beauty specialist')) return 5;
+      if (name.includes('health and skincare')) return 6;
       
       // Massage courses
-      if (name.includes('holistic massage')) return 6;
+      if (name.includes('holistic massage')) return 7;
       
       // ETDP courses
-      if (name.includes('facilitator')) return 7;
-      if (name.includes('assessor')) return 8;
-      if (name.includes('moderator')) return 9;
+      if (name.includes('facilitator')) return 8;
+      if (name.includes('assessor')) return 9;
+      if (name.includes('moderator')) return 10;
       
-      return 10; // Default for other courses
+      return 11; // Default for other courses
     };
 
     return subcategories.sort((a, b) => {
@@ -192,31 +193,34 @@ export class CoursesComponent implements OnInit {
       if (name.includes('nail technology') || name.includes('nail tech')) return 1;
       
       // Facial and skincare treatments
-      if (name.includes('facials') || name.includes('facial')) return 2;
-      if (name.includes('dermaplaning')) return 3;
-      if (name.includes('microneedling')) return 4;
-      if (name.includes('fibroblast')) return 5;
+      if (name.includes('manual skincare')) return 2;
+      if (name.includes('facials') || name.includes('facial')) return 3;
+      if (name.includes('dermaplaning')) return 4;
+      if (name.includes('microneedling')) return 5;
+      if (name.includes('fibroblast')) return 6;
       
       // Makeup courses
-      if (name.includes('professional make-up') || name.includes('professional makeup')) return 6;
-      if (name.includes('bridal make-up') || name.includes('bridal makeup')) return 7;
-      if (name.includes('stage make-up') || name.includes('stage makeup')) return 8;
+      if (name.includes('professional make-up') || name.includes('professional makeup')) return 7;
+      if (name.includes('bridal make-up') || name.includes('bridal makeup')) return 8;
+      if (name.includes('stage make-up') || name.includes('stage makeup')) return 9;
       
-      // Hair removal and body treatments
-      if (name.includes('waxing')) return 9;
-      if (name.includes('eyelash extensions')) return 10;
+      // Hair removal and eye treatments
+      if (name.includes('waxing')) return 10;
+      if (name.includes('eyelash extensions')) return 11;
+      if (name.includes('eyelash and brow')) return 12;
       
-      // Massage treatments
-      if (name.includes('body massage')) return 11;
-      if (name.includes('indian head massage')) return 12;
+      // Massage and body treatments
+      if (name.includes('body massage')) return 13;
+      if (name.includes('indian head massage')) return 14;
+      if (name.includes('manual body care')) return 15;
       
       // Hand and foot care
-      if (name.includes('manicure') || name.includes('pedicure')) return 13;
+      if (name.includes('manicure') || name.includes('pedicure')) return 16;
       
       // Online and business courses
-      if (name.includes('online business')) return 14;
+      if (name.includes('online business')) return 17;
       
-      return 15; // Default for other courses
+      return 18; // Default for other courses
     };
 
     return subcategories.sort((a, b) => {

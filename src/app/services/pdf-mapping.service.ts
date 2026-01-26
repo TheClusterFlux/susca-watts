@@ -6,21 +6,25 @@ import { Injectable } from '@angular/core';
 export class PdfMappingService {
   private pdfMappings: { [key: string]: string } = {
     // Qualifications PDFs - mapping course keys to actual numbered PDF files (2026)
-    'beautyHolistic1Year': '1. Qualifications/1. 1 YEAR - ITEC & QCTO Combined - Beauty Therapy Info Sheet - 2026.pdf',
-    'healthSkincare2Year': '1. Qualifications/2. 2- YEAR -  SAAHSP & ITEC Combined - Health and Skincare Info Sheet 2026.pdf',
-    'hairdressing': '1. Qualifications/3. 3 YEAR - QCTO - Hairdresser Info Sheet - 2025 2026.pdf',
+    'beautySpecialist6Month': '1. Qualifications/1. 6 Month - ITEC - Beauty Specialist  Info Sheet - 2026.pdf',
+    'beautyHolistic1Year': '1. Qualifications/2.  1 YEAR - ITEC and QCTO Combined - Beauty Therapy Info Sheet - 2026 - Middelburg.pdf',
+    'healthSkincare2Year': '1. Qualifications/3.  2- YEAR -  SAAHSP and ITEC Combined - Health and Skincare Info Sheet 2026 Middelburg.pdf',
+    'hairdressing': '1. Qualifications/4. 3 YEAR - QCTO - Hairdresser Info Sheet - 2025 2026.pdf',
     'assessor': '1. Qualifications/1. ETDP - Course Info sheets 2026.pdf',
     'facilitator': '1. Qualifications/1. ETDP - Course Info sheets 2026.pdf',
     'moderator': '1. Qualifications/1. ETDP - Course Info sheets 2026.pdf',
     
     // Short Course & Master Classes PDFs - mapping course keys to actual numbered PDF files (2026)
-    'nailTech': '2. Short Course & Master Classes/1. Nail Technology  Info Sheet - 2026.pdf',
-    'makeup': '2. Short Course & Master Classes/2. Professional Make-up Info Sheet - 2026.pdf',
-    'waxing': '2. Short Course & Master Classes/3. Waxing Info Sheet - 2026.pdf',
+    'nailTech': '2. Short Course & Master Classes/1. Nail Enhancement  Info Sheet - 2026.pdf',
+    'makeup': '2. Short Course & Master Classes/2. Day Evening and Bridal Make-up Info Sheet - 2026.pdf',
+    'waxing': '2. Short Course & Master Classes/3. Temporary Hair Removal Info Sheet - 2026.pdf',
     'bodyMassage': '2. Short Course & Master Classes/4. Body Massage Info Sheet - 2026.pdf',
-    'manicurePedicure': '2. Short Course & Master Classes/5. Manicure & Pedicure Info Sheet - 2026.pdf',
-    'eyelashExt': '2. Short Course & Master Classes/6. Eyelash Extensions Info Sheet - 2026.pdf',
-    'eyelashBrowTreatments': '2. Short Course & Master Classes/7. Eyelash and Brow Treatments Info Sheet - 2026.pdf'
+    'manicurePedicure': '2. Short Course & Master Classes/5. Manicure and Pedicure Info Sheet - 2026.pdf',
+    'eyelashExt': '2. Short Course & Master Classes/6. Eyelash Extensions Service Info Sheet - 2026.pdf',
+    'eyelashBrowTreatments': '2. Short Course & Master Classes/7. Eyelash and Eyebrow Tinting and Eyebrow Shaping Services Info Sheet - 2026.pdf',
+    'manualSkincare': '2. Short Course & Master Classes/8. Manual Skincare Services Info Sheet - 2026.pdf',
+    'indianHeadMassage': '2. Short Course & Master Classes/9. Indian Head Massage Info Sheet - 2026.pdf',
+    'manualBodyCare': '2. Short Course & Master Classes/10. Manual Body Care Services Info Sheet - 2026.pdf'
   };
 
   constructor() { }
