@@ -95,7 +95,7 @@ export class SEOService {
       },
       '/contact': {
         title: 'Contact Us',
-        description: 'Get in touch with Susca Watts Academy. Located at 8A Vos Street, Groenkol, Middelburg, Mpumalanga. Call +27 83 276 5557 or email middelburg@suscawatts.co.za',
+        description: 'Get in touch with Susca Watts Academy. Located at 8A Vos Street, Groenkol, Middelburg, Mpumalanga. Call +27 83 276 5557 or email reception@suscawatts.com',
         keywords: 'contact Susca Watts Academy, Middelburg campus, Mpumalanga, phone number, email address',
         ogUrl: `${this.baseUrl}/contact`
       },

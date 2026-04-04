@@ -9,7 +9,7 @@ export const emailConfig = {
   //    - {{from_email}} - sender's email  
   //    - {{subject}} - email subject
   //    - {{message}} - email message
-  //    - {{to_email}} - your receiving email (middelburg@suscawatts.co.za)
+  //    - {{to_email}} - your receiving email (reception@suscawatts.com)
   //    - {{reply_to}} - sender's email for replies
   
   // 4. Replace these placeholder values with your actual EmailJS credentials:
@@ -18,7 +18,7 @@ export const emailConfig = {
   publicKey: 'YOUR_PUBLIC_KEY', // From EmailJS dashboard
   
   // Your receiving email
-  toEmail: 'middelburg@suscawatts.co.za'
+  toEmail: 'reception@suscawatts.com'
 };
 
 // Example EmailJS template:
